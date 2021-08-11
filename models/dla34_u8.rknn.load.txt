@@ -1,0 +1,1771 @@
+start model conversion
+
+--> Config model
+
+--> Loading onnx model
+I Start importing onnx...
+W Use existed rule db file to convert onnx model.
+W Call onnx.optimizer.optimize fail, skip optimize
+I Current ONNX Model use ir_version 6 opset_version 9
+D Calc tensor Constant_358 ()
+D Calc tensor Initializer_output.weight (1000, 512, 1, 1)
+D Calc tensor Initializer_output.bias (1000,)
+D Calc tensor Initializer_476 (1,)
+D Calc tensor Initializer_475 (512,)
+D Calc tensor Initializer_474 (512, 1280, 1, 1)
+D Calc tensor Initializer_472 (512,)
+D Calc tensor Initializer_471 (512, 512, 3, 3)
+D Calc tensor Initializer_469 (512,)
+D Calc tensor Initializer_468 (512, 512, 3, 3)
+D Calc tensor Initializer_466 (512,)
+D Calc tensor Initializer_465 (512, 512, 3, 3)
+D Calc tensor Initializer_463 (512,)
+D Calc tensor Initializer_462 (512, 256, 3, 3)
+D Calc tensor Initializer_460 (512,)
+D Calc tensor Initializer_459 (512, 256, 1, 1)
+D Calc tensor Initializer_457 (256,)
+D Calc tensor Initializer_456 (256, 896, 1, 1)
+D Calc tensor Initializer_454 (256,)
+D Calc tensor Initializer_453 (256, 256, 3, 3)
+D Calc tensor Initializer_451 (256,)
+D Calc tensor Initializer_450 (256, 256, 3, 3)
+D Calc tensor Initializer_448 (256,)
+D Calc tensor Initializer_447 (256, 256, 3, 3)
+D Calc tensor Initializer_445 (256,)
+D Calc tensor Initializer_444 (256, 256, 3, 3)
+D Calc tensor Initializer_442 (256,)
+D Calc tensor Initializer_441 (256, 512, 1, 1)
+D Calc tensor Initializer_439 (256,)
+D Calc tensor Initializer_438 (256, 256, 3, 3)
+D Calc tensor Initializer_436 (256,)
+D Calc tensor Initializer_435 (256, 256, 3, 3)
+D Calc tensor Initializer_433 (256,)
+D Calc tensor Initializer_432 (256, 256, 3, 3)
+D Calc tensor Initializer_430 (256,)
+D Calc tensor Initializer_429 (256, 128, 3, 3)
+D Calc tensor Initializer_427 (256,)
+D Calc tensor Initializer_426 (256, 128, 1, 1)
+D Calc tensor Initializer_424 (128,)
+D Calc tensor Initializer_423 (128, 448, 1, 1)
+D Calc tensor Initializer_421 (128,)
+D Calc tensor Initializer_420 (128, 128, 3, 3)
+D Calc tensor Initializer_418 (128,)
+D Calc tensor Initializer_417 (128, 128, 3, 3)
+D Calc tensor Initializer_415 (128,)
+D Calc tensor Initializer_414 (128, 128, 3, 3)
+D Calc tensor Initializer_412 (128,)
+D Calc tensor Initializer_411 (128, 128, 3, 3)
+D Calc tensor Initializer_409 (128,)
+D Calc tensor Initializer_408 (128, 256, 1, 1)
+D Calc tensor Initializer_406 (128,)
+D Calc tensor Initializer_405 (128, 128, 3, 3)
+D Calc tensor Initializer_403 (128,)
+D Calc tensor Initializer_402 (128, 128, 3, 3)
+D Calc tensor Initializer_400 (128,)
+D Calc tensor Initializer_399 (128, 128, 3, 3)
+D Calc tensor Initializer_397 (128,)
+D Calc tensor Initializer_396 (128, 64, 3, 3)
+D Calc tensor Initializer_394 (128,)
+D Calc tensor Initializer_393 (128, 64, 1, 1)
+D Calc tensor Initializer_391 (64,)
+D Calc tensor Initializer_390 (64, 128, 1, 1)
+D Calc tensor Initializer_388 (64,)
+D Calc tensor Initializer_387 (64, 64, 3, 3)
+D Calc tensor Initializer_385 (64,)
+D Calc tensor Initializer_384 (64, 64, 3, 3)
+D Calc tensor Initializer_382 (64,)
+D Calc tensor Initializer_381 (64, 64, 3, 3)
+D Calc tensor Initializer_379 (64,)
+D Calc tensor Initializer_378 (64, 32, 3, 3)
+D Calc tensor Initializer_376 (64,)
+D Calc tensor Initializer_375 (64, 32, 1, 1)
+D Calc tensor Initializer_373 (32,)
+D Calc tensor Initializer_372 (32, 16, 3, 3)
+D Calc tensor Initializer_370 (16,)
+D Calc tensor Initializer_369 (16, 16, 3, 3)
+D Calc tensor Initializer_367 (16,)
+D Calc tensor Initializer_366 (16, 3, 7, 7)
+D Calc tensor Conv_365 (1, 16, 224, 224)
+D Calc tensor Relu_227 (1, 16, 224, 224)
+D Calc tensor Conv_368 (1, 16, 224, 224)
+D Calc tensor Relu_230 (1, 16, 224, 224)
+D Calc tensor Conv_371 (1, 32, 112, 112)
+D Calc tensor Relu_233 (1, 32, 112, 112)
+D Calc tensor MaxPool_234 (1, 32, 56, 56)
+D Calc tensor Conv_374 (1, 64, 56, 56)
+D Calc tensor Conv_377 (1, 64, 56, 56)
+D Calc tensor Relu_239 (1, 64, 56, 56)
+D Calc tensor Conv_380 (1, 64, 56, 56)
+D Calc tensor Add_242 (1, 64, 56, 56)
+D Calc tensor Relu_243 (1, 64, 56, 56)
+D Calc tensor Conv_383 (1, 64, 56, 56)
+D Calc tensor Relu_246 (1, 64, 56, 56)
+D Calc tensor Conv_386 (1, 64, 56, 56)
+D Calc tensor Add_249 (1, 64, 56, 56)
+D Calc tensor Relu_250 (1, 64, 56, 56)
+D Calc tensor Concat_251 (1, 128, 56, 56)
+D Calc tensor Conv_389 (1, 64, 56, 56)
+D Calc tensor Relu_254 (1, 64, 56, 56)
+D Calc tensor MaxPool_255 (1, 64, 28, 28)
+D Calc tensor Conv_392 (1, 128, 28, 28)
+D Calc tensor Conv_395 (1, 128, 28, 28)
+D Calc tensor Relu_260 (1, 128, 28, 28)
+D Calc tensor Conv_398 (1, 128, 28, 28)
+D Calc tensor Add_263 (1, 128, 28, 28)
+D Calc tensor Relu_264 (1, 128, 28, 28)
+D Calc tensor Conv_401 (1, 128, 28, 28)
+D Calc tensor Relu_267 (1, 128, 28, 28)
+D Calc tensor Conv_404 (1, 128, 28, 28)
+D Calc tensor Add_270 (1, 128, 28, 28)
+D Calc tensor Relu_271 (1, 128, 28, 28)
+D Calc tensor Concat_272 (1, 256, 28, 28)
+D Calc tensor Conv_407 (1, 128, 28, 28)
+D Calc tensor Relu_275 (1, 128, 28, 28)
+D Calc tensor Conv_410 (1, 128, 28, 28)
+D Calc tensor Relu_278 (1, 128, 28, 28)
+D Calc tensor Conv_413 (1, 128, 28, 28)
+D Calc tensor Add_281 (1, 128, 28, 28)
+D Calc tensor Relu_282 (1, 128, 28, 28)
+D Calc tensor Conv_416 (1, 128, 28, 28)
+D Calc tensor Relu_285 (1, 128, 28, 28)
+D Calc tensor Conv_419 (1, 128, 28, 28)
+D Calc tensor Add_288 (1, 128, 28, 28)
+D Calc tensor Relu_289 (1, 128, 28, 28)
+D Calc tensor Concat_290 (1, 448, 28, 28)
+D Calc tensor Conv_422 (1, 128, 28, 28)
+D Calc tensor Relu_293 (1, 128, 28, 28)
+D Calc tensor MaxPool_294 (1, 128, 14, 14)
+D Calc tensor Conv_425 (1, 256, 14, 14)
+D Calc tensor Conv_428 (1, 256, 14, 14)
+D Calc tensor Relu_299 (1, 256, 14, 14)
+D Calc tensor Conv_431 (1, 256, 14, 14)
+D Calc tensor Add_302 (1, 256, 14, 14)
+D Calc tensor Relu_303 (1, 256, 14, 14)
+D Calc tensor Conv_434 (1, 256, 14, 14)
+D Calc tensor Relu_306 (1, 256, 14, 14)
+D Calc tensor Conv_437 (1, 256, 14, 14)
+D Calc tensor Add_309 (1, 256, 14, 14)
+D Calc tensor Relu_310 (1, 256, 14, 14)
+D Calc tensor Concat_311 (1, 512, 14, 14)
+D Calc tensor Conv_440 (1, 256, 14, 14)
+D Calc tensor Relu_314 (1, 256, 14, 14)
+D Calc tensor Conv_443 (1, 256, 14, 14)
+D Calc tensor Relu_317 (1, 256, 14, 14)
+D Calc tensor Conv_446 (1, 256, 14, 14)
+D Calc tensor Add_320 (1, 256, 14, 14)
+D Calc tensor Relu_321 (1, 256, 14, 14)
+D Calc tensor Conv_449 (1, 256, 14, 14)
+D Calc tensor Relu_324 (1, 256, 14, 14)
+D Calc tensor Conv_452 (1, 256, 14, 14)
+D Calc tensor Add_327 (1, 256, 14, 14)
+D Calc tensor Relu_328 (1, 256, 14, 14)
+D Calc tensor Concat_329 (1, 896, 14, 14)
+D Calc tensor Conv_455 (1, 256, 14, 14)
+D Calc tensor Relu_332 (1, 256, 14, 14)
+D Calc tensor MaxPool_333 (1, 256, 7, 7)
+D Calc tensor Conv_458 (1, 512, 7, 7)
+D Calc tensor Conv_461 (1, 512, 7, 7)
+D Calc tensor Relu_338 (1, 512, 7, 7)
+D Calc tensor Conv_464 (1, 512, 7, 7)
+D Calc tensor Add_341 (1, 512, 7, 7)
+D Calc tensor Relu_342 (1, 512, 7, 7)
+D Calc tensor Conv_467 (1, 512, 7, 7)
+D Calc tensor Relu_345 (1, 512, 7, 7)
+D Calc tensor Conv_470 (1, 512, 7, 7)
+D Calc tensor Add_348 (1, 512, 7, 7)
+D Calc tensor Relu_349 (1, 512, 7, 7)
+D Calc tensor Concat_350 (1, 1280, 7, 7)
+D Calc tensor Conv_473 (1, 512, 7, 7)
+D Calc tensor Relu_353 (1, 512, 7, 7)
+D Calc tensor Pad_354 (1, 512, 7, 7)
+D Calc tensor AveragePool_355 (1, 512, 1, 1)
+D Calc tensor Conv_356 (1, 1000, 1, 1)
+D Calc tensor Shape_357 (4,)
+D Calc tensor Gather_359 val: 1
+D Calc tensor Unsqueeze_361 (1,)
+D Calc tensor Concat_363 (2,)
+D Calc tensor Reshape_output (1, 1000)
+D import clients finished
+I build output layer attach_Reshape_Reshape_100:out0
+I Try match Reshape_Reshape_100:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_100', 'Concat_Concat_99']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_94:out0
+I Match r_conv [['Conv_Conv_94', 'Initializer_output.weight', 'Initializer_output.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match AveragePool_AveragePool_93:out0
+I Match r_avgpool [['AveragePool_AveragePool_93']] [['AveragePool']] to [['pooling']]
+I Try match Pad_Pad_92:out0
+I Match pad_g1 [['Pad_Pad_92']] [['Pad']] to [['pad']]
+I Try match Relu_Relu_91:out0
+I Match r_relu [['Relu_Relu_91']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_90:out0
+I Match r_conv [['Conv_Conv_90', 'Initializer_474', 'Initializer_475']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Concat_Concat_89:out0
+I Match concat_3 [['Concat_Concat_89']] [['Concat']] to [['concat']]
+I Try match Relu_Relu_88:out0
+I Match r_relu [['Relu_Relu_88']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_83:out0
+I Match r_relu [['Relu_Relu_83']] [['Relu']] to [['relu']]
+I Try match MaxPool_MaxPool_77:out0
+I Match r_maxpool [['MaxPool_MaxPool_77']] [['MaxPool']] to [['pooling']]
+I Try match Add_Add_87:out0
+I Match r_add [['Add_Add_87']] [['Add']] to [['add']]
+I Try match Add_Add_82:out0
+I Match r_add [['Add_Add_82']] [['Add']] to [['add']]
+I Try match Relu_Relu_76:out0
+I Match r_relu [['Relu_Relu_76']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_86:out0
+I Match r_conv [['Conv_Conv_86', 'Initializer_471', 'Initializer_472']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_85:out0
+I Match r_relu [['Relu_Relu_85']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_81:out0
+I Match r_conv [['Conv_Conv_81', 'Initializer_465', 'Initializer_466']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_78:out0
+I Match r_conv [['Conv_Conv_78', 'Initializer_459', 'Initializer_460']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_75:out0
+I Match r_conv [['Conv_Conv_75', 'Initializer_456', 'Initializer_457']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_84:out0
+I Match r_conv [['Conv_Conv_84', 'Initializer_468', 'Initializer_469']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_80:out0
+I Match r_relu [['Relu_Relu_80']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_79:out0
+I Match r_conv [['Conv_Conv_79', 'Initializer_462', 'Initializer_463']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Concat_Concat_74:out0
+I Match concat_4 [['Concat_Concat_74']] [['Concat']] to [['concat']]
+I Try match Relu_Relu_63:out0
+I Match r_relu [['Relu_Relu_63']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_62:out0
+I Match r_conv [['Conv_Conv_62', 'Initializer_441', 'Initializer_442']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_73:out0
+I Match r_relu [['Relu_Relu_73']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_68:out0
+I Match r_relu [['Relu_Relu_68']] [['Relu']] to [['relu']]
+I Try match MaxPool_MaxPool_49:out0
+I Match r_maxpool [['MaxPool_MaxPool_49']] [['MaxPool']] to [['pooling']]
+I Try match Concat_Concat_61:out0
+I Match concat_2 [['Concat_Concat_61']] [['Concat']] to [['concat']]
+I Try match Add_Add_72:out0
+I Match r_add [['Add_Add_72']] [['Add']] to [['add']]
+I Try match Add_Add_67:out0
+I Match r_add [['Add_Add_67']] [['Add']] to [['add']]
+I Try match Relu_Relu_48:out0
+I Match r_relu [['Relu_Relu_48']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_60:out0
+I Match r_relu [['Relu_Relu_60']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_55:out0
+I Match r_relu [['Relu_Relu_55']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_71:out0
+I Match r_conv [['Conv_Conv_71', 'Initializer_453', 'Initializer_454']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_70:out0
+I Match r_relu [['Relu_Relu_70']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_66:out0
+I Match r_conv [['Conv_Conv_66', 'Initializer_447', 'Initializer_448']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_65:out0
+I Match r_relu [['Relu_Relu_65']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_47:out0
+I Match r_conv [['Conv_Conv_47', 'Initializer_423', 'Initializer_424']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Add_Add_59:out0
+I Match r_add [['Add_Add_59']] [['Add']] to [['add']]
+I Try match Add_Add_54:out0
+I Match r_add [['Add_Add_54']] [['Add']] to [['add']]
+I Try match Conv_Conv_69:out0
+I Match r_conv [['Conv_Conv_69', 'Initializer_450', 'Initializer_451']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_64:out0
+I Match r_conv [['Conv_Conv_64', 'Initializer_444', 'Initializer_445']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Concat_Concat_46:out0
+I Match concat_4 [['Concat_Concat_46']] [['Concat']] to [['concat']]
+I Try match Conv_Conv_58:out0
+I Match r_conv [['Conv_Conv_58', 'Initializer_438', 'Initializer_439']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_57:out0
+I Match r_relu [['Relu_Relu_57']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_53:out0
+I Match r_conv [['Conv_Conv_53', 'Initializer_432', 'Initializer_433']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_50:out0
+I Match r_conv [['Conv_Conv_50', 'Initializer_426', 'Initializer_427']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_52:out0
+I Match r_relu [['Relu_Relu_52']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_51:out0
+I Match r_conv [['Conv_Conv_51', 'Initializer_429', 'Initializer_430']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_45:out0
+I Match r_relu [['Relu_Relu_45']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_40:out0
+I Match r_relu [['Relu_Relu_40']] [['Relu']] to [['relu']]
+I Try match MaxPool_MaxPool_21:out0
+I Match r_maxpool [['MaxPool_MaxPool_21']] [['MaxPool']] to [['pooling']]
+I Try match Relu_Relu_35:out0
+I Match r_relu [['Relu_Relu_35']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_56:out0
+I Match r_conv [['Conv_Conv_56', 'Initializer_435', 'Initializer_436']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_34:out0
+I Match r_conv [['Conv_Conv_34', 'Initializer_408', 'Initializer_409']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Add_Add_44:out0
+I Match r_add [['Add_Add_44']] [['Add']] to [['add']]
+I Try match Add_Add_39:out0
+I Match r_add [['Add_Add_39']] [['Add']] to [['add']]
+I Try match Relu_Relu_20:out0
+I Match r_relu [['Relu_Relu_20']] [['Relu']] to [['relu']]
+I Try match Concat_Concat_33:out0
+I Match concat_2 [['Concat_Concat_33']] [['Concat']] to [['concat']]
+I Try match Conv_Conv_43:out0
+I Match r_conv [['Conv_Conv_43', 'Initializer_420', 'Initializer_421']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_42:out0
+I Match r_relu [['Relu_Relu_42']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_38:out0
+I Match r_conv [['Conv_Conv_38', 'Initializer_414', 'Initializer_415']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_37:out0
+I Match r_relu [['Relu_Relu_37']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_19:out0
+I Match r_conv [['Conv_Conv_19', 'Initializer_390', 'Initializer_391']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_32:out0
+I Match r_relu [['Relu_Relu_32']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_27:out0
+I Match r_relu [['Relu_Relu_27']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_41:out0
+I Match r_conv [['Conv_Conv_41', 'Initializer_417', 'Initializer_418']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_36:out0
+I Match r_conv [['Conv_Conv_36', 'Initializer_411', 'Initializer_412']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Concat_Concat_18:out0
+I Match concat_2 [['Concat_Concat_18']] [['Concat']] to [['concat']]
+I Try match Add_Add_31:out0
+I Match r_add [['Add_Add_31']] [['Add']] to [['add']]
+I Try match Add_Add_26:out0
+I Match r_add [['Add_Add_26']] [['Add']] to [['add']]
+I Try match Conv_Conv_22:out0
+I Match r_conv [['Conv_Conv_22', 'Initializer_393', 'Initializer_394']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_25:out0
+I Match r_conv [['Conv_Conv_25', 'Initializer_399', 'Initializer_400']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_17:out0
+I Match r_relu [['Relu_Relu_17']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_12:out0
+I Match r_relu [['Relu_Relu_12']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_30:out0
+I Match r_conv [['Conv_Conv_30', 'Initializer_405', 'Initializer_406']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_29:out0
+I Match r_relu [['Relu_Relu_29']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_24:out0
+I Match r_relu [['Relu_Relu_24']] [['Relu']] to [['relu']]
+I Try match Add_Add_16:out0
+I Match r_add [['Add_Add_16']] [['Add']] to [['add']]
+I Try match Add_Add_11:out0
+I Match r_add [['Add_Add_11']] [['Add']] to [['add']]
+I Try match Conv_Conv_28:out0
+I Match r_conv [['Conv_Conv_28', 'Initializer_402', 'Initializer_403']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_23:out0
+I Match r_conv [['Conv_Conv_23', 'Initializer_396', 'Initializer_397']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_15:out0
+I Match r_conv [['Conv_Conv_15', 'Initializer_387', 'Initializer_388']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_14:out0
+I Match r_relu [['Relu_Relu_14']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_10:out0
+I Match r_conv [['Conv_Conv_10', 'Initializer_381', 'Initializer_382']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_7:out0
+I Match r_conv [['Conv_Conv_7', 'Initializer_375', 'Initializer_376']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match MaxPool_MaxPool_6:out0
+I Match r_maxpool [['MaxPool_MaxPool_6']] [['MaxPool']] to [['pooling']]
+I Try match Relu_Relu_5:out0
+I Match r_relu [['Relu_Relu_5']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_13:out0
+I Match r_conv [['Conv_Conv_13', 'Initializer_384', 'Initializer_385']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_9:out0
+I Match r_relu [['Relu_Relu_9']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_4:out0
+I Match r_conv [['Conv_Conv_4', 'Initializer_372', 'Initializer_373']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_3:out0
+I Match r_relu [['Relu_Relu_3']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_8:out0
+I Match r_conv [['Conv_Conv_8', 'Initializer_378', 'Initializer_379']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_2:out0
+I Match r_conv [['Conv_Conv_2', 'Initializer_369', 'Initializer_370']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_1:out0
+I Match r_relu [['Relu_Relu_1']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_0:out0
+I Match r_conv [['Conv_Conv_0', 'Initializer_366', 'Initializer_367']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I build input layer data:out0
+D connect Conv_Conv_94_2 0  ~ Reshape_Reshape_100_1 0
+D connect AveragePool_AveragePool_93_3 0  ~ Conv_Conv_94_2 0
+D connect Pad_Pad_92_4 0  ~ AveragePool_AveragePool_93_3 0
+D connect Relu_Relu_91_5 0  ~ Pad_Pad_92_4 0
+D connect Conv_Conv_90_6 0  ~ Relu_Relu_91_5 0
+D connect Concat_Concat_89_7 0  ~ Conv_Conv_90_6 0
+D connect Relu_Relu_88_8 0  ~ Concat_Concat_89_7 0
+D connect Relu_Relu_83_9 0  ~ Concat_Concat_89_7 1
+D connect MaxPool_MaxPool_77_10 0  ~ Concat_Concat_89_7 2
+D connect Add_Add_87_11 0  ~ Relu_Relu_88_8 0
+D connect Add_Add_82_12 0  ~ Relu_Relu_83_9 0
+D connect Relu_Relu_76_13 0  ~ MaxPool_MaxPool_77_10 0
+D connect Conv_Conv_86_14 0  ~ Add_Add_87_11 0
+D connect Relu_Relu_83_9 0  ~ Add_Add_87_11 1
+D connect Conv_Conv_81_16 0  ~ Add_Add_82_12 0
+D connect Conv_Conv_78_17 0  ~ Add_Add_82_12 1
+D connect Conv_Conv_75_18 0  ~ Relu_Relu_76_13 0
+D connect Relu_Relu_85_15 0  ~ Conv_Conv_86_14 0
+D connect Conv_Conv_84_19 0  ~ Relu_Relu_85_15 0
+D connect Relu_Relu_80_20 0  ~ Conv_Conv_81_16 0
+D connect MaxPool_MaxPool_77_10 0  ~ Conv_Conv_78_17 0
+D connect Concat_Concat_74_22 0  ~ Conv_Conv_75_18 0
+D connect Relu_Relu_83_9 0  ~ Conv_Conv_84_19 0
+D connect Conv_Conv_79_21 0  ~ Relu_Relu_80_20 0
+D connect Relu_Relu_76_13 0  ~ Conv_Conv_79_21 0
+D connect Relu_Relu_73_25 0  ~ Concat_Concat_74_22 0
+D connect Relu_Relu_68_26 0  ~ Concat_Concat_74_22 1
+D connect MaxPool_MaxPool_49_27 0  ~ Concat_Concat_74_22 2
+D connect Relu_Relu_63_23 0  ~ Concat_Concat_74_22 3
+D connect Conv_Conv_62_24 0  ~ Relu_Relu_63_23 0
+D connect Concat_Concat_61_28 0  ~ Conv_Conv_62_24 0
+D connect Add_Add_72_29 0  ~ Relu_Relu_73_25 0
+D connect Add_Add_67_30 0  ~ Relu_Relu_68_26 0
+D connect Relu_Relu_48_31 0  ~ MaxPool_MaxPool_49_27 0
+D connect Relu_Relu_60_32 0  ~ Concat_Concat_61_28 0
+D connect Relu_Relu_55_33 0  ~ Concat_Concat_61_28 1
+D connect Conv_Conv_71_34 0  ~ Add_Add_72_29 0
+D connect Relu_Relu_68_26 0  ~ Add_Add_72_29 1
+D connect Conv_Conv_66_36 0  ~ Add_Add_67_30 0
+D connect Relu_Relu_63_23 0  ~ Add_Add_67_30 1
+D connect Conv_Conv_47_38 0  ~ Relu_Relu_48_31 0
+D connect Add_Add_59_39 0  ~ Relu_Relu_60_32 0
+D connect Add_Add_54_40 0  ~ Relu_Relu_55_33 0
+D connect Relu_Relu_70_35 0  ~ Conv_Conv_71_34 0
+D connect Conv_Conv_69_41 0  ~ Relu_Relu_70_35 0
+D connect Relu_Relu_65_37 0  ~ Conv_Conv_66_36 0
+D connect Conv_Conv_64_42 0  ~ Relu_Relu_65_37 0
+D connect Concat_Concat_46_43 0  ~ Conv_Conv_47_38 0
+D connect Conv_Conv_58_44 0  ~ Add_Add_59_39 0
+D connect Relu_Relu_55_33 0  ~ Add_Add_59_39 1
+D connect Conv_Conv_53_46 0  ~ Add_Add_54_40 0
+D connect Conv_Conv_50_47 0  ~ Add_Add_54_40 1
+D connect Relu_Relu_68_26 0  ~ Conv_Conv_69_41 0
+D connect Relu_Relu_63_23 0  ~ Conv_Conv_64_42 0
+D connect Relu_Relu_45_50 0  ~ Concat_Concat_46_43 0
+D connect Relu_Relu_40_51 0  ~ Concat_Concat_46_43 1
+D connect MaxPool_MaxPool_21_52 0  ~ Concat_Concat_46_43 2
+D connect Relu_Relu_35_53 0  ~ Concat_Concat_46_43 3
+D connect Relu_Relu_57_45 0  ~ Conv_Conv_58_44 0
+D connect Conv_Conv_56_54 0  ~ Relu_Relu_57_45 0
+D connect Relu_Relu_52_48 0  ~ Conv_Conv_53_46 0
+D connect MaxPool_MaxPool_49_27 0  ~ Conv_Conv_50_47 0
+D connect Conv_Conv_51_49 0  ~ Relu_Relu_52_48 0
+D connect Relu_Relu_48_31 0  ~ Conv_Conv_51_49 0
+D connect Add_Add_44_56 0  ~ Relu_Relu_45_50 0
+D connect Add_Add_39_57 0  ~ Relu_Relu_40_51 0
+D connect Relu_Relu_20_58 0  ~ MaxPool_MaxPool_21_52 0
+D connect Conv_Conv_34_55 0  ~ Relu_Relu_35_53 0
+D connect Relu_Relu_55_33 0  ~ Conv_Conv_56_54 0
+D connect Concat_Concat_33_59 0  ~ Conv_Conv_34_55 0
+D connect Conv_Conv_43_60 0  ~ Add_Add_44_56 0
+D connect Relu_Relu_40_51 0  ~ Add_Add_44_56 1
+D connect Conv_Conv_38_62 0  ~ Add_Add_39_57 0
+D connect Relu_Relu_35_53 0  ~ Add_Add_39_57 1
+D connect Conv_Conv_19_64 0  ~ Relu_Relu_20_58 0
+D connect Relu_Relu_32_65 0  ~ Concat_Concat_33_59 0
+D connect Relu_Relu_27_66 0  ~ Concat_Concat_33_59 1
+D connect Relu_Relu_42_61 0  ~ Conv_Conv_43_60 0
+D connect Conv_Conv_41_67 0  ~ Relu_Relu_42_61 0
+D connect Relu_Relu_37_63 0  ~ Conv_Conv_38_62 0
+D connect Conv_Conv_36_68 0  ~ Relu_Relu_37_63 0
+D connect Concat_Concat_18_69 0  ~ Conv_Conv_19_64 0
+D connect Add_Add_31_70 0  ~ Relu_Relu_32_65 0
+D connect Add_Add_26_71 0  ~ Relu_Relu_27_66 0
+D connect Relu_Relu_40_51 0  ~ Conv_Conv_41_67 0
+D connect Relu_Relu_35_53 0  ~ Conv_Conv_36_68 0
+D connect Relu_Relu_17_74 0  ~ Concat_Concat_18_69 0
+D connect Relu_Relu_12_75 0  ~ Concat_Concat_18_69 1
+D connect Conv_Conv_30_76 0  ~ Add_Add_31_70 0
+D connect Relu_Relu_27_66 0  ~ Add_Add_31_70 1
+D connect Conv_Conv_25_73 0  ~ Add_Add_26_71 0
+D connect Conv_Conv_22_72 0  ~ Add_Add_26_71 1
+D connect MaxPool_MaxPool_21_52 0  ~ Conv_Conv_22_72 0
+D connect Relu_Relu_24_78 0  ~ Conv_Conv_25_73 0
+D connect Add_Add_16_79 0  ~ Relu_Relu_17_74 0
+D connect Add_Add_11_80 0  ~ Relu_Relu_12_75 0
+D connect Relu_Relu_29_77 0  ~ Conv_Conv_30_76 0
+D connect Conv_Conv_28_81 0  ~ Relu_Relu_29_77 0
+D connect Conv_Conv_23_82 0  ~ Relu_Relu_24_78 0
+D connect Conv_Conv_15_83 0  ~ Add_Add_16_79 0
+D connect Relu_Relu_12_75 0  ~ Add_Add_16_79 1
+D connect Conv_Conv_10_85 0  ~ Add_Add_11_80 0
+D connect Conv_Conv_7_86 0  ~ Add_Add_11_80 1
+D connect Relu_Relu_27_66 0  ~ Conv_Conv_28_81 0
+D connect Relu_Relu_20_58 0  ~ Conv_Conv_23_82 0
+D connect Relu_Relu_14_84 0  ~ Conv_Conv_15_83 0
+D connect Conv_Conv_13_89 0  ~ Relu_Relu_14_84 0
+D connect Relu_Relu_9_90 0  ~ Conv_Conv_10_85 0
+D connect MaxPool_MaxPool_6_87 0  ~ Conv_Conv_7_86 0
+D connect Relu_Relu_5_88 0  ~ MaxPool_MaxPool_6_87 0
+D connect Conv_Conv_4_91 0  ~ Relu_Relu_5_88 0
+D connect Relu_Relu_12_75 0  ~ Conv_Conv_13_89 0
+D connect Conv_Conv_8_93 0  ~ Relu_Relu_9_90 0
+D connect Relu_Relu_3_92 0  ~ Conv_Conv_4_91 0
+D connect Conv_Conv_2_94 0  ~ Relu_Relu_3_92 0
+D connect Relu_Relu_5_88 0  ~ Conv_Conv_8_93 0
+D connect Relu_Relu_1_95 0  ~ Conv_Conv_2_94 0
+D connect Conv_Conv_0_96 0  ~ Relu_Relu_1_95 0
+D connect data_97 0  ~ Conv_Conv_0_96 0
+D connect Reshape_Reshape_100_1 0  ~ attach_Reshape_Reshape_100/out0_0 0
+D Process data_97 ...
+D RKNN output shape(input): (1 224 224 3)
+D Process Conv_Conv_0_96 ...
+D RKNN output shape(convolution): (1 224 224 16)
+D Process Relu_Relu_1_95 ...
+D RKNN output shape(relu): (1 224 224 16)
+D Process Conv_Conv_2_94 ...
+D RKNN output shape(convolution): (1 224 224 16)
+D Process Relu_Relu_3_92 ...
+D RKNN output shape(relu): (1 224 224 16)
+D Process Conv_Conv_4_91 ...
+D RKNN output shape(convolution): (1 112 112 32)
+D Process Relu_Relu_5_88 ...
+D RKNN output shape(relu): (1 112 112 32)
+D Process Conv_Conv_8_93 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Process Relu_Relu_9_90 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Process Conv_Conv_10_85 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Process MaxPool_MaxPool_6_87 ...
+D RKNN output shape(pooling): (1 56 56 32)
+D Process Conv_Conv_7_86 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Process Add_Add_11_80 ...
+D RKNN output shape(add): (1 56 56 64)
+D Process Relu_Relu_12_75 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Process Conv_Conv_13_89 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Process Relu_Relu_14_84 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Process Conv_Conv_15_83 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Process Add_Add_16_79 ...
+D RKNN output shape(add): (1 56 56 64)
+D Process Relu_Relu_17_74 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Process Concat_Concat_18_69 ...
+D RKNN output shape(concat): (1 56 56 128)
+D Process Conv_Conv_19_64 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Process Relu_Relu_20_58 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Process Conv_Conv_23_82 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Relu_Relu_24_78 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_25_73 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process MaxPool_MaxPool_21_52 ...
+D RKNN output shape(pooling): (1 28 28 64)
+D Process Conv_Conv_22_72 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Add_Add_26_71 ...
+D RKNN output shape(add): (1 28 28 128)
+D Process Relu_Relu_27_66 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_28_81 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Relu_Relu_29_77 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_30_76 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Add_Add_31_70 ...
+D RKNN output shape(add): (1 28 28 128)
+D Process Relu_Relu_32_65 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Concat_Concat_33_59 ...
+D RKNN output shape(concat): (1 28 28 256)
+D Process Conv_Conv_34_55 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Relu_Relu_35_53 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_36_68 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Relu_Relu_37_63 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_38_62 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Add_Add_39_57 ...
+D RKNN output shape(add): (1 28 28 128)
+D Process Relu_Relu_40_51 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_41_67 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Relu_Relu_42_61 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_43_60 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Add_Add_44_56 ...
+D RKNN output shape(add): (1 28 28 128)
+D Process Relu_Relu_45_50 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Concat_Concat_46_43 ...
+D RKNN output shape(concat): (1 28 28 448)
+D Process Conv_Conv_47_38 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Process Relu_Relu_48_31 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Process Conv_Conv_51_49 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Relu_Relu_52_48 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_53_46 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process MaxPool_MaxPool_49_27 ...
+D RKNN output shape(pooling): (1 14 14 128)
+D Process Conv_Conv_50_47 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Add_Add_54_40 ...
+D RKNN output shape(add): (1 14 14 256)
+D Process Relu_Relu_55_33 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_56_54 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Relu_Relu_57_45 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_58_44 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Add_Add_59_39 ...
+D RKNN output shape(add): (1 14 14 256)
+D Process Relu_Relu_60_32 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Concat_Concat_61_28 ...
+D RKNN output shape(concat): (1 14 14 512)
+D Process Conv_Conv_62_24 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Relu_Relu_63_23 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_64_42 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Relu_Relu_65_37 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_66_36 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Add_Add_67_30 ...
+D RKNN output shape(add): (1 14 14 256)
+D Process Relu_Relu_68_26 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_69_41 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Relu_Relu_70_35 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_71_34 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Add_Add_72_29 ...
+D RKNN output shape(add): (1 14 14 256)
+D Process Relu_Relu_73_25 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Concat_Concat_74_22 ...
+D RKNN output shape(concat): (1 14 14 896)
+D Process Conv_Conv_75_18 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Process Relu_Relu_76_13 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Process Conv_Conv_79_21 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Process Relu_Relu_80_20 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Process Conv_Conv_81_16 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Process MaxPool_MaxPool_77_10 ...
+D RKNN output shape(pooling): (1 7 7 256)
+D Process Conv_Conv_78_17 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Process Add_Add_82_12 ...
+D RKNN output shape(add): (1 7 7 512)
+D Process Relu_Relu_83_9 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Process Conv_Conv_84_19 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Process Relu_Relu_85_15 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Process Conv_Conv_86_14 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Process Add_Add_87_11 ...
+D RKNN output shape(add): (1 7 7 512)
+D Process Relu_Relu_88_8 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Process Concat_Concat_89_7 ...
+D RKNN output shape(concat): (1 7 7 1280)
+D Process Conv_Conv_90_6 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Process Relu_Relu_91_5 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Process Pad_Pad_92_4 ...
+D RKNN output shape(pad): (1 7 7 512)
+D Process AveragePool_AveragePool_93_3 ...
+D RKNN output shape(pooling): (1 1 1 512)
+D Process Conv_Conv_94_2 ...
+D RKNN output shape(convolution): (1 1 1 1000)
+D Process Reshape_Reshape_100_1 ...
+D RKNN output shape(reshape): (1 1000)
+D Process attach_Reshape_Reshape_100/out0_0 ...
+D RKNN output shape(output): (1 1000)
+I Build torch-jit-export complete.
+I Start C2T Switcher...
+D Optimizing network with broadcast_op
+D convert Concat_Concat_18_69(concat) axis 1 to 3
+D convert Concat_Concat_33_59(concat) axis 1 to 3
+D convert Concat_Concat_46_43(concat) axis 1 to 3
+D convert Concat_Concat_61_28(concat) axis 1 to 3
+D convert Concat_Concat_74_22(concat) axis 1 to 3
+D convert Concat_Concat_89_7(concat) axis 1 to 3
+D insert permute Reshape_Reshape_100_1_RKNN_mark_perm_98 before Reshape_Reshape_100_1
+I End C2T Switcher...
+D Optimizing network with force_1d_tensor, swapper, merge_layer, auto_fill_bn, auto_fill_l2normalizescale, auto_fill_instancenormalize, resize_nearest_transformer, auto_fill_multiply, auto_fill_zero_bias, proposal_opt_import
+I End importing onnx...
+--> Load onnx model succeed!
+
+--> Model process
+I Generate input meta ...
+I Load input meta
+I Generate input meta ...
+D import clients finished
+I Load net...
+D Load layer attach_Reshape_Reshape_100/out0_0 ... 
+D Load layer Reshape_Reshape_100_1 ... 
+D Load layer Conv_Conv_94_2 ... 
+D Load layer AveragePool_AveragePool_93_3 ... 
+D Load layer Pad_Pad_92_4 ... 
+D Load layer Relu_Relu_91_5 ... 
+D Load layer Conv_Conv_90_6 ... 
+D Load layer Concat_Concat_89_7 ... 
+D Load layer Relu_Relu_88_8 ... 
+D Load layer Relu_Relu_83_9 ... 
+D Load layer MaxPool_MaxPool_77_10 ... 
+D Load layer Add_Add_87_11 ... 
+D Load layer Add_Add_82_12 ... 
+D Load layer Relu_Relu_76_13 ... 
+D Load layer Conv_Conv_86_14 ... 
+D Load layer Relu_Relu_85_15 ... 
+D Load layer Conv_Conv_81_16 ... 
+D Load layer Conv_Conv_78_17 ... 
+D Load layer Conv_Conv_75_18 ... 
+D Load layer Conv_Conv_84_19 ... 
+D Load layer Relu_Relu_80_20 ... 
+D Load layer Conv_Conv_79_21 ... 
+D Load layer Concat_Concat_74_22 ... 
+D Load layer Relu_Relu_63_23 ... 
+D Load layer Conv_Conv_62_24 ... 
+D Load layer Relu_Relu_73_25 ... 
+D Load layer Relu_Relu_68_26 ... 
+D Load layer MaxPool_MaxPool_49_27 ... 
+D Load layer Concat_Concat_61_28 ... 
+D Load layer Add_Add_72_29 ... 
+D Load layer Add_Add_67_30 ... 
+D Load layer Relu_Relu_48_31 ... 
+D Load layer Relu_Relu_60_32 ... 
+D Load layer Relu_Relu_55_33 ... 
+D Load layer Conv_Conv_71_34 ... 
+D Load layer Relu_Relu_70_35 ... 
+D Load layer Conv_Conv_66_36 ... 
+D Load layer Relu_Relu_65_37 ... 
+D Load layer Conv_Conv_47_38 ... 
+D Load layer Add_Add_59_39 ... 
+D Load layer Add_Add_54_40 ... 
+D Load layer Conv_Conv_69_41 ... 
+D Load layer Conv_Conv_64_42 ... 
+D Load layer Concat_Concat_46_43 ... 
+D Load layer Conv_Conv_58_44 ... 
+D Load layer Relu_Relu_57_45 ... 
+D Load layer Conv_Conv_53_46 ... 
+D Load layer Conv_Conv_50_47 ... 
+D Load layer Relu_Relu_52_48 ... 
+D Load layer Conv_Conv_51_49 ... 
+D Load layer Relu_Relu_45_50 ... 
+D Load layer Relu_Relu_40_51 ... 
+D Load layer MaxPool_MaxPool_21_52 ... 
+D Load layer Relu_Relu_35_53 ... 
+D Load layer Conv_Conv_56_54 ... 
+D Load layer Conv_Conv_34_55 ... 
+D Load layer Add_Add_44_56 ... 
+D Load layer Add_Add_39_57 ... 
+D Load layer Relu_Relu_20_58 ... 
+D Load layer Concat_Concat_33_59 ... 
+D Load layer Conv_Conv_43_60 ... 
+D Load layer Relu_Relu_42_61 ... 
+D Load layer Conv_Conv_38_62 ... 
+D Load layer Relu_Relu_37_63 ... 
+D Load layer Conv_Conv_19_64 ... 
+D Load layer Relu_Relu_32_65 ... 
+D Load layer Relu_Relu_27_66 ... 
+D Load layer Conv_Conv_41_67 ... 
+D Load layer Conv_Conv_36_68 ... 
+D Load layer Concat_Concat_18_69 ... 
+D Load layer Add_Add_31_70 ... 
+D Load layer Add_Add_26_71 ... 
+D Load layer Conv_Conv_22_72 ... 
+D Load layer Conv_Conv_25_73 ... 
+D Load layer Relu_Relu_17_74 ... 
+D Load layer Relu_Relu_12_75 ... 
+D Load layer Conv_Conv_30_76 ... 
+D Load layer Relu_Relu_29_77 ... 
+D Load layer Relu_Relu_24_78 ... 
+D Load layer Add_Add_16_79 ... 
+D Load layer Add_Add_11_80 ... 
+D Load layer Conv_Conv_28_81 ... 
+D Load layer Conv_Conv_23_82 ... 
+D Load layer Conv_Conv_15_83 ... 
+D Load layer Relu_Relu_14_84 ... 
+D Load layer Conv_Conv_10_85 ... 
+D Load layer Conv_Conv_7_86 ... 
+D Load layer MaxPool_MaxPool_6_87 ... 
+D Load layer Relu_Relu_5_88 ... 
+D Load layer Conv_Conv_13_89 ... 
+D Load layer Relu_Relu_9_90 ... 
+D Load layer Conv_Conv_4_91 ... 
+D Load layer Relu_Relu_3_92 ... 
+D Load layer Conv_Conv_8_93 ... 
+D Load layer Conv_Conv_2_94 ... 
+D Load layer Relu_Relu_1_95 ... 
+D Load layer Conv_Conv_0_96 ... 
+D Load layer data_97 ... 
+D Load layer Reshape_Reshape_100_1_RKNN_mark_perm_98 ... 
+I Load net complete...
+I Load data...
+I Load input meta
+I Start quantization...
+D import clients finished
+D Load layer attach_Reshape_Reshape_100/out0_0 ... 
+D Load layer Reshape_Reshape_100_1 ... 
+D Load layer Conv_Conv_94_2 ... 
+D Load layer AveragePool_AveragePool_93_3 ... 
+D Load layer Pad_Pad_92_4 ... 
+D Load layer Relu_Relu_91_5 ... 
+D Load layer Conv_Conv_90_6 ... 
+D Load layer Concat_Concat_89_7 ... 
+D Load layer Relu_Relu_88_8 ... 
+D Load layer Relu_Relu_83_9 ... 
+D Load layer MaxPool_MaxPool_77_10 ... 
+D Load layer Add_Add_87_11 ... 
+D Load layer Add_Add_82_12 ... 
+D Load layer Relu_Relu_76_13 ... 
+D Load layer Conv_Conv_86_14 ... 
+D Load layer Relu_Relu_85_15 ... 
+D Load layer Conv_Conv_81_16 ... 
+D Load layer Conv_Conv_78_17 ... 
+D Load layer Conv_Conv_75_18 ... 
+D Load layer Conv_Conv_84_19 ... 
+D Load layer Relu_Relu_80_20 ... 
+D Load layer Conv_Conv_79_21 ... 
+D Load layer Concat_Concat_74_22 ... 
+D Load layer Relu_Relu_63_23 ... 
+D Load layer Conv_Conv_62_24 ... 
+D Load layer Relu_Relu_73_25 ... 
+D Load layer Relu_Relu_68_26 ... 
+D Load layer MaxPool_MaxPool_49_27 ... 
+D Load layer Concat_Concat_61_28 ... 
+D Load layer Add_Add_72_29 ... 
+D Load layer Add_Add_67_30 ... 
+D Load layer Relu_Relu_48_31 ... 
+D Load layer Relu_Relu_60_32 ... 
+D Load layer Relu_Relu_55_33 ... 
+D Load layer Conv_Conv_71_34 ... 
+D Load layer Relu_Relu_70_35 ... 
+D Load layer Conv_Conv_66_36 ... 
+D Load layer Relu_Relu_65_37 ... 
+D Load layer Conv_Conv_47_38 ... 
+D Load layer Add_Add_59_39 ... 
+D Load layer Add_Add_54_40 ... 
+D Load layer Conv_Conv_69_41 ... 
+D Load layer Conv_Conv_64_42 ... 
+D Load layer Concat_Concat_46_43 ... 
+D Load layer Conv_Conv_58_44 ... 
+D Load layer Relu_Relu_57_45 ... 
+D Load layer Conv_Conv_53_46 ... 
+D Load layer Conv_Conv_50_47 ... 
+D Load layer Relu_Relu_52_48 ... 
+D Load layer Conv_Conv_51_49 ... 
+D Load layer Relu_Relu_45_50 ... 
+D Load layer Relu_Relu_40_51 ... 
+D Load layer MaxPool_MaxPool_21_52 ... 
+D Load layer Relu_Relu_35_53 ... 
+D Load layer Conv_Conv_56_54 ... 
+D Load layer Conv_Conv_34_55 ... 
+D Load layer Add_Add_44_56 ... 
+D Load layer Add_Add_39_57 ... 
+D Load layer Relu_Relu_20_58 ... 
+D Load layer Concat_Concat_33_59 ... 
+D Load layer Conv_Conv_43_60 ... 
+D Load layer Relu_Relu_42_61 ... 
+D Load layer Conv_Conv_38_62 ... 
+D Load layer Relu_Relu_37_63 ... 
+D Load layer Conv_Conv_19_64 ... 
+D Load layer Relu_Relu_32_65 ... 
+D Load layer Relu_Relu_27_66 ... 
+D Load layer Conv_Conv_41_67 ... 
+D Load layer Conv_Conv_36_68 ... 
+D Load layer Concat_Concat_18_69 ... 
+D Load layer Add_Add_31_70 ... 
+D Load layer Add_Add_26_71 ... 
+D Load layer Conv_Conv_22_72 ... 
+D Load layer Conv_Conv_25_73 ... 
+D Load layer Relu_Relu_17_74 ... 
+D Load layer Relu_Relu_12_75 ... 
+D Load layer Conv_Conv_30_76 ... 
+D Load layer Relu_Relu_29_77 ... 
+D Load layer Relu_Relu_24_78 ... 
+D Load layer Add_Add_16_79 ... 
+D Load layer Add_Add_11_80 ... 
+D Load layer Conv_Conv_28_81 ... 
+D Load layer Conv_Conv_23_82 ... 
+D Load layer Conv_Conv_15_83 ... 
+D Load layer Relu_Relu_14_84 ... 
+D Load layer Conv_Conv_10_85 ... 
+D Load layer Conv_Conv_7_86 ... 
+D Load layer MaxPool_MaxPool_6_87 ... 
+D Load layer Relu_Relu_5_88 ... 
+D Load layer Conv_Conv_13_89 ... 
+D Load layer Relu_Relu_9_90 ... 
+D Load layer Conv_Conv_4_91 ... 
+D Load layer Relu_Relu_3_92 ... 
+D Load layer Conv_Conv_8_93 ... 
+D Load layer Conv_Conv_2_94 ... 
+D Load layer Relu_Relu_1_95 ... 
+D Load layer Conv_Conv_0_96 ... 
+D Load layer data_97 ... 
+D Load layer Reshape_Reshape_100_1_RKNN_mark_perm_98 ... 
+D iterations: 10, batch_size: 100
+I Quantization start...
+D set up a quantize net
+D Prebuild network ...
+D Process data_97 ...
+D RKNN output shape(input): (100 224 224 3)
+D Process Conv_Conv_0_96 ...
+D RKNN output shape(convolution): (100 224 224 16)
+D Process Relu_Relu_1_95 ...
+D RKNN output shape(relu): (100 224 224 16)
+D Process Conv_Conv_2_94 ...
+D RKNN output shape(convolution): (100 224 224 16)
+D Process Relu_Relu_3_92 ...
+D RKNN output shape(relu): (100 224 224 16)
+D Process Conv_Conv_4_91 ...
+D RKNN output shape(convolution): (100 112 112 32)
+D Process Relu_Relu_5_88 ...
+D RKNN output shape(relu): (100 112 112 32)
+D Process Conv_Conv_8_93 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Process Relu_Relu_9_90 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Process Conv_Conv_10_85 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Process MaxPool_MaxPool_6_87 ...
+D RKNN output shape(pooling): (100 56 56 32)
+D Process Conv_Conv_7_86 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Process Add_Add_11_80 ...
+D RKNN output shape(add): (100 56 56 64)
+D Process Relu_Relu_12_75 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Process Conv_Conv_13_89 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Process Relu_Relu_14_84 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Process Conv_Conv_15_83 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Process Add_Add_16_79 ...
+D RKNN output shape(add): (100 56 56 64)
+D Process Relu_Relu_17_74 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Process Concat_Concat_18_69 ...
+D RKNN output shape(concat): (100 56 56 128)
+D Process Conv_Conv_19_64 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Process Relu_Relu_20_58 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Process Conv_Conv_23_82 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Relu_Relu_24_78 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_25_73 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process MaxPool_MaxPool_21_52 ...
+D RKNN output shape(pooling): (100 28 28 64)
+D Process Conv_Conv_22_72 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Add_Add_26_71 ...
+D RKNN output shape(add): (100 28 28 128)
+D Process Relu_Relu_27_66 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_28_81 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Relu_Relu_29_77 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_30_76 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Add_Add_31_70 ...
+D RKNN output shape(add): (100 28 28 128)
+D Process Relu_Relu_32_65 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Concat_Concat_33_59 ...
+D RKNN output shape(concat): (100 28 28 256)
+D Process Conv_Conv_34_55 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Relu_Relu_35_53 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_36_68 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Relu_Relu_37_63 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_38_62 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Add_Add_39_57 ...
+D RKNN output shape(add): (100 28 28 128)
+D Process Relu_Relu_40_51 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_41_67 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Relu_Relu_42_61 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_43_60 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Add_Add_44_56 ...
+D RKNN output shape(add): (100 28 28 128)
+D Process Relu_Relu_45_50 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Concat_Concat_46_43 ...
+D RKNN output shape(concat): (100 28 28 448)
+D Process Conv_Conv_47_38 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Process Relu_Relu_48_31 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Process Conv_Conv_51_49 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Relu_Relu_52_48 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_53_46 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process MaxPool_MaxPool_49_27 ...
+D RKNN output shape(pooling): (100 14 14 128)
+D Process Conv_Conv_50_47 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Add_Add_54_40 ...
+D RKNN output shape(add): (100 14 14 256)
+D Process Relu_Relu_55_33 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_56_54 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Relu_Relu_57_45 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_58_44 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Add_Add_59_39 ...
+D RKNN output shape(add): (100 14 14 256)
+D Process Relu_Relu_60_32 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Concat_Concat_61_28 ...
+D RKNN output shape(concat): (100 14 14 512)
+D Process Conv_Conv_62_24 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Relu_Relu_63_23 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_64_42 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Relu_Relu_65_37 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_66_36 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Add_Add_67_30 ...
+D RKNN output shape(add): (100 14 14 256)
+D Process Relu_Relu_68_26 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_69_41 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Relu_Relu_70_35 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_71_34 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Add_Add_72_29 ...
+D RKNN output shape(add): (100 14 14 256)
+D Process Relu_Relu_73_25 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Concat_Concat_74_22 ...
+D RKNN output shape(concat): (100 14 14 896)
+D Process Conv_Conv_75_18 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Process Relu_Relu_76_13 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Process Conv_Conv_79_21 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Process Relu_Relu_80_20 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Process Conv_Conv_81_16 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Process MaxPool_MaxPool_77_10 ...
+D RKNN output shape(pooling): (100 7 7 256)
+D Process Conv_Conv_78_17 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Process Add_Add_82_12 ...
+D RKNN output shape(add): (100 7 7 512)
+D Process Relu_Relu_83_9 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Process Conv_Conv_84_19 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Process Relu_Relu_85_15 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Process Conv_Conv_86_14 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Process Add_Add_87_11 ...
+D RKNN output shape(add): (100 7 7 512)
+D Process Relu_Relu_88_8 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Process Concat_Concat_89_7 ...
+D RKNN output shape(concat): (100 7 7 1280)
+D Process Conv_Conv_90_6 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Process Relu_Relu_91_5 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Process Pad_Pad_92_4 ...
+D RKNN output shape(pad): (100 7 7 512)
+D Process AveragePool_AveragePool_93_3 ...
+D RKNN output shape(pooling): (100 1 1 512)
+D Process Conv_Conv_94_2 ...
+D RKNN output shape(convolution): (100 1 1 1000)
+D Process Reshape_Reshape_100_1_RKNN_mark_perm_98 ...
+D RKNN output shape(permute): (100 1000 1 1)
+D Process Reshape_Reshape_100_1 ...
+D RKNN output shape(reshape): (1 100000)
+D Process attach_Reshape_Reshape_100/out0_0 ...
+D RKNN output shape(output): (1 100000)
+I Build torch-jit-export complete.
+D *********** Setup input meta ***********
+D import clients finished
+D *********** Setup database (1) ***********
+D Setup provider layer "text_input_layer":
+D Lids: ['data_97']
+D Shapes: [[100, 224, 224, 3]]
+D Data types: ['float32']
+D Sparse tensors: []
+D Tensor names(H5FS only): []
+D Add preprocess "[('reverse_channel', False), ('mean', [123.68, 116.779, 103.939]), ('scale', [0.01712504709387951, 0.01712504709387951, 0.01712504709387951]), ('preproc_node_params', ordereddict([('add_preproc_node', False), ('preproc_type', 'IMAGE_RGB'), ('preproc_perm', [0, 1, 2, 3])]))]" for "data_97"
+D *********** Setup input meta complete ***********
+D Process data_97 ...
+D RKNN output shape(input): (100 224 224 3)
+D Real output shape: (100, 224, 224, 3)
+D Process Conv_Conv_0_96 ...
+D RKNN output shape(convolution): (100 224 224 16)
+D Real output shape: (100, 224, 224, 16)
+D Process Relu_Relu_1_95 ...
+D RKNN output shape(relu): (100 224 224 16)
+D Real output shape: (100, 224, 224, 16)
+D Process Conv_Conv_2_94 ...
+D RKNN output shape(convolution): (100 224 224 16)
+D Real output shape: (100, 224, 224, 16)
+D Process Relu_Relu_3_92 ...
+D RKNN output shape(relu): (100 224 224 16)
+D Real output shape: (100, 224, 224, 16)
+D Process Conv_Conv_4_91 ...
+D RKNN output shape(convolution): (100 112 112 32)
+D Real output shape: (100, 112, 112, 32)
+D Process Relu_Relu_5_88 ...
+D RKNN output shape(relu): (100 112 112 32)
+D Real output shape: (100, 112, 112, 32)
+D Process Conv_Conv_8_93 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Relu_Relu_9_90 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Conv_Conv_10_85 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process MaxPool_MaxPool_6_87 ...
+D RKNN output shape(pooling): (100 56 56 32)
+D Real output shape: (100, 56, 56, 32)
+D Process Conv_Conv_7_86 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Add_Add_11_80 ...
+D RKNN output shape(add): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Relu_Relu_12_75 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Conv_Conv_13_89 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Relu_Relu_14_84 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Conv_Conv_15_83 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Add_Add_16_79 ...
+D RKNN output shape(add): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Relu_Relu_17_74 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Concat_Concat_18_69 ...
+D RKNN output shape(concat): (100 56 56 128)
+D Real output shape: (100, 56, 56, 128)
+D Process Conv_Conv_19_64 ...
+D RKNN output shape(convolution): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Relu_Relu_20_58 ...
+D RKNN output shape(relu): (100 56 56 64)
+D Real output shape: (100, 56, 56, 64)
+D Process Conv_Conv_23_82 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_24_78 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_25_73 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process MaxPool_MaxPool_21_52 ...
+D RKNN output shape(pooling): (100 28 28 64)
+D Real output shape: (100, 28, 28, 64)
+D Process Conv_Conv_22_72 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Add_Add_26_71 ...
+D RKNN output shape(add): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_27_66 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_28_81 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_29_77 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_30_76 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Add_Add_31_70 ...
+D RKNN output shape(add): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_32_65 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Concat_Concat_33_59 ...
+D RKNN output shape(concat): (100 28 28 256)
+D Real output shape: (100, 28, 28, 256)
+D Process Conv_Conv_34_55 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_35_53 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_36_68 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_37_63 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_38_62 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Add_Add_39_57 ...
+D RKNN output shape(add): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_40_51 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_41_67 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_42_61 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_43_60 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Add_Add_44_56 ...
+D RKNN output shape(add): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_45_50 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Concat_Concat_46_43 ...
+D RKNN output shape(concat): (100 28 28 448)
+D Real output shape: (100, 28, 28, 448)
+D Process Conv_Conv_47_38 ...
+D RKNN output shape(convolution): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Relu_Relu_48_31 ...
+D RKNN output shape(relu): (100 28 28 128)
+D Real output shape: (100, 28, 28, 128)
+D Process Conv_Conv_51_49 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_52_48 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_53_46 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process MaxPool_MaxPool_49_27 ...
+D RKNN output shape(pooling): (100 14 14 128)
+D Real output shape: (100, 14, 14, 128)
+D Process Conv_Conv_50_47 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Add_Add_54_40 ...
+D RKNN output shape(add): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_55_33 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_56_54 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_57_45 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_58_44 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Add_Add_59_39 ...
+D RKNN output shape(add): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_60_32 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Concat_Concat_61_28 ...
+D RKNN output shape(concat): (100 14 14 512)
+D Real output shape: (100, 14, 14, 512)
+D Process Conv_Conv_62_24 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_63_23 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_64_42 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_65_37 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_66_36 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Add_Add_67_30 ...
+D RKNN output shape(add): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_68_26 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_69_41 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_70_35 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_71_34 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Add_Add_72_29 ...
+D RKNN output shape(add): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_73_25 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Concat_Concat_74_22 ...
+D RKNN output shape(concat): (100 14 14 896)
+D Real output shape: (100, 14, 14, 896)
+D Process Conv_Conv_75_18 ...
+D RKNN output shape(convolution): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Relu_Relu_76_13 ...
+D RKNN output shape(relu): (100 14 14 256)
+D Real output shape: (100, 14, 14, 256)
+D Process Conv_Conv_79_21 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Relu_Relu_80_20 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Conv_Conv_81_16 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process MaxPool_MaxPool_77_10 ...
+D RKNN output shape(pooling): (100 7 7 256)
+D Real output shape: (100, 7, 7, 256)
+D Process Conv_Conv_78_17 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Add_Add_82_12 ...
+D RKNN output shape(add): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Relu_Relu_83_9 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Conv_Conv_84_19 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Relu_Relu_85_15 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Conv_Conv_86_14 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Add_Add_87_11 ...
+D RKNN output shape(add): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Relu_Relu_88_8 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Concat_Concat_89_7 ...
+D RKNN output shape(concat): (100 7 7 1280)
+D Real output shape: (100, 7, 7, 1280)
+D Process Conv_Conv_90_6 ...
+D RKNN output shape(convolution): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Relu_Relu_91_5 ...
+D RKNN output shape(relu): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process Pad_Pad_92_4 ...
+D RKNN output shape(pad): (100 7 7 512)
+D Real output shape: (100, 7, 7, 512)
+D Process AveragePool_AveragePool_93_3 ...
+D RKNN output shape(pooling): (100 1 1 512)
+D Real output shape: (100, 1, 1, 512)
+D Process Conv_Conv_94_2 ...
+D RKNN output shape(convolution): (100 1 1 1000)
+D Real output shape: (100, 1, 1, 1000)
+D Process Reshape_Reshape_100_1_RKNN_mark_perm_98 ...
+D RKNN output shape(permute): (100 1000 1 1)
+D Real output shape: (100, 1000, 1, 1)
+D Process Reshape_Reshape_100_1 ...
+D RKNN output shape(reshape): (1 100000)
+D Real output shape: (1, 100000)
+D Process attach_Reshape_Reshape_100/out0_0 ...
+D RKNN output shape(output): (1 100000)
+D Real output shape: (1, 100000)
+I Build torch-jit-export complete.
+I Running 10 iterations
+D 0(10.00%), Queue size 100
+D 1(20.00%), Queue size 100
+D 2(30.00%), Queue size 100
+D 3(40.00%), Queue size 100
+D 4(50.00%), Queue size 100
+D 5(60.00%), Queue size 100
+D 6(70.00%), Queue size 100
+D 7(80.00%), Queue size 100
+D 8(90.00%), Queue size 100
+D 9(100.00%), Queue size 100
+D Quantize tensor @Conv_Conv_94_2:out0.
+D Quantize tensor @AveragePool_AveragePool_93_3:out0.
+D Quantize tensor @Pad_Pad_92_4:out0.
+D Quantize tensor @Relu_Relu_91_5:out0.
+I Queue cancelled.
+D Quantize tensor @Conv_Conv_90_6:out0.
+D Quantize tensor @Concat_Concat_89_7:out0.
+D Quantize tensor @Relu_Relu_88_8:out0.
+D Quantize tensor @Relu_Relu_83_9:out0.
+D Quantize tensor @MaxPool_MaxPool_77_10:out0.
+D Quantize tensor @Add_Add_87_11:out0.
+D Quantize tensor @Add_Add_82_12:out0.
+D Quantize tensor @Relu_Relu_76_13:out0.
+D Quantize tensor @Conv_Conv_86_14:out0.
+D Quantize tensor @Relu_Relu_85_15:out0.
+D Quantize tensor @Conv_Conv_81_16:out0.
+D Quantize tensor @Conv_Conv_78_17:out0.
+D Quantize tensor @Conv_Conv_75_18:out0.
+D Quantize tensor @Conv_Conv_84_19:out0.
+D Quantize tensor @Relu_Relu_80_20:out0.
+D Quantize tensor @Conv_Conv_79_21:out0.
+D Quantize tensor @Concat_Concat_74_22:out0.
+D Quantize tensor @Relu_Relu_63_23:out0.
+D Quantize tensor @Conv_Conv_62_24:out0.
+D Quantize tensor @Relu_Relu_73_25:out0.
+D Quantize tensor @Relu_Relu_68_26:out0.
+D Quantize tensor @MaxPool_MaxPool_49_27:out0.
+D Quantize tensor @Concat_Concat_61_28:out0.
+D Quantize tensor @Add_Add_72_29:out0.
+D Quantize tensor @Add_Add_67_30:out0.
+D Quantize tensor @Relu_Relu_48_31:out0.
+D Quantize tensor @Relu_Relu_60_32:out0.
+D Quantize tensor @Relu_Relu_55_33:out0.
+D Quantize tensor @Conv_Conv_71_34:out0.
+D Quantize tensor @Relu_Relu_70_35:out0.
+D Quantize tensor @Conv_Conv_66_36:out0.
+D Quantize tensor @Relu_Relu_65_37:out0.
+D Quantize tensor @Conv_Conv_47_38:out0.
+D Quantize tensor @Add_Add_59_39:out0.
+D Quantize tensor @Add_Add_54_40:out0.
+D Quantize tensor @Conv_Conv_69_41:out0.
+D Quantize tensor @Conv_Conv_64_42:out0.
+D Quantize tensor @Concat_Concat_46_43:out0.
+D Quantize tensor @Conv_Conv_58_44:out0.
+D Quantize tensor @Relu_Relu_57_45:out0.
+D Quantize tensor @Conv_Conv_53_46:out0.
+D Quantize tensor @Conv_Conv_50_47:out0.
+D Quantize tensor @Relu_Relu_52_48:out0.
+D Quantize tensor @Conv_Conv_51_49:out0.
+D Quantize tensor @Relu_Relu_45_50:out0.
+D Quantize tensor @Relu_Relu_40_51:out0.
+D Quantize tensor @MaxPool_MaxPool_21_52:out0.
+D Quantize tensor @Relu_Relu_35_53:out0.
+D Quantize tensor @Conv_Conv_56_54:out0.
+D Quantize tensor @Conv_Conv_34_55:out0.
+D Quantize tensor @Add_Add_44_56:out0.
+D Quantize tensor @Add_Add_39_57:out0.
+D Quantize tensor @Relu_Relu_20_58:out0.
+D Quantize tensor @Concat_Concat_33_59:out0.
+D Quantize tensor @Conv_Conv_43_60:out0.
+D Quantize tensor @Relu_Relu_42_61:out0.
+D Quantize tensor @Conv_Conv_38_62:out0.
+D Quantize tensor @Relu_Relu_37_63:out0.
+D Quantize tensor @Conv_Conv_19_64:out0.
+D Quantize tensor @Relu_Relu_32_65:out0.
+D Quantize tensor @Relu_Relu_27_66:out0.
+D Quantize tensor @Conv_Conv_41_67:out0.
+D Quantize tensor @Conv_Conv_36_68:out0.
+D Quantize tensor @Concat_Concat_18_69:out0.
+D Quantize tensor @Add_Add_31_70:out0.
+D Quantize tensor @Add_Add_26_71:out0.
+D Quantize tensor @Conv_Conv_22_72:out0.
+D Quantize tensor @Conv_Conv_25_73:out0.
+D Quantize tensor @Relu_Relu_17_74:out0.
+D Quantize tensor @Relu_Relu_12_75:out0.
+D Quantize tensor @Conv_Conv_30_76:out0.
+D Quantize tensor @Relu_Relu_29_77:out0.
+D Quantize tensor @Relu_Relu_24_78:out0.
+D Quantize tensor @Add_Add_16_79:out0.
+D Quantize tensor @Add_Add_11_80:out0.
+D Quantize tensor @Conv_Conv_28_81:out0.
+D Quantize tensor @Conv_Conv_23_82:out0.
+D Quantize tensor @Conv_Conv_15_83:out0.
+D Quantize tensor @Relu_Relu_14_84:out0.
+D Quantize tensor @Conv_Conv_10_85:out0.
+D Quantize tensor @Conv_Conv_7_86:out0.
+D Quantize tensor @MaxPool_MaxPool_6_87:out0.
+D Quantize tensor @Relu_Relu_5_88:out0.
+D Quantize tensor @Conv_Conv_13_89:out0.
+D Quantize tensor @Relu_Relu_9_90:out0.
+D Quantize tensor @Conv_Conv_4_91:out0.
+D Quantize tensor @Relu_Relu_3_92:out0.
+D Quantize tensor @Conv_Conv_8_93:out0.
+D Quantize tensor @Conv_Conv_2_94:out0.
+D Quantize tensor @Relu_Relu_1_95:out0.
+D Quantize tensor @Conv_Conv_0_96:out0.
+D Quantize tensor @data_97:out0.
+D Quantize tensor @Conv_Conv_94_2:weight.
+D Quantize tensor @Conv_Conv_90_6:weight.
+D Quantize tensor @Conv_Conv_86_14:weight.
+D Quantize tensor @Conv_Conv_81_16:weight.
+D Quantize tensor @Conv_Conv_78_17:weight.
+D Quantize tensor @Conv_Conv_75_18:weight.
+D Quantize tensor @Conv_Conv_84_19:weight.
+D Quantize tensor @Conv_Conv_79_21:weight.
+D Quantize tensor @Conv_Conv_62_24:weight.
+D Quantize tensor @Conv_Conv_71_34:weight.
+D Quantize tensor @Conv_Conv_66_36:weight.
+D Quantize tensor @Conv_Conv_47_38:weight.
+D Quantize tensor @Conv_Conv_69_41:weight.
+D Quantize tensor @Conv_Conv_64_42:weight.
+D Quantize tensor @Conv_Conv_58_44:weight.
+D Quantize tensor @Conv_Conv_53_46:weight.
+D Quantize tensor @Conv_Conv_50_47:weight.
+D Quantize tensor @Conv_Conv_51_49:weight.
+D Quantize tensor @Conv_Conv_56_54:weight.
+D Quantize tensor @Conv_Conv_34_55:weight.
+D Quantize tensor @Conv_Conv_43_60:weight.
+D Quantize tensor @Conv_Conv_38_62:weight.
+D Quantize tensor @Conv_Conv_19_64:weight.
+D Quantize tensor @Conv_Conv_41_67:weight.
+D Quantize tensor @Conv_Conv_36_68:weight.
+D Quantize tensor @Conv_Conv_22_72:weight.
+D Quantize tensor @Conv_Conv_25_73:weight.
+D Quantize tensor @Conv_Conv_30_76:weight.
+D Quantize tensor @Conv_Conv_28_81:weight.
+D Quantize tensor @Conv_Conv_23_82:weight.
+D Quantize tensor @Conv_Conv_15_83:weight.
+D Quantize tensor @Conv_Conv_10_85:weight.
+D Quantize tensor @Conv_Conv_7_86:weight.
+D Quantize tensor @Conv_Conv_13_89:weight.
+D Quantize tensor @Conv_Conv_4_91:weight.
+D Quantize tensor @Conv_Conv_8_93:weight.
+D Quantize tensor @Conv_Conv_2_94:weight.
+D Quantize tensor @Conv_Conv_0_96:weight.
+D Quantize tensor @Conv_Conv_94_2:bias.
+D Quantize tensor @Conv_Conv_90_6:bias.
+D Quantize tensor @Conv_Conv_86_14:bias.
+D Quantize tensor @Conv_Conv_81_16:bias.
+D Quantize tensor @Conv_Conv_78_17:bias.
+D Quantize tensor @Conv_Conv_75_18:bias.
+D Quantize tensor @Conv_Conv_84_19:bias.
+D Quantize tensor @Conv_Conv_79_21:bias.
+D Quantize tensor @Conv_Conv_62_24:bias.
+D Quantize tensor @Conv_Conv_71_34:bias.
+D Quantize tensor @Conv_Conv_66_36:bias.
+D Quantize tensor @Conv_Conv_47_38:bias.
+D Quantize tensor @Conv_Conv_69_41:bias.
+D Quantize tensor @Conv_Conv_64_42:bias.
+D Quantize tensor @Conv_Conv_58_44:bias.
+D Quantize tensor @Conv_Conv_53_46:bias.
+D Quantize tensor @Conv_Conv_50_47:bias.
+D Quantize tensor @Conv_Conv_51_49:bias.
+D Quantize tensor @Conv_Conv_56_54:bias.
+D Quantize tensor @Conv_Conv_34_55:bias.
+D Quantize tensor @Conv_Conv_43_60:bias.
+D Quantize tensor @Conv_Conv_38_62:bias.
+D Quantize tensor @Conv_Conv_19_64:bias.
+D Quantize tensor @Conv_Conv_41_67:bias.
+D Quantize tensor @Conv_Conv_36_68:bias.
+D Quantize tensor @Conv_Conv_22_72:bias.
+D Quantize tensor @Conv_Conv_25_73:bias.
+D Quantize tensor @Conv_Conv_30_76:bias.
+D Quantize tensor @Conv_Conv_28_81:bias.
+D Quantize tensor @Conv_Conv_23_82:bias.
+D Quantize tensor @Conv_Conv_15_83:bias.
+D Quantize tensor @Conv_Conv_10_85:bias.
+D Quantize tensor @Conv_Conv_7_86:bias.
+D Quantize tensor @Conv_Conv_13_89:bias.
+D Quantize tensor @Conv_Conv_4_91:bias.
+D Quantize tensor @Conv_Conv_8_93:bias.
+D Quantize tensor @Conv_Conv_2_94:bias.
+D Quantize tensor @Conv_Conv_0_96:bias.
+I Clean.
+I Return invalid entropy list result for tensor @attach_Reshape_Reshape_100/out0_0:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Reshape_Reshape_100_1:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_94_2:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @AveragePool_AveragePool_93_3:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Pad_Pad_92_4:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_91_5:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_90_6:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Concat_Concat_89_7:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_88_8:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_83_9:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @MaxPool_MaxPool_77_10:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_87_11:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_82_12:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_76_13:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_86_14:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_85_15:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_81_16:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_78_17:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_75_18:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_84_19:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_80_20:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_79_21:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Concat_Concat_74_22:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_63_23:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_62_24:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_73_25:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_68_26:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @MaxPool_MaxPool_49_27:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Concat_Concat_61_28:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_72_29:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_67_30:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_48_31:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_60_32:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_55_33:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_71_34:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_70_35:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_66_36:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_65_37:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_47_38:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_59_39:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_54_40:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_69_41:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_64_42:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Concat_Concat_46_43:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_58_44:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_57_45:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_53_46:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_50_47:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_52_48:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_51_49:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_45_50:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_40_51:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @MaxPool_MaxPool_21_52:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_35_53:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_56_54:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_34_55:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_44_56:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_39_57:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_20_58:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Concat_Concat_33_59:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_43_60:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_42_61:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_38_62:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_37_63:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_19_64:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_32_65:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_27_66:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_41_67:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_36_68:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Concat_Concat_18_69:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_31_70:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_26_71:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_22_72:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_25_73:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_17_74:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_12_75:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_30_76:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_29_77:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_24_78:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_16_79:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Add_Add_11_80:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_28_81:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_23_82:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_15_83:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_14_84:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_10_85:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_7_86:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @MaxPool_MaxPool_6_87:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_5_88:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_13_89:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_9_90:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_4_91:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_3_92:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_8_93:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_2_94:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Relu_Relu_1_95:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Conv_Conv_0_96:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @data_97:out0, list length 10, expected length 1.
+I Return invalid entropy list result for tensor @Reshape_Reshape_100_1_RKNN_mark_perm_98:out0, list length 10, expected length 1.
+D Optimizing network with align_quantize, broadcast_quantize, qnt_adjust_coef, qnt_adjust_param
+D Align @Relu_Relu_17_74:out0 scale to [0.18524562]
+D Align @Concat_Concat_18_69:out0 scale to [0.18524562]
+D Align @Relu_Relu_12_75:out0 scale to [0.18524562]
+D Align @Relu_Relu_32_65:out0 scale to [0.09891196]
+D Align @Concat_Concat_33_59:out0 scale to [0.09891196]
+D Align @Relu_Relu_27_66:out0 scale to [0.09891196]
+D Align @Relu_Relu_35_53:out0 scale to [0.21482103]
+D Align @MaxPool_MaxPool_21_52:out0 scale to [0.21482103]
+D Align @Relu_Relu_45_50:out0 scale to [0.21482103]
+D Align @Concat_Concat_46_43:out0 scale to [0.21482103]
+D Align @Relu_Relu_40_51:out0 scale to [0.21482103]
+D Align @Relu_Relu_55_33:out0 scale to [0.46706927]
+D Align @Concat_Concat_61_28:out0 scale to [0.46706927]
+D Align @Relu_Relu_60_32:out0 scale to [0.46706927]
+D Align @Relu_Relu_68_26:out0 scale to [0.50343573]
+D Align @MaxPool_MaxPool_49_27:out0 scale to [0.50343573]
+D Align @Concat_Concat_74_22:out0 scale to [0.50343573]
+D Align @Relu_Relu_63_23:out0 scale to [0.50343573]
+D Align @Relu_Relu_73_25:out0 scale to [0.50343573]
+D Align @Concat_Concat_89_7:out0 scale to [0.2172769]
+D Align @Relu_Relu_88_8:out0 scale to [0.2172769]
+D Align @Relu_Relu_83_9:out0 scale to [0.2172769]
+D Align @MaxPool_MaxPool_77_10:out0 scale to [0.2172769]
+D Quantize tensor(@MaxPool_MaxPool_21_52:out0) with tensor(@Relu_Relu_20_58:out0)
+D Quantize tensor(@MaxPool_MaxPool_49_27:out0) with tensor(@Relu_Relu_48_31:out0)
+D Quantize tensor(@MaxPool_MaxPool_77_10:out0) with tensor(@Relu_Relu_76_13:out0)
+D Quantize tensor(@AveragePool_AveragePool_93_3:out0) with tensor(@Pad_Pad_92_4:out0)
+D Quantize tensor(@Reshape_Reshape_100_1_RKNN_mark_perm_98:out0) with tensor(@Conv_Conv_94_2:out0)
+D Quantize tensor(@Reshape_Reshape_100_1:out0) with tensor(@Reshape_Reshape_100_1_RKNN_mark_perm_98:out0)
+D Quantize tensor(@attach_Reshape_Reshape_100/out0_0:out0) with tensor(@Reshape_Reshape_100_1:out0)
+I Conv_Conv_0_96 merged relu nexted.
+I Conv_Conv_2_94 merged relu nexted.
+I Conv_Conv_4_91 merged relu nexted.
+I Conv_Conv_8_93 merged relu nexted.
+I Conv_Conv_13_89 merged relu nexted.
+I Conv_Conv_19_64 merged relu nexted.
+I Conv_Conv_23_82 merged relu nexted.
+I Conv_Conv_28_81 merged relu nexted.
+I Conv_Conv_36_68 merged relu nexted.
+I Conv_Conv_41_67 merged relu nexted.
+I Conv_Conv_47_38 merged relu nexted.
+I Conv_Conv_51_49 merged relu nexted.
+I Conv_Conv_56_54 merged relu nexted.
+I Conv_Conv_64_42 merged relu nexted.
+I Conv_Conv_69_41 merged relu nexted.
+I Conv_Conv_75_18 merged relu nexted.
+I Conv_Conv_79_21 merged relu nexted.
+I Conv_Conv_84_19 merged relu nexted.
+I Conv_Conv_90_6 merged relu nexted.
+I Quantization complete.
+I End quantization...
+--> Model process succeed!

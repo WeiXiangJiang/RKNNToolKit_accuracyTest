@@ -1,0 +1,2762 @@
+start model conversion
+
+--> Config model
+
+--> Loading onnx model
+I Start importing onnx...
+W Use existed rule db file to convert onnx model.
+W Call onnx.optimizer.optimize fail, skip optimize
+I Current ONNX Model use ir_version 6 opset_version 9
+D Calc tensor Constant_1547 ()
+D Calc tensor Constant_1498 ()
+D Calc tensor Constant_1496 ()
+D Calc tensor Constant_1493 ()
+D Calc tensor Constant_1490 ()
+D Calc tensor Constant_1487 ()
+D Calc tensor Constant_1433 ()
+D Calc tensor Constant_1431 ()
+D Calc tensor Constant_1428 ()
+D Calc tensor Constant_1425 ()
+D Calc tensor Constant_1422 ()
+D Calc tensor Constant_1366 ()
+D Calc tensor Constant_1364 ()
+D Calc tensor Constant_1361 ()
+D Calc tensor Constant_1358 ()
+D Calc tensor Constant_1355 ()
+D Calc tensor Constant_1298 ()
+D Calc tensor Constant_1296 ()
+D Calc tensor Constant_1293 ()
+D Calc tensor Constant_1290 ()
+D Calc tensor Constant_1287 ()
+D Calc tensor Constant_1233 ()
+D Calc tensor Constant_1231 ()
+D Calc tensor Constant_1228 ()
+D Calc tensor Constant_1225 ()
+D Calc tensor Constant_1222 ()
+D Calc tensor Constant_1168 ()
+D Calc tensor Constant_1166 ()
+D Calc tensor Constant_1163 ()
+D Calc tensor Constant_1160 ()
+D Calc tensor Constant_1157 ()
+D Calc tensor Constant_1103 ()
+D Calc tensor Constant_1101 ()
+D Calc tensor Constant_1098 ()
+D Calc tensor Constant_1095 ()
+D Calc tensor Constant_1092 ()
+D Calc tensor Constant_1038 ()
+D Calc tensor Constant_1036 ()
+D Calc tensor Constant_1033 ()
+D Calc tensor Constant_1030 ()
+D Calc tensor Constant_1027 ()
+D Calc tensor Constant_971 ()
+D Calc tensor Constant_969 ()
+D Calc tensor Constant_966 ()
+D Calc tensor Constant_963 ()
+D Calc tensor Constant_960 ()
+D Calc tensor Constant_903 ()
+D Calc tensor Constant_901 ()
+D Calc tensor Constant_898 ()
+D Calc tensor Constant_895 ()
+D Calc tensor Constant_892 ()
+D Calc tensor Constant_838 ()
+D Calc tensor Constant_836 ()
+D Calc tensor Constant_833 ()
+D Calc tensor Constant_830 ()
+D Calc tensor Constant_827 ()
+D Calc tensor Constant_773 ()
+D Calc tensor Constant_771 ()
+D Calc tensor Constant_768 ()
+D Calc tensor Constant_765 ()
+D Calc tensor Constant_762 ()
+D Calc tensor Constant_706 ()
+D Calc tensor Constant_704 ()
+D Calc tensor Constant_701 ()
+D Calc tensor Constant_698 ()
+D Calc tensor Constant_695 ()
+D Calc tensor Constant_638 ()
+D Calc tensor Constant_636 ()
+D Calc tensor Constant_633 ()
+D Calc tensor Constant_630 ()
+D Calc tensor Constant_627 ()
+D Calc tensor Constant_573 ()
+D Calc tensor Constant_571 ()
+D Calc tensor Constant_568 ()
+D Calc tensor Constant_565 ()
+D Calc tensor Constant_562 ()
+D Calc tensor Constant_508 ()
+D Calc tensor Constant_506 ()
+D Calc tensor Constant_503 ()
+D Calc tensor Constant_500 ()
+D Calc tensor Constant_497 ()
+D Calc tensor Initializer_output.fc.weight (1000, 2048)
+D Calc tensor Initializer_output.fc.bias (1000,)
+D Calc tensor Initializer_features.stage4.unit3.body.conv2.att.conv2.weight (1024, 256, 1, 1)
+D Calc tensor Initializer_features.stage4.unit3.body.conv2.att.conv2.bias (1024,)
+D Calc tensor Initializer_features.stage4.unit2.body.conv2.att.conv2.weight (1024, 256, 1, 1)
+D Calc tensor Initializer_features.stage4.unit2.body.conv2.att.conv2.bias (1024,)
+D Calc tensor Initializer_features.stage4.unit1.body.conv2.att.conv2.weight (1024, 256, 1, 1)
+D Calc tensor Initializer_features.stage4.unit1.body.conv2.att.conv2.bias (1024,)
+D Calc tensor Initializer_features.stage3.unit6.body.conv2.att.conv2.weight (512, 128, 1, 1)
+D Calc tensor Initializer_features.stage3.unit6.body.conv2.att.conv2.bias (512,)
+D Calc tensor Initializer_features.stage3.unit5.body.conv2.att.conv2.weight (512, 128, 1, 1)
+D Calc tensor Initializer_features.stage3.unit5.body.conv2.att.conv2.bias (512,)
+D Calc tensor Initializer_features.stage3.unit4.body.conv2.att.conv2.weight (512, 128, 1, 1)
+D Calc tensor Initializer_features.stage3.unit4.body.conv2.att.conv2.bias (512,)
+D Calc tensor Initializer_features.stage3.unit3.body.conv2.att.conv2.weight (512, 128, 1, 1)
+D Calc tensor Initializer_features.stage3.unit3.body.conv2.att.conv2.bias (512,)
+D Calc tensor Initializer_features.stage3.unit2.body.conv2.att.conv2.weight (512, 128, 1, 1)
+D Calc tensor Initializer_features.stage3.unit2.body.conv2.att.conv2.bias (512,)
+D Calc tensor Initializer_features.stage3.unit1.body.conv2.att.conv2.weight (512, 128, 1, 1)
+D Calc tensor Initializer_features.stage3.unit1.body.conv2.att.conv2.bias (512,)
+D Calc tensor Initializer_features.stage2.unit4.body.conv2.att.conv2.weight (256, 64, 1, 1)
+D Calc tensor Initializer_features.stage2.unit4.body.conv2.att.conv2.bias (256,)
+D Calc tensor Initializer_features.stage2.unit3.body.conv2.att.conv2.weight (256, 64, 1, 1)
+D Calc tensor Initializer_features.stage2.unit3.body.conv2.att.conv2.bias (256,)
+D Calc tensor Initializer_features.stage2.unit2.body.conv2.att.conv2.weight (256, 64, 1, 1)
+D Calc tensor Initializer_features.stage2.unit2.body.conv2.att.conv2.bias (256,)
+D Calc tensor Initializer_features.stage2.unit1.body.conv2.att.conv2.weight (256, 64, 1, 1)
+D Calc tensor Initializer_features.stage2.unit1.body.conv2.att.conv2.bias (256,)
+D Calc tensor Initializer_features.stage1.unit3.body.conv2.att.conv2.weight (128, 32, 1, 1)
+D Calc tensor Initializer_features.stage1.unit3.body.conv2.att.conv2.bias (128,)
+D Calc tensor Initializer_features.stage1.unit2.body.conv2.att.conv2.weight (128, 32, 1, 1)
+D Calc tensor Initializer_features.stage1.unit2.body.conv2.att.conv2.bias (128,)
+D Calc tensor Initializer_features.stage1.unit1.body.conv2.att.conv2.weight (128, 32, 1, 1)
+D Calc tensor Initializer_features.stage1.unit1.body.conv2.att.conv2.bias (128,)
+D Calc tensor Initializer_1896 (1,)
+D Calc tensor Initializer_1895 (1,)
+D Calc tensor Initializer_1894 (1,)
+D Calc tensor Initializer_1893 (1,)
+D Calc tensor Initializer_1892 (1,)
+D Calc tensor Initializer_1891 (1,)
+D Calc tensor Initializer_1890 (1,)
+D Calc tensor Initializer_1889 (1,)
+D Calc tensor Initializer_1888 (1,)
+D Calc tensor Initializer_1887 (1,)
+D Calc tensor Initializer_1886 (1,)
+D Calc tensor Initializer_1885 (1,)
+D Calc tensor Initializer_1884 (1,)
+D Calc tensor Initializer_1883 (1,)
+D Calc tensor Initializer_1882 (1,)
+D Calc tensor Initializer_1881 (1,)
+D Calc tensor Initializer_1880 (1,)
+D Calc tensor Initializer_1879 (1,)
+D Calc tensor Initializer_1878 (1,)
+D Calc tensor Initializer_1877 (1,)
+D Calc tensor Initializer_1876 (1,)
+D Calc tensor Initializer_1875 (1,)
+D Calc tensor Initializer_1874 (1,)
+D Calc tensor Initializer_1873 (1,)
+D Calc tensor Initializer_1872 (1,)
+D Calc tensor Initializer_1871 (1,)
+D Calc tensor Initializer_1870 (1,)
+D Calc tensor Initializer_1869 (1,)
+D Calc tensor Initializer_1868 (1,)
+D Calc tensor Initializer_1867 (1,)
+D Calc tensor Initializer_1866 (1,)
+D Calc tensor Initializer_1865 (1,)
+D Calc tensor Initializer_1864 (1,)
+D Calc tensor Initializer_1863 (1,)
+D Calc tensor Initializer_1862 (1,)
+D Calc tensor Initializer_1861 (1,)
+D Calc tensor Initializer_1860 (1,)
+D Calc tensor Initializer_1859 (1,)
+D Calc tensor Initializer_1858 (1,)
+D Calc tensor Initializer_1857 (1,)
+D Calc tensor Initializer_1856 (1,)
+D Calc tensor Initializer_1855 (1,)
+D Calc tensor Initializer_1854 (1,)
+D Calc tensor Initializer_1853 (1,)
+D Calc tensor Initializer_1852 (1,)
+D Calc tensor Initializer_1851 (1,)
+D Calc tensor Initializer_1850 (1,)
+D Calc tensor Initializer_1849 (1,)
+D Calc tensor Initializer_1848 (1,)
+D Calc tensor Initializer_1847 (1,)
+D Calc tensor Initializer_1846 (1,)
+D Calc tensor Initializer_1845 (1,)
+D Calc tensor Initializer_1844 (1,)
+D Calc tensor Initializer_1843 (1,)
+D Calc tensor Initializer_1842 (1,)
+D Calc tensor Initializer_1841 (1,)
+D Calc tensor Initializer_1840 (1,)
+D Calc tensor Initializer_1839 (1,)
+D Calc tensor Initializer_1838 (1,)
+D Calc tensor Initializer_1837 (1,)
+D Calc tensor Initializer_1836 (1,)
+D Calc tensor Initializer_1835 (1,)
+D Calc tensor Initializer_1834 (1,)
+D Calc tensor Initializer_1833 (1,)
+D Calc tensor Initializer_1832 (1,)
+D Calc tensor Initializer_1831 (1,)
+D Calc tensor Initializer_1830 (1,)
+D Calc tensor Initializer_1829 (1,)
+D Calc tensor Initializer_1828 (1,)
+D Calc tensor Initializer_1827 (1,)
+D Calc tensor Initializer_1826 (1,)
+D Calc tensor Initializer_1825 (1,)
+D Calc tensor Initializer_1824 (1,)
+D Calc tensor Initializer_1823 (1,)
+D Calc tensor Initializer_1822 (1,)
+D Calc tensor Initializer_1821 (1,)
+D Calc tensor Initializer_1820 (1,)
+D Calc tensor Initializer_1819 (1,)
+D Calc tensor Initializer_1818 (1,)
+D Calc tensor Initializer_1817 (1,)
+D Calc tensor Initializer_1816 (1,)
+D Calc tensor Initializer_1815 (1,)
+D Calc tensor Initializer_1814 (1,)
+D Calc tensor Initializer_1813 (1,)
+D Calc tensor Initializer_1812 (1,)
+D Calc tensor Initializer_1811 (1,)
+D Calc tensor Initializer_1810 (1,)
+D Calc tensor Initializer_1809 (1,)
+D Calc tensor Initializer_1808 (1,)
+D Calc tensor Initializer_1807 (1,)
+D Calc tensor Initializer_1806 (1,)
+D Calc tensor Initializer_1805 (1,)
+D Calc tensor Initializer_1804 (1,)
+D Calc tensor Initializer_1803 (1,)
+D Calc tensor Initializer_1802 (1,)
+D Calc tensor Initializer_1801 (1,)
+D Calc tensor Initializer_1800 (1,)
+D Calc tensor Initializer_1799 (1,)
+D Calc tensor Initializer_1798 (1,)
+D Calc tensor Initializer_1797 (1,)
+D Calc tensor Initializer_1796 (1,)
+D Calc tensor Initializer_1795 (1,)
+D Calc tensor Initializer_1794 (1,)
+D Calc tensor Initializer_1793 (1,)
+D Calc tensor Initializer_1792 (1,)
+D Calc tensor Initializer_1791 (1,)
+D Calc tensor Initializer_1790 (1,)
+D Calc tensor Initializer_1789 (1,)
+D Calc tensor Initializer_1788 (1,)
+D Calc tensor Initializer_1787 (1,)
+D Calc tensor Initializer_1786 (1,)
+D Calc tensor Initializer_1785 (1,)
+D Calc tensor Initializer_1784 (1,)
+D Calc tensor Initializer_1783 (1,)
+D Calc tensor Initializer_1782 (1,)
+D Calc tensor Initializer_1781 (1,)
+D Calc tensor Initializer_1780 (1,)
+D Calc tensor Initializer_1779 (1,)
+D Calc tensor Initializer_1778 (1,)
+D Calc tensor Initializer_1777 (1,)
+D Calc tensor Initializer_1776 (1,)
+D Calc tensor Initializer_1775 (1,)
+D Calc tensor Initializer_1774 (1,)
+D Calc tensor Initializer_1773 (1,)
+D Calc tensor Initializer_1772 (1,)
+D Calc tensor Initializer_1771 (1,)
+D Calc tensor Initializer_1770 (1,)
+D Calc tensor Initializer_1769 (1,)
+D Calc tensor Initializer_1768 (1,)
+D Calc tensor Initializer_1767 (2048,)
+D Calc tensor Initializer_1766 (2048, 512, 1, 1)
+D Calc tensor Initializer_1764 (256,)
+D Calc tensor Initializer_1763 (256, 512, 1, 1)
+D Calc tensor Initializer_1761 (1024,)
+D Calc tensor Initializer_1760 (1024, 256, 3, 3)
+D Calc tensor Initializer_1758 (512,)
+D Calc tensor Initializer_1757 (512, 2048, 1, 1)
+D Calc tensor Initializer_1755 (2048,)
+D Calc tensor Initializer_1754 (2048, 512, 1, 1)
+D Calc tensor Initializer_1752 (256,)
+D Calc tensor Initializer_1751 (256, 512, 1, 1)
+D Calc tensor Initializer_1749 (1024,)
+D Calc tensor Initializer_1748 (1024, 256, 3, 3)
+D Calc tensor Initializer_1746 (512,)
+D Calc tensor Initializer_1745 (512, 2048, 1, 1)
+D Calc tensor Initializer_1743 (2048,)
+D Calc tensor Initializer_1742 (2048, 512, 1, 1)
+D Calc tensor Initializer_1740 (256,)
+D Calc tensor Initializer_1739 (256, 512, 1, 1)
+D Calc tensor Initializer_1737 (1024,)
+D Calc tensor Initializer_1736 (1024, 256, 3, 3)
+D Calc tensor Initializer_1734 (512,)
+D Calc tensor Initializer_1733 (512, 1024, 1, 1)
+D Calc tensor Initializer_1731 (2048,)
+D Calc tensor Initializer_1730 (2048, 1024, 1, 1)
+D Calc tensor Initializer_1728 (1024,)
+D Calc tensor Initializer_1727 (1024, 256, 1, 1)
+D Calc tensor Initializer_1725 (128,)
+D Calc tensor Initializer_1724 (128, 256, 1, 1)
+D Calc tensor Initializer_1722 (512,)
+D Calc tensor Initializer_1721 (512, 128, 3, 3)
+D Calc tensor Initializer_1719 (256,)
+D Calc tensor Initializer_1718 (256, 1024, 1, 1)
+D Calc tensor Initializer_1716 (1024,)
+D Calc tensor Initializer_1715 (1024, 256, 1, 1)
+D Calc tensor Initializer_1713 (128,)
+D Calc tensor Initializer_1712 (128, 256, 1, 1)
+D Calc tensor Initializer_1710 (512,)
+D Calc tensor Initializer_1709 (512, 128, 3, 3)
+D Calc tensor Initializer_1707 (256,)
+D Calc tensor Initializer_1706 (256, 1024, 1, 1)
+D Calc tensor Initializer_1704 (1024,)
+D Calc tensor Initializer_1703 (1024, 256, 1, 1)
+D Calc tensor Initializer_1701 (128,)
+D Calc tensor Initializer_1700 (128, 256, 1, 1)
+D Calc tensor Initializer_1698 (512,)
+D Calc tensor Initializer_1697 (512, 128, 3, 3)
+D Calc tensor Initializer_1695 (256,)
+D Calc tensor Initializer_1694 (256, 1024, 1, 1)
+D Calc tensor Initializer_1692 (1024,)
+D Calc tensor Initializer_1691 (1024, 256, 1, 1)
+D Calc tensor Initializer_1689 (128,)
+D Calc tensor Initializer_1688 (128, 256, 1, 1)
+D Calc tensor Initializer_1686 (512,)
+D Calc tensor Initializer_1685 (512, 128, 3, 3)
+D Calc tensor Initializer_1683 (256,)
+D Calc tensor Initializer_1682 (256, 1024, 1, 1)
+D Calc tensor Initializer_1680 (1024,)
+D Calc tensor Initializer_1679 (1024, 256, 1, 1)
+D Calc tensor Initializer_1677 (128,)
+D Calc tensor Initializer_1676 (128, 256, 1, 1)
+D Calc tensor Initializer_1674 (512,)
+D Calc tensor Initializer_1673 (512, 128, 3, 3)
+D Calc tensor Initializer_1671 (256,)
+D Calc tensor Initializer_1670 (256, 1024, 1, 1)
+D Calc tensor Initializer_1668 (1024,)
+D Calc tensor Initializer_1667 (1024, 256, 1, 1)
+D Calc tensor Initializer_1665 (128,)
+D Calc tensor Initializer_1664 (128, 256, 1, 1)
+D Calc tensor Initializer_1662 (512,)
+D Calc tensor Initializer_1661 (512, 128, 3, 3)
+D Calc tensor Initializer_1659 (256,)
+D Calc tensor Initializer_1658 (256, 512, 1, 1)
+D Calc tensor Initializer_1656 (1024,)
+D Calc tensor Initializer_1655 (1024, 512, 1, 1)
+D Calc tensor Initializer_1653 (512,)
+D Calc tensor Initializer_1652 (512, 128, 1, 1)
+D Calc tensor Initializer_1650 (64,)
+D Calc tensor Initializer_1649 (64, 128, 1, 1)
+D Calc tensor Initializer_1647 (256,)
+D Calc tensor Initializer_1646 (256, 64, 3, 3)
+D Calc tensor Initializer_1644 (128,)
+D Calc tensor Initializer_1643 (128, 512, 1, 1)
+D Calc tensor Initializer_1641 (512,)
+D Calc tensor Initializer_1640 (512, 128, 1, 1)
+D Calc tensor Initializer_1638 (64,)
+D Calc tensor Initializer_1637 (64, 128, 1, 1)
+D Calc tensor Initializer_1635 (256,)
+D Calc tensor Initializer_1634 (256, 64, 3, 3)
+D Calc tensor Initializer_1632 (128,)
+D Calc tensor Initializer_1631 (128, 512, 1, 1)
+D Calc tensor Initializer_1629 (512,)
+D Calc tensor Initializer_1628 (512, 128, 1, 1)
+D Calc tensor Initializer_1626 (64,)
+D Calc tensor Initializer_1625 (64, 128, 1, 1)
+D Calc tensor Initializer_1623 (256,)
+D Calc tensor Initializer_1622 (256, 64, 3, 3)
+D Calc tensor Initializer_1620 (128,)
+D Calc tensor Initializer_1619 (128, 512, 1, 1)
+D Calc tensor Initializer_1617 (512,)
+D Calc tensor Initializer_1616 (512, 128, 1, 1)
+D Calc tensor Initializer_1614 (64,)
+D Calc tensor Initializer_1613 (64, 128, 1, 1)
+D Calc tensor Initializer_1611 (256,)
+D Calc tensor Initializer_1610 (256, 64, 3, 3)
+D Calc tensor Initializer_1608 (128,)
+D Calc tensor Initializer_1607 (128, 256, 1, 1)
+D Calc tensor Initializer_1605 (512,)
+D Calc tensor Initializer_1604 (512, 256, 1, 1)
+D Calc tensor Initializer_1602 (256,)
+D Calc tensor Initializer_1601 (256, 64, 1, 1)
+D Calc tensor Initializer_1599 (32,)
+D Calc tensor Initializer_1598 (32, 64, 1, 1)
+D Calc tensor Initializer_1596 (128,)
+D Calc tensor Initializer_1595 (128, 32, 3, 3)
+D Calc tensor Initializer_1593 (64,)
+D Calc tensor Initializer_1592 (64, 256, 1, 1)
+D Calc tensor Initializer_1590 (256,)
+D Calc tensor Initializer_1589 (256, 64, 1, 1)
+D Calc tensor Initializer_1587 (32,)
+D Calc tensor Initializer_1586 (32, 64, 1, 1)
+D Calc tensor Initializer_1584 (128,)
+D Calc tensor Initializer_1583 (128, 32, 3, 3)
+D Calc tensor Initializer_1581 (64,)
+D Calc tensor Initializer_1580 (64, 256, 1, 1)
+D Calc tensor Initializer_1578 (256,)
+D Calc tensor Initializer_1577 (256, 64, 1, 1)
+D Calc tensor Initializer_1575 (32,)
+D Calc tensor Initializer_1574 (32, 64, 1, 1)
+D Calc tensor Initializer_1572 (128,)
+D Calc tensor Initializer_1571 (128, 32, 3, 3)
+D Calc tensor Initializer_1569 (64,)
+D Calc tensor Initializer_1568 (64, 64, 1, 1)
+D Calc tensor Initializer_1566 (256,)
+D Calc tensor Initializer_1565 (256, 64, 1, 1)
+D Calc tensor Initializer_1563 (64,)
+D Calc tensor Initializer_1562 (64, 32, 3, 3)
+D Calc tensor Initializer_1560 (32,)
+D Calc tensor Initializer_1559 (32, 32, 3, 3)
+D Calc tensor Initializer_1557 (32,)
+D Calc tensor Initializer_1556 (32, 3, 3, 3)
+D Calc tensor Conv_1555 (1, 32, 112, 112)
+D Calc tensor Relu_479 (1, 32, 112, 112)
+D Calc tensor Conv_1558 (1, 32, 112, 112)
+D Calc tensor Relu_482 (1, 32, 112, 112)
+D Calc tensor Conv_1561 (1, 64, 112, 112)
+D Calc tensor Relu_485 (1, 64, 112, 112)
+D Calc tensor MaxPool_486 (1, 64, 56, 56)
+D Calc tensor AveragePool_487 (1, 64, 56, 56)
+D Calc tensor Conv_1564 (1, 256, 56, 56)
+D Calc tensor Conv_1567 (1, 64, 56, 56)
+D Calc tensor Relu_492 (1, 64, 56, 56)
+D Calc tensor Conv_1570 (1, 128, 56, 56)
+D Calc tensor Relu_495 (1, 128, 56, 56)
+D Calc tensor Shape_496 (4,)
+D Calc tensor Gather_498 val: 1
+D Calc tensor Unsqueeze_513 (1,)
+D Calc tensor Unsqueeze_529 (1,)
+D Calc tensor Concat_533 (4,)
+D Calc tensor Unsqueeze_542 (1,)
+D Calc tensor Concat_547 (5,)
+D Calc tensor Shape_499 (4,)
+D Calc tensor Gather_501 val: 128
+D Calc tensor Div_509 val: 64.0
+D Calc tensor Cast_510 val: 64
+D Calc tensor Cast_511 val: 64
+D Calc tensor Unsqueeze_515 (1,)
+D Calc tensor Shape_502 (4,)
+D Calc tensor Gather_504 val: 56
+D Calc tensor Unsqueeze_516 (1,)
+D Calc tensor Shape_505 (4,)
+D Calc tensor Gather_507 val: 56
+D Calc tensor Unsqueeze_517 (1,)
+D Calc tensor Concat_518 (5,)
+D Calc tensor Reshape_519 (1, 2, 64, 56, 56)
+D Calc tensor ReduceSum_520 (1, 64, 56, 56)
+D Calc tensor GlobalAveragePool_521 (1, 64, 1, 1)
+D Calc tensor Conv_1573 (1, 32, 1, 1)
+D Calc tensor Relu_524 (1, 32, 1, 1)
+D Calc tensor Conv_525 (1, 128, 1, 1)
+D Calc tensor Reshape_534 (1, 1, 2, 64)
+D Calc tensor Transpose_535 (1, 64, 1, 2)
+D Calc tensor Softmax_536 (1, 64, 1, 2)
+D Calc tensor Transpose_537 (1, 2, 1, 64)
+D Calc tensor Reshape_548 (1, 2, 64, 1, 1)
+D Calc tensor Mul_549 (1, 2, 64, 56, 56)
+D Calc tensor ReduceSum_550 (1, 64, 56, 56)
+D Calc tensor Conv_1576 (1, 256, 56, 56)
+D Calc tensor Add_553 (1, 256, 56, 56)
+D Calc tensor Relu_554 (1, 256, 56, 56)
+D Calc tensor Conv_1579 (1, 64, 56, 56)
+D Calc tensor Relu_557 (1, 64, 56, 56)
+D Calc tensor Conv_1582 (1, 128, 56, 56)
+D Calc tensor Relu_560 (1, 128, 56, 56)
+D Calc tensor Shape_561 (4,)
+D Calc tensor Gather_563 val: 1
+D Calc tensor Unsqueeze_578 (1,)
+D Calc tensor Unsqueeze_594 (1,)
+D Calc tensor Concat_598 (4,)
+D Calc tensor Unsqueeze_607 (1,)
+D Calc tensor Concat_612 (5,)
+D Calc tensor Shape_564 (4,)
+D Calc tensor Gather_566 val: 128
+D Calc tensor Div_574 val: 64.0
+D Calc tensor Cast_575 val: 64
+D Calc tensor Cast_576 val: 64
+D Calc tensor Unsqueeze_580 (1,)
+D Calc tensor Shape_567 (4,)
+D Calc tensor Gather_569 val: 56
+D Calc tensor Unsqueeze_581 (1,)
+D Calc tensor Shape_570 (4,)
+D Calc tensor Gather_572 val: 56
+D Calc tensor Unsqueeze_582 (1,)
+D Calc tensor Concat_583 (5,)
+D Calc tensor Reshape_584 (1, 2, 64, 56, 56)
+D Calc tensor ReduceSum_585 (1, 64, 56, 56)
+D Calc tensor GlobalAveragePool_586 (1, 64, 1, 1)
+D Calc tensor Conv_1585 (1, 32, 1, 1)
+D Calc tensor Relu_589 (1, 32, 1, 1)
+D Calc tensor Conv_590 (1, 128, 1, 1)
+D Calc tensor Reshape_599 (1, 1, 2, 64)
+D Calc tensor Transpose_600 (1, 64, 1, 2)
+D Calc tensor Softmax_601 (1, 64, 1, 2)
+D Calc tensor Transpose_602 (1, 2, 1, 64)
+D Calc tensor Reshape_613 (1, 2, 64, 1, 1)
+D Calc tensor Mul_614 (1, 2, 64, 56, 56)
+D Calc tensor ReduceSum_615 (1, 64, 56, 56)
+D Calc tensor Conv_1588 (1, 256, 56, 56)
+D Calc tensor Add_618 (1, 256, 56, 56)
+D Calc tensor Relu_619 (1, 256, 56, 56)
+D Calc tensor Conv_1591 (1, 64, 56, 56)
+D Calc tensor Relu_622 (1, 64, 56, 56)
+D Calc tensor Conv_1594 (1, 128, 56, 56)
+D Calc tensor Relu_625 (1, 128, 56, 56)
+D Calc tensor Shape_626 (4,)
+D Calc tensor Gather_628 val: 1
+D Calc tensor Unsqueeze_643 (1,)
+D Calc tensor Unsqueeze_659 (1,)
+D Calc tensor Concat_663 (4,)
+D Calc tensor Unsqueeze_672 (1,)
+D Calc tensor Concat_677 (5,)
+D Calc tensor Shape_629 (4,)
+D Calc tensor Gather_631 val: 128
+D Calc tensor Div_639 val: 64.0
+D Calc tensor Cast_640 val: 64
+D Calc tensor Cast_641 val: 64
+D Calc tensor Unsqueeze_645 (1,)
+D Calc tensor Shape_632 (4,)
+D Calc tensor Gather_634 val: 56
+D Calc tensor Unsqueeze_646 (1,)
+D Calc tensor Shape_635 (4,)
+D Calc tensor Gather_637 val: 56
+D Calc tensor Unsqueeze_647 (1,)
+D Calc tensor Concat_648 (5,)
+D Calc tensor Reshape_649 (1, 2, 64, 56, 56)
+D Calc tensor ReduceSum_650 (1, 64, 56, 56)
+D Calc tensor GlobalAveragePool_651 (1, 64, 1, 1)
+D Calc tensor Conv_1597 (1, 32, 1, 1)
+D Calc tensor Relu_654 (1, 32, 1, 1)
+D Calc tensor Conv_655 (1, 128, 1, 1)
+D Calc tensor Reshape_664 (1, 1, 2, 64)
+D Calc tensor Transpose_665 (1, 64, 1, 2)
+D Calc tensor Softmax_666 (1, 64, 1, 2)
+D Calc tensor Transpose_667 (1, 2, 1, 64)
+D Calc tensor Reshape_678 (1, 2, 64, 1, 1)
+D Calc tensor Mul_679 (1, 2, 64, 56, 56)
+D Calc tensor ReduceSum_680 (1, 64, 56, 56)
+D Calc tensor Conv_1600 (1, 256, 56, 56)
+D Calc tensor Add_683 (1, 256, 56, 56)
+D Calc tensor Relu_684 (1, 256, 56, 56)
+D Calc tensor AveragePool_685 (1, 256, 28, 28)
+D Calc tensor Conv_1603 (1, 512, 28, 28)
+D Calc tensor Conv_1606 (1, 128, 56, 56)
+D Calc tensor Relu_690 (1, 128, 56, 56)
+D Calc tensor Conv_1609 (1, 256, 56, 56)
+D Calc tensor Relu_693 (1, 256, 56, 56)
+D Calc tensor Shape_694 (4,)
+D Calc tensor Gather_696 val: 1
+D Calc tensor Unsqueeze_711 (1,)
+D Calc tensor Unsqueeze_727 (1,)
+D Calc tensor Concat_731 (4,)
+D Calc tensor Unsqueeze_740 (1,)
+D Calc tensor Concat_745 (5,)
+D Calc tensor Shape_697 (4,)
+D Calc tensor Gather_699 val: 256
+D Calc tensor Div_707 val: 128.0
+D Calc tensor Cast_708 val: 128
+D Calc tensor Cast_709 val: 128
+D Calc tensor Unsqueeze_713 (1,)
+D Calc tensor Shape_700 (4,)
+D Calc tensor Gather_702 val: 56
+D Calc tensor Unsqueeze_714 (1,)
+D Calc tensor Shape_703 (4,)
+D Calc tensor Gather_705 val: 56
+D Calc tensor Unsqueeze_715 (1,)
+D Calc tensor Concat_716 (5,)
+D Calc tensor Reshape_717 (1, 2, 128, 56, 56)
+D Calc tensor ReduceSum_718 (1, 128, 56, 56)
+D Calc tensor GlobalAveragePool_719 (1, 128, 1, 1)
+D Calc tensor Conv_1612 (1, 64, 1, 1)
+D Calc tensor Relu_722 (1, 64, 1, 1)
+D Calc tensor Conv_723 (1, 256, 1, 1)
+D Calc tensor Reshape_732 (1, 1, 2, 128)
+D Calc tensor Transpose_733 (1, 128, 1, 2)
+D Calc tensor Softmax_734 (1, 128, 1, 2)
+D Calc tensor Transpose_735 (1, 2, 1, 128)
+D Calc tensor Reshape_746 (1, 2, 128, 1, 1)
+D Calc tensor Mul_747 (1, 2, 128, 56, 56)
+D Calc tensor ReduceSum_748 (1, 128, 56, 56)
+D Calc tensor Pad_749 (1, 128, 58, 58)
+D Calc tensor AveragePool_750 (1, 128, 28, 28)
+D Calc tensor Conv_1615 (1, 512, 28, 28)
+D Calc tensor Add_753 (1, 512, 28, 28)
+D Calc tensor Relu_754 (1, 512, 28, 28)
+D Calc tensor Conv_1618 (1, 128, 28, 28)
+D Calc tensor Relu_757 (1, 128, 28, 28)
+D Calc tensor Conv_1621 (1, 256, 28, 28)
+D Calc tensor Relu_760 (1, 256, 28, 28)
+D Calc tensor Shape_761 (4,)
+D Calc tensor Gather_763 val: 1
+D Calc tensor Unsqueeze_778 (1,)
+D Calc tensor Unsqueeze_794 (1,)
+D Calc tensor Concat_798 (4,)
+D Calc tensor Unsqueeze_807 (1,)
+D Calc tensor Concat_812 (5,)
+D Calc tensor Shape_764 (4,)
+D Calc tensor Gather_766 val: 256
+D Calc tensor Div_774 val: 128.0
+D Calc tensor Cast_775 val: 128
+D Calc tensor Cast_776 val: 128
+D Calc tensor Unsqueeze_780 (1,)
+D Calc tensor Shape_767 (4,)
+D Calc tensor Gather_769 val: 28
+D Calc tensor Unsqueeze_781 (1,)
+D Calc tensor Shape_770 (4,)
+D Calc tensor Gather_772 val: 28
+D Calc tensor Unsqueeze_782 (1,)
+D Calc tensor Concat_783 (5,)
+D Calc tensor Reshape_784 (1, 2, 128, 28, 28)
+D Calc tensor ReduceSum_785 (1, 128, 28, 28)
+D Calc tensor GlobalAveragePool_786 (1, 128, 1, 1)
+D Calc tensor Conv_1624 (1, 64, 1, 1)
+D Calc tensor Relu_789 (1, 64, 1, 1)
+D Calc tensor Conv_790 (1, 256, 1, 1)
+D Calc tensor Reshape_799 (1, 1, 2, 128)
+D Calc tensor Transpose_800 (1, 128, 1, 2)
+D Calc tensor Softmax_801 (1, 128, 1, 2)
+D Calc tensor Transpose_802 (1, 2, 1, 128)
+D Calc tensor Reshape_813 (1, 2, 128, 1, 1)
+D Calc tensor Mul_814 (1, 2, 128, 28, 28)
+D Calc tensor ReduceSum_815 (1, 128, 28, 28)
+D Calc tensor Conv_1627 (1, 512, 28, 28)
+D Calc tensor Add_818 (1, 512, 28, 28)
+D Calc tensor Relu_819 (1, 512, 28, 28)
+D Calc tensor Conv_1630 (1, 128, 28, 28)
+D Calc tensor Relu_822 (1, 128, 28, 28)
+D Calc tensor Conv_1633 (1, 256, 28, 28)
+D Calc tensor Relu_825 (1, 256, 28, 28)
+D Calc tensor Shape_826 (4,)
+D Calc tensor Gather_828 val: 1
+D Calc tensor Unsqueeze_843 (1,)
+D Calc tensor Unsqueeze_859 (1,)
+D Calc tensor Concat_863 (4,)
+D Calc tensor Unsqueeze_872 (1,)
+D Calc tensor Concat_877 (5,)
+D Calc tensor Shape_829 (4,)
+D Calc tensor Gather_831 val: 256
+D Calc tensor Div_839 val: 128.0
+D Calc tensor Cast_840 val: 128
+D Calc tensor Cast_841 val: 128
+D Calc tensor Unsqueeze_845 (1,)
+D Calc tensor Shape_832 (4,)
+D Calc tensor Gather_834 val: 28
+D Calc tensor Unsqueeze_846 (1,)
+D Calc tensor Shape_835 (4,)
+D Calc tensor Gather_837 val: 28
+D Calc tensor Unsqueeze_847 (1,)
+D Calc tensor Concat_848 (5,)
+D Calc tensor Reshape_849 (1, 2, 128, 28, 28)
+D Calc tensor ReduceSum_850 (1, 128, 28, 28)
+D Calc tensor GlobalAveragePool_851 (1, 128, 1, 1)
+D Calc tensor Conv_1636 (1, 64, 1, 1)
+D Calc tensor Relu_854 (1, 64, 1, 1)
+D Calc tensor Conv_855 (1, 256, 1, 1)
+D Calc tensor Reshape_864 (1, 1, 2, 128)
+D Calc tensor Transpose_865 (1, 128, 1, 2)
+D Calc tensor Softmax_866 (1, 128, 1, 2)
+D Calc tensor Transpose_867 (1, 2, 1, 128)
+D Calc tensor Reshape_878 (1, 2, 128, 1, 1)
+D Calc tensor Mul_879 (1, 2, 128, 28, 28)
+D Calc tensor ReduceSum_880 (1, 128, 28, 28)
+D Calc tensor Conv_1639 (1, 512, 28, 28)
+D Calc tensor Add_883 (1, 512, 28, 28)
+D Calc tensor Relu_884 (1, 512, 28, 28)
+D Calc tensor Conv_1642 (1, 128, 28, 28)
+D Calc tensor Relu_887 (1, 128, 28, 28)
+D Calc tensor Conv_1645 (1, 256, 28, 28)
+D Calc tensor Relu_890 (1, 256, 28, 28)
+D Calc tensor Shape_891 (4,)
+D Calc tensor Gather_893 val: 1
+D Calc tensor Unsqueeze_908 (1,)
+D Calc tensor Unsqueeze_924 (1,)
+D Calc tensor Concat_928 (4,)
+D Calc tensor Unsqueeze_937 (1,)
+D Calc tensor Concat_942 (5,)
+D Calc tensor Shape_894 (4,)
+D Calc tensor Gather_896 val: 256
+D Calc tensor Div_904 val: 128.0
+D Calc tensor Cast_905 val: 128
+D Calc tensor Cast_906 val: 128
+D Calc tensor Unsqueeze_910 (1,)
+D Calc tensor Shape_897 (4,)
+D Calc tensor Gather_899 val: 28
+D Calc tensor Unsqueeze_911 (1,)
+D Calc tensor Shape_900 (4,)
+D Calc tensor Gather_902 val: 28
+D Calc tensor Unsqueeze_912 (1,)
+D Calc tensor Concat_913 (5,)
+D Calc tensor Reshape_914 (1, 2, 128, 28, 28)
+D Calc tensor ReduceSum_915 (1, 128, 28, 28)
+D Calc tensor GlobalAveragePool_916 (1, 128, 1, 1)
+D Calc tensor Conv_1648 (1, 64, 1, 1)
+D Calc tensor Relu_919 (1, 64, 1, 1)
+D Calc tensor Conv_920 (1, 256, 1, 1)
+D Calc tensor Reshape_929 (1, 1, 2, 128)
+D Calc tensor Transpose_930 (1, 128, 1, 2)
+D Calc tensor Softmax_931 (1, 128, 1, 2)
+D Calc tensor Transpose_932 (1, 2, 1, 128)
+D Calc tensor Reshape_943 (1, 2, 128, 1, 1)
+D Calc tensor Mul_944 (1, 2, 128, 28, 28)
+D Calc tensor ReduceSum_945 (1, 128, 28, 28)
+D Calc tensor Conv_1651 (1, 512, 28, 28)
+D Calc tensor Add_948 (1, 512, 28, 28)
+D Calc tensor Relu_949 (1, 512, 28, 28)
+D Calc tensor AveragePool_950 (1, 512, 14, 14)
+D Calc tensor Conv_1654 (1, 1024, 14, 14)
+D Calc tensor Conv_1657 (1, 256, 28, 28)
+D Calc tensor Relu_955 (1, 256, 28, 28)
+D Calc tensor Conv_1660 (1, 512, 28, 28)
+D Calc tensor Relu_958 (1, 512, 28, 28)
+D Calc tensor Shape_959 (4,)
+D Calc tensor Gather_961 val: 1
+D Calc tensor Unsqueeze_976 (1,)
+D Calc tensor Unsqueeze_992 (1,)
+D Calc tensor Concat_996 (4,)
+D Calc tensor Unsqueeze_1005 (1,)
+D Calc tensor Concat_1010 (5,)
+D Calc tensor Shape_962 (4,)
+D Calc tensor Gather_964 val: 512
+D Calc tensor Div_972 val: 256.0
+D Calc tensor Cast_973 val: 256
+D Calc tensor Cast_974 val: 256
+D Calc tensor Unsqueeze_978 (1,)
+D Calc tensor Shape_965 (4,)
+D Calc tensor Gather_967 val: 28
+D Calc tensor Unsqueeze_979 (1,)
+D Calc tensor Shape_968 (4,)
+D Calc tensor Gather_970 val: 28
+D Calc tensor Unsqueeze_980 (1,)
+D Calc tensor Concat_981 (5,)
+D Calc tensor Reshape_982 (1, 2, 256, 28, 28)
+D Calc tensor ReduceSum_983 (1, 256, 28, 28)
+D Calc tensor GlobalAveragePool_984 (1, 256, 1, 1)
+D Calc tensor Conv_1663 (1, 128, 1, 1)
+D Calc tensor Relu_987 (1, 128, 1, 1)
+D Calc tensor Conv_988 (1, 512, 1, 1)
+D Calc tensor Reshape_997 (1, 1, 2, 256)
+D Calc tensor Transpose_998 (1, 256, 1, 2)
+D Calc tensor Softmax_999 (1, 256, 1, 2)
+D Calc tensor Transpose_1000 (1, 2, 1, 256)
+D Calc tensor Reshape_1011 (1, 2, 256, 1, 1)
+D Calc tensor Mul_1012 (1, 2, 256, 28, 28)
+D Calc tensor ReduceSum_1013 (1, 256, 28, 28)
+D Calc tensor Pad_1014 (1, 256, 30, 30)
+D Calc tensor AveragePool_1015 (1, 256, 14, 14)
+D Calc tensor Conv_1666 (1, 1024, 14, 14)
+D Calc tensor Add_1018 (1, 1024, 14, 14)
+D Calc tensor Relu_1019 (1, 1024, 14, 14)
+D Calc tensor Conv_1669 (1, 256, 14, 14)
+D Calc tensor Relu_1022 (1, 256, 14, 14)
+D Calc tensor Conv_1672 (1, 512, 14, 14)
+D Calc tensor Relu_1025 (1, 512, 14, 14)
+D Calc tensor Shape_1026 (4,)
+D Calc tensor Gather_1028 val: 1
+D Calc tensor Unsqueeze_1043 (1,)
+D Calc tensor Unsqueeze_1059 (1,)
+D Calc tensor Concat_1063 (4,)
+D Calc tensor Unsqueeze_1072 (1,)
+D Calc tensor Concat_1077 (5,)
+D Calc tensor Shape_1029 (4,)
+D Calc tensor Gather_1031 val: 512
+D Calc tensor Div_1039 val: 256.0
+D Calc tensor Cast_1040 val: 256
+D Calc tensor Cast_1041 val: 256
+D Calc tensor Unsqueeze_1045 (1,)
+D Calc tensor Shape_1032 (4,)
+D Calc tensor Gather_1034 val: 14
+D Calc tensor Unsqueeze_1046 (1,)
+D Calc tensor Shape_1035 (4,)
+D Calc tensor Gather_1037 val: 14
+D Calc tensor Unsqueeze_1047 (1,)
+D Calc tensor Concat_1048 (5,)
+D Calc tensor Reshape_1049 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1050 (1, 256, 14, 14)
+D Calc tensor GlobalAveragePool_1051 (1, 256, 1, 1)
+D Calc tensor Conv_1675 (1, 128, 1, 1)
+D Calc tensor Relu_1054 (1, 128, 1, 1)
+D Calc tensor Conv_1055 (1, 512, 1, 1)
+D Calc tensor Reshape_1064 (1, 1, 2, 256)
+D Calc tensor Transpose_1065 (1, 256, 1, 2)
+D Calc tensor Softmax_1066 (1, 256, 1, 2)
+D Calc tensor Transpose_1067 (1, 2, 1, 256)
+D Calc tensor Reshape_1078 (1, 2, 256, 1, 1)
+D Calc tensor Mul_1079 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1080 (1, 256, 14, 14)
+D Calc tensor Conv_1678 (1, 1024, 14, 14)
+D Calc tensor Add_1083 (1, 1024, 14, 14)
+D Calc tensor Relu_1084 (1, 1024, 14, 14)
+D Calc tensor Conv_1681 (1, 256, 14, 14)
+D Calc tensor Relu_1087 (1, 256, 14, 14)
+D Calc tensor Conv_1684 (1, 512, 14, 14)
+D Calc tensor Relu_1090 (1, 512, 14, 14)
+D Calc tensor Shape_1091 (4,)
+D Calc tensor Gather_1093 val: 1
+D Calc tensor Unsqueeze_1108 (1,)
+D Calc tensor Unsqueeze_1124 (1,)
+D Calc tensor Concat_1128 (4,)
+D Calc tensor Unsqueeze_1137 (1,)
+D Calc tensor Concat_1142 (5,)
+D Calc tensor Shape_1094 (4,)
+D Calc tensor Gather_1096 val: 512
+D Calc tensor Div_1104 val: 256.0
+D Calc tensor Cast_1105 val: 256
+D Calc tensor Cast_1106 val: 256
+D Calc tensor Unsqueeze_1110 (1,)
+D Calc tensor Shape_1097 (4,)
+D Calc tensor Gather_1099 val: 14
+D Calc tensor Unsqueeze_1111 (1,)
+D Calc tensor Shape_1100 (4,)
+D Calc tensor Gather_1102 val: 14
+D Calc tensor Unsqueeze_1112 (1,)
+D Calc tensor Concat_1113 (5,)
+D Calc tensor Reshape_1114 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1115 (1, 256, 14, 14)
+D Calc tensor GlobalAveragePool_1116 (1, 256, 1, 1)
+D Calc tensor Conv_1687 (1, 128, 1, 1)
+D Calc tensor Relu_1119 (1, 128, 1, 1)
+D Calc tensor Conv_1120 (1, 512, 1, 1)
+D Calc tensor Reshape_1129 (1, 1, 2, 256)
+D Calc tensor Transpose_1130 (1, 256, 1, 2)
+D Calc tensor Softmax_1131 (1, 256, 1, 2)
+D Calc tensor Transpose_1132 (1, 2, 1, 256)
+D Calc tensor Reshape_1143 (1, 2, 256, 1, 1)
+D Calc tensor Mul_1144 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1145 (1, 256, 14, 14)
+D Calc tensor Conv_1690 (1, 1024, 14, 14)
+D Calc tensor Add_1148 (1, 1024, 14, 14)
+D Calc tensor Relu_1149 (1, 1024, 14, 14)
+D Calc tensor Conv_1693 (1, 256, 14, 14)
+D Calc tensor Relu_1152 (1, 256, 14, 14)
+D Calc tensor Conv_1696 (1, 512, 14, 14)
+D Calc tensor Relu_1155 (1, 512, 14, 14)
+D Calc tensor Shape_1156 (4,)
+D Calc tensor Gather_1158 val: 1
+D Calc tensor Unsqueeze_1173 (1,)
+D Calc tensor Unsqueeze_1189 (1,)
+D Calc tensor Concat_1193 (4,)
+D Calc tensor Unsqueeze_1202 (1,)
+D Calc tensor Concat_1207 (5,)
+D Calc tensor Shape_1159 (4,)
+D Calc tensor Gather_1161 val: 512
+D Calc tensor Div_1169 val: 256.0
+D Calc tensor Cast_1170 val: 256
+D Calc tensor Cast_1171 val: 256
+D Calc tensor Unsqueeze_1175 (1,)
+D Calc tensor Shape_1162 (4,)
+D Calc tensor Gather_1164 val: 14
+D Calc tensor Unsqueeze_1176 (1,)
+D Calc tensor Shape_1165 (4,)
+D Calc tensor Gather_1167 val: 14
+D Calc tensor Unsqueeze_1177 (1,)
+D Calc tensor Concat_1178 (5,)
+D Calc tensor Reshape_1179 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1180 (1, 256, 14, 14)
+D Calc tensor GlobalAveragePool_1181 (1, 256, 1, 1)
+D Calc tensor Conv_1699 (1, 128, 1, 1)
+D Calc tensor Relu_1184 (1, 128, 1, 1)
+D Calc tensor Conv_1185 (1, 512, 1, 1)
+D Calc tensor Reshape_1194 (1, 1, 2, 256)
+D Calc tensor Transpose_1195 (1, 256, 1, 2)
+D Calc tensor Softmax_1196 (1, 256, 1, 2)
+D Calc tensor Transpose_1197 (1, 2, 1, 256)
+D Calc tensor Reshape_1208 (1, 2, 256, 1, 1)
+D Calc tensor Mul_1209 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1210 (1, 256, 14, 14)
+D Calc tensor Conv_1702 (1, 1024, 14, 14)
+D Calc tensor Add_1213 (1, 1024, 14, 14)
+D Calc tensor Relu_1214 (1, 1024, 14, 14)
+D Calc tensor Conv_1705 (1, 256, 14, 14)
+D Calc tensor Relu_1217 (1, 256, 14, 14)
+D Calc tensor Conv_1708 (1, 512, 14, 14)
+D Calc tensor Relu_1220 (1, 512, 14, 14)
+D Calc tensor Shape_1221 (4,)
+D Calc tensor Gather_1223 val: 1
+D Calc tensor Unsqueeze_1238 (1,)
+D Calc tensor Unsqueeze_1254 (1,)
+D Calc tensor Concat_1258 (4,)
+D Calc tensor Unsqueeze_1267 (1,)
+D Calc tensor Concat_1272 (5,)
+D Calc tensor Shape_1224 (4,)
+D Calc tensor Gather_1226 val: 512
+D Calc tensor Div_1234 val: 256.0
+D Calc tensor Cast_1235 val: 256
+D Calc tensor Cast_1236 val: 256
+D Calc tensor Unsqueeze_1240 (1,)
+D Calc tensor Shape_1227 (4,)
+D Calc tensor Gather_1229 val: 14
+D Calc tensor Unsqueeze_1241 (1,)
+D Calc tensor Shape_1230 (4,)
+D Calc tensor Gather_1232 val: 14
+D Calc tensor Unsqueeze_1242 (1,)
+D Calc tensor Concat_1243 (5,)
+D Calc tensor Reshape_1244 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1245 (1, 256, 14, 14)
+D Calc tensor GlobalAveragePool_1246 (1, 256, 1, 1)
+D Calc tensor Conv_1711 (1, 128, 1, 1)
+D Calc tensor Relu_1249 (1, 128, 1, 1)
+D Calc tensor Conv_1250 (1, 512, 1, 1)
+D Calc tensor Reshape_1259 (1, 1, 2, 256)
+D Calc tensor Transpose_1260 (1, 256, 1, 2)
+D Calc tensor Softmax_1261 (1, 256, 1, 2)
+D Calc tensor Transpose_1262 (1, 2, 1, 256)
+D Calc tensor Reshape_1273 (1, 2, 256, 1, 1)
+D Calc tensor Mul_1274 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1275 (1, 256, 14, 14)
+D Calc tensor Conv_1714 (1, 1024, 14, 14)
+D Calc tensor Add_1278 (1, 1024, 14, 14)
+D Calc tensor Relu_1279 (1, 1024, 14, 14)
+D Calc tensor Conv_1717 (1, 256, 14, 14)
+D Calc tensor Relu_1282 (1, 256, 14, 14)
+D Calc tensor Conv_1720 (1, 512, 14, 14)
+D Calc tensor Relu_1285 (1, 512, 14, 14)
+D Calc tensor Shape_1286 (4,)
+D Calc tensor Gather_1288 val: 1
+D Calc tensor Unsqueeze_1303 (1,)
+D Calc tensor Unsqueeze_1319 (1,)
+D Calc tensor Concat_1323 (4,)
+D Calc tensor Unsqueeze_1332 (1,)
+D Calc tensor Concat_1337 (5,)
+D Calc tensor Shape_1289 (4,)
+D Calc tensor Gather_1291 val: 512
+D Calc tensor Div_1299 val: 256.0
+D Calc tensor Cast_1300 val: 256
+D Calc tensor Cast_1301 val: 256
+D Calc tensor Unsqueeze_1305 (1,)
+D Calc tensor Shape_1292 (4,)
+D Calc tensor Gather_1294 val: 14
+D Calc tensor Unsqueeze_1306 (1,)
+D Calc tensor Shape_1295 (4,)
+D Calc tensor Gather_1297 val: 14
+D Calc tensor Unsqueeze_1307 (1,)
+D Calc tensor Concat_1308 (5,)
+D Calc tensor Reshape_1309 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1310 (1, 256, 14, 14)
+D Calc tensor GlobalAveragePool_1311 (1, 256, 1, 1)
+D Calc tensor Conv_1723 (1, 128, 1, 1)
+D Calc tensor Relu_1314 (1, 128, 1, 1)
+D Calc tensor Conv_1315 (1, 512, 1, 1)
+D Calc tensor Reshape_1324 (1, 1, 2, 256)
+D Calc tensor Transpose_1325 (1, 256, 1, 2)
+D Calc tensor Softmax_1326 (1, 256, 1, 2)
+D Calc tensor Transpose_1327 (1, 2, 1, 256)
+D Calc tensor Reshape_1338 (1, 2, 256, 1, 1)
+D Calc tensor Mul_1339 (1, 2, 256, 14, 14)
+D Calc tensor ReduceSum_1340 (1, 256, 14, 14)
+D Calc tensor Conv_1726 (1, 1024, 14, 14)
+D Calc tensor Add_1343 (1, 1024, 14, 14)
+D Calc tensor Relu_1344 (1, 1024, 14, 14)
+D Calc tensor AveragePool_1345 (1, 1024, 7, 7)
+D Calc tensor Conv_1729 (1, 2048, 7, 7)
+D Calc tensor Conv_1732 (1, 512, 14, 14)
+D Calc tensor Relu_1350 (1, 512, 14, 14)
+D Calc tensor Conv_1735 (1, 1024, 14, 14)
+D Calc tensor Relu_1353 (1, 1024, 14, 14)
+D Calc tensor Shape_1354 (4,)
+D Calc tensor Gather_1356 val: 1
+D Calc tensor Unsqueeze_1371 (1,)
+D Calc tensor Unsqueeze_1387 (1,)
+D Calc tensor Concat_1391 (4,)
+D Calc tensor Unsqueeze_1400 (1,)
+D Calc tensor Concat_1405 (5,)
+D Calc tensor Shape_1357 (4,)
+D Calc tensor Gather_1359 val: 1024
+D Calc tensor Div_1367 val: 512.0
+D Calc tensor Cast_1368 val: 512
+D Calc tensor Cast_1369 val: 512
+D Calc tensor Unsqueeze_1373 (1,)
+D Calc tensor Shape_1360 (4,)
+D Calc tensor Gather_1362 val: 14
+D Calc tensor Unsqueeze_1374 (1,)
+D Calc tensor Shape_1363 (4,)
+D Calc tensor Gather_1365 val: 14
+D Calc tensor Unsqueeze_1375 (1,)
+D Calc tensor Concat_1376 (5,)
+D Calc tensor Reshape_1377 (1, 2, 512, 14, 14)
+D Calc tensor ReduceSum_1378 (1, 512, 14, 14)
+D Calc tensor GlobalAveragePool_1379 (1, 512, 1, 1)
+D Calc tensor Conv_1738 (1, 256, 1, 1)
+D Calc tensor Relu_1382 (1, 256, 1, 1)
+D Calc tensor Conv_1383 (1, 1024, 1, 1)
+D Calc tensor Reshape_1392 (1, 1, 2, 512)
+D Calc tensor Transpose_1393 (1, 512, 1, 2)
+D Calc tensor Softmax_1394 (1, 512, 1, 2)
+D Calc tensor Transpose_1395 (1, 2, 1, 512)
+D Calc tensor Reshape_1406 (1, 2, 512, 1, 1)
+D Calc tensor Mul_1407 (1, 2, 512, 14, 14)
+D Calc tensor ReduceSum_1408 (1, 512, 14, 14)
+D Calc tensor Pad_1409 (1, 512, 16, 16)
+D Calc tensor AveragePool_1410 (1, 512, 7, 7)
+D Calc tensor Conv_1741 (1, 2048, 7, 7)
+D Calc tensor Add_1413 (1, 2048, 7, 7)
+D Calc tensor Relu_1414 (1, 2048, 7, 7)
+D Calc tensor Conv_1744 (1, 512, 7, 7)
+D Calc tensor Relu_1417 (1, 512, 7, 7)
+D Calc tensor Conv_1747 (1, 1024, 7, 7)
+D Calc tensor Relu_1420 (1, 1024, 7, 7)
+D Calc tensor Shape_1421 (4,)
+D Calc tensor Gather_1423 val: 1
+D Calc tensor Unsqueeze_1438 (1,)
+D Calc tensor Unsqueeze_1454 (1,)
+D Calc tensor Concat_1458 (4,)
+D Calc tensor Unsqueeze_1467 (1,)
+D Calc tensor Concat_1472 (5,)
+D Calc tensor Shape_1424 (4,)
+D Calc tensor Gather_1426 val: 1024
+D Calc tensor Div_1434 val: 512.0
+D Calc tensor Cast_1435 val: 512
+D Calc tensor Cast_1436 val: 512
+D Calc tensor Unsqueeze_1440 (1,)
+D Calc tensor Shape_1427 (4,)
+D Calc tensor Gather_1429 val: 7
+D Calc tensor Unsqueeze_1441 (1,)
+D Calc tensor Shape_1430 (4,)
+D Calc tensor Gather_1432 val: 7
+D Calc tensor Unsqueeze_1442 (1,)
+D Calc tensor Concat_1443 (5,)
+D Calc tensor Reshape_1444 (1, 2, 512, 7, 7)
+D Calc tensor ReduceSum_1445 (1, 512, 7, 7)
+D Calc tensor GlobalAveragePool_1446 (1, 512, 1, 1)
+D Calc tensor Conv_1750 (1, 256, 1, 1)
+D Calc tensor Relu_1449 (1, 256, 1, 1)
+D Calc tensor Conv_1450 (1, 1024, 1, 1)
+D Calc tensor Reshape_1459 (1, 1, 2, 512)
+D Calc tensor Transpose_1460 (1, 512, 1, 2)
+D Calc tensor Softmax_1461 (1, 512, 1, 2)
+D Calc tensor Transpose_1462 (1, 2, 1, 512)
+D Calc tensor Reshape_1473 (1, 2, 512, 1, 1)
+D Calc tensor Mul_1474 (1, 2, 512, 7, 7)
+D Calc tensor ReduceSum_1475 (1, 512, 7, 7)
+D Calc tensor Conv_1753 (1, 2048, 7, 7)
+D Calc tensor Add_1478 (1, 2048, 7, 7)
+D Calc tensor Relu_1479 (1, 2048, 7, 7)
+D Calc tensor Conv_1756 (1, 512, 7, 7)
+D Calc tensor Relu_1482 (1, 512, 7, 7)
+D Calc tensor Conv_1759 (1, 1024, 7, 7)
+D Calc tensor Relu_1485 (1, 1024, 7, 7)
+D Calc tensor Shape_1486 (4,)
+D Calc tensor Gather_1488 val: 1
+D Calc tensor Unsqueeze_1503 (1,)
+D Calc tensor Unsqueeze_1519 (1,)
+D Calc tensor Concat_1523 (4,)
+D Calc tensor Unsqueeze_1532 (1,)
+D Calc tensor Concat_1537 (5,)
+D Calc tensor Shape_1489 (4,)
+D Calc tensor Gather_1491 val: 1024
+D Calc tensor Div_1499 val: 512.0
+D Calc tensor Cast_1500 val: 512
+D Calc tensor Cast_1501 val: 512
+D Calc tensor Unsqueeze_1505 (1,)
+D Calc tensor Shape_1492 (4,)
+D Calc tensor Gather_1494 val: 7
+D Calc tensor Unsqueeze_1506 (1,)
+D Calc tensor Shape_1495 (4,)
+D Calc tensor Gather_1497 val: 7
+D Calc tensor Unsqueeze_1507 (1,)
+D Calc tensor Concat_1508 (5,)
+D Calc tensor Reshape_1509 (1, 2, 512, 7, 7)
+D Calc tensor ReduceSum_1510 (1, 512, 7, 7)
+D Calc tensor GlobalAveragePool_1511 (1, 512, 1, 1)
+D Calc tensor Conv_1762 (1, 256, 1, 1)
+D Calc tensor Relu_1514 (1, 256, 1, 1)
+D Calc tensor Conv_1515 (1, 1024, 1, 1)
+D Calc tensor Reshape_1524 (1, 1, 2, 512)
+D Calc tensor Transpose_1525 (1, 512, 1, 2)
+D Calc tensor Softmax_1526 (1, 512, 1, 2)
+D Calc tensor Transpose_1527 (1, 2, 1, 512)
+D Calc tensor Reshape_1538 (1, 2, 512, 1, 1)
+D Calc tensor Mul_1539 (1, 2, 512, 7, 7)
+D Calc tensor ReduceSum_1540 (1, 512, 7, 7)
+D Calc tensor Conv_1765 (1, 2048, 7, 7)
+D Calc tensor Add_1543 (1, 2048, 7, 7)
+D Calc tensor Relu_1544 (1, 2048, 7, 7)
+D Calc tensor GlobalAveragePool_1545 (1, 2048, 1, 1)
+D Calc tensor Shape_1546 (4,)
+D Calc tensor Gather_1548 val: 1
+D Calc tensor Unsqueeze_1550 (1,)
+D Calc tensor Concat_1552 (2,)
+D Calc tensor Reshape_1553 (1, 2048)
+D Calc tensor Gemm_output (1, 1000)
+D import clients finished
+I build output layer attach_Gemm_Gemm_748:out0
+I Try match Gemm_Gemm_748:out0
+I Match r_gemm_2_fc_wb [['Gemm_Gemm_748', 'Initializer_output.fc.weight', 'Initializer_output.fc.bias']] [['Gemm', 'Constant_0', 'Constant_1']] to [['fullconnect']]
+I Try match Reshape_Reshape_747:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_747', 'Concat_Concat_746']] [['Reshape']] to [['reshape']]
+I Try match GlobalAveragePool_GlobalAveragePool_741:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_741']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Relu_Relu_740:out0
+I Match r_relu [['Relu_Relu_740']] [['Relu']] to [['relu']]
+I Try match Add_Add_739:out0
+I Match r_add [['Add_Add_739']] [['Add']] to [['add']]
+I Try match Conv_Conv_738:out0
+I Match r_conv [['Conv_Conv_738', 'Initializer_1766', 'Initializer_1767']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_695:out0
+I Match r_relu [['Relu_Relu_695']] [['Relu']] to [['relu']]
+I Try match ReduceSum_ReduceSum_737:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_737']] [['ReduceSum']] to [['reducesum']]
+I Try match Add_Add_694:out0
+I Match r_add [['Add_Add_694']] [['Add']] to [['add']]
+I Try match Mul_Mul_736:out0
+I Match r_mul [['Mul_Mul_736']] [['Mul']] to [['multiply']]
+I Try match Conv_Conv_693:out0
+I Match r_conv [['Conv_Conv_693', 'Initializer_1754', 'Initializer_1755']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_650:out0
+I Match r_relu [['Relu_Relu_650']] [['Relu']] to [['relu']]
+I Try match Reshape_Reshape_721:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_721', 'Concat_Concat_720']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_735:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_735', 'Concat_Concat_734']] [['Reshape']] to [['reshape']]
+I Try match ReduceSum_ReduceSum_692:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_692']] [['ReduceSum']] to [['reducesum']]
+I Try match Add_Add_649:out0
+I Match r_add [['Add_Add_649']] [['Add']] to [['add']]
+I Try match Relu_Relu_699:out0
+I Match r_relu [['Relu_Relu_699']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_732:out0
+I Match r_transpose [['Transpose_Transpose_732']] [['Transpose']] to [['permute']]
+I Try match Mul_Mul_691:out0
+I Match r_mul [['Mul_Mul_691']] [['Mul']] to [['multiply']]
+I Try match Conv_Conv_648:out0
+I Match r_conv [['Conv_Conv_648', 'Initializer_1742', 'Initializer_1743']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_603:out0
+I Match r_conv [['Conv_Conv_603', 'Initializer_1730', 'Initializer_1731']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_698:out0
+I Match r_conv [['Conv_Conv_698', 'Initializer_1760', 'Initializer_1761']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_731:out0
+I Match r_softmax [['Softmax_Softmax_731']] [['Softmax']] to [['softmax']]
+I Try match Reshape_Reshape_676:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_676', 'Concat_Concat_675']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_690:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_690', 'Concat_Concat_689']] [['Reshape']] to [['reshape']]
+I Try match AveragePool_AveragePool_647:out0
+I Match r_avgpool [['AveragePool_AveragePool_647']] [['AveragePool']] to [['pooling']]
+I Try match AveragePool_AveragePool_602:out0
+I Match r_avgpool [['AveragePool_AveragePool_602']] [['AveragePool']] to [['pooling']]
+I Try match Relu_Relu_697:out0
+I Match r_relu [['Relu_Relu_697']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_730:out0
+I Match r_transpose [['Transpose_Transpose_730']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_654:out0
+I Match r_relu [['Relu_Relu_654']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_687:out0
+I Match r_transpose [['Transpose_Transpose_687']] [['Transpose']] to [['permute']]
+I Try match Pad_Pad_646:out0
+I Match pad_g1 [['Pad_Pad_646']] [['Pad']] to [['pad']]
+I Try match Relu_Relu_601:out0
+I Match r_relu [['Relu_Relu_601']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_696:out0
+I Match r_conv [['Conv_Conv_696', 'Initializer_1757', 'Initializer_1758']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_729:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_729', 'Concat_Concat_728']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_653:out0
+I Match r_conv [['Conv_Conv_653', 'Initializer_1748', 'Initializer_1749']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_686:out0
+I Match r_softmax [['Softmax_Softmax_686']] [['Softmax']] to [['softmax']]
+I Try match ReduceSum_ReduceSum_645:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_645']] [['ReduceSum']] to [['reducesum']]
+I Try match Add_Add_600:out0
+I Match r_add [['Add_Add_600']] [['Add']] to [['add']]
+I Try match Relu_Relu_556:out0
+I Match r_relu [['Relu_Relu_556']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_726:out0
+I Match r_conv [['Conv_Conv_726', 'Initializer_features.stage4.unit3.body.conv2.att.conv2.weight', 'Initializer_features.stage4.unit3.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_652:out0
+I Match r_relu [['Relu_Relu_652']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_685:out0
+I Match r_transpose [['Transpose_Transpose_685']] [['Transpose']] to [['permute']]
+I Try match Mul_Mul_644:out0
+I Match r_mul [['Mul_Mul_644']] [['Mul']] to [['multiply']]
+I Try match Conv_Conv_599:out0
+I Match r_conv [['Conv_Conv_599', 'Initializer_1727', 'Initializer_1728']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Add_Add_555:out0
+I Match r_add [['Add_Add_555']] [['Add']] to [['add']]
+I Try match Relu_Relu_725:out0
+I Match r_relu [['Relu_Relu_725']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_651:out0
+I Match r_conv [['Conv_Conv_651', 'Initializer_1745', 'Initializer_1746']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_684:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_684', 'Concat_Concat_683']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_629:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_629', 'Concat_Concat_628']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_643:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_643', 'Concat_Concat_642']] [['Reshape']] to [['reshape']]
+I Try match ReduceSum_ReduceSum_598:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_598']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_554:out0
+I Match r_conv [['Conv_Conv_554', 'Initializer_1715', 'Initializer_1716']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_511:out0
+I Match r_relu [['Relu_Relu_511']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_724:out0
+I Match r_conv [['Conv_Conv_724', 'Initializer_1763', 'Initializer_1764']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_723:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_723']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_681:out0
+I Match r_conv [['Conv_Conv_681', 'Initializer_features.stage4.unit2.body.conv2.att.conv2.weight', 'Initializer_features.stage4.unit2.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_607:out0
+I Match r_relu [['Relu_Relu_607']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_640:out0
+I Match r_transpose [['Transpose_Transpose_640']] [['Transpose']] to [['permute']]
+I Try match Mul_Mul_597:out0
+I Match r_mul [['Mul_Mul_597']] [['Mul']] to [['multiply']]
+I Try match ReduceSum_ReduceSum_553:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_553']] [['ReduceSum']] to [['reducesum']]
+I Try match Add_Add_510:out0
+I Match r_add [['Add_Add_510']] [['Add']] to [['add']]
+I Try match ReduceSum_ReduceSum_722:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_722']] [['ReduceSum']] to [['reducesum']]
+I Try match Relu_Relu_680:out0
+I Match r_relu [['Relu_Relu_680']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_606:out0
+I Match r_conv [['Conv_Conv_606', 'Initializer_1736', 'Initializer_1737']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_639:out0
+I Match r_softmax [['Softmax_Softmax_639']] [['Softmax']] to [['softmax']]
+I Try match Reshape_Reshape_582:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_582', 'Concat_Concat_581']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_596:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_596', 'Concat_Concat_595']] [['Reshape']] to [['reshape']]
+I Try match Mul_Mul_552:out0
+I Match r_mul [['Mul_Mul_552']] [['Mul']] to [['multiply']]
+I Try match Conv_Conv_509:out0
+I Match r_conv [['Conv_Conv_509', 'Initializer_1703', 'Initializer_1704']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_466:out0
+I Match r_relu [['Relu_Relu_466']] [['Relu']] to [['relu']]
+I Try match Add_Add_465:out0
+I Match r_add [['Add_Add_465']] [['Add']] to [['add']]
+I Try match Conv_Conv_679:out0
+I Match r_conv [['Conv_Conv_679', 'Initializer_1751', 'Initializer_1752']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_605:out0
+I Match r_relu [['Relu_Relu_605']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_638:out0
+I Match r_transpose [['Transpose_Transpose_638']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_560:out0
+I Match r_relu [['Relu_Relu_560']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_593:out0
+I Match r_transpose [['Transpose_Transpose_593']] [['Transpose']] to [['permute']]
+I Try match Reshape_Reshape_537:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_537', 'Concat_Concat_536']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_551:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_551', 'Concat_Concat_550']] [['Reshape']] to [['reshape']]
+I Try match ReduceSum_ReduceSum_508:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_508']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_464:out0
+I Match r_conv [['Conv_Conv_464', 'Initializer_1691', 'Initializer_1692']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_421:out0
+I Match r_relu [['Relu_Relu_421']] [['Relu']] to [['relu']]
+I Try match GlobalAveragePool_GlobalAveragePool_678:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_678']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_604:out0
+I Match r_conv [['Conv_Conv_604', 'Initializer_1733', 'Initializer_1734']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_637:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_637', 'Concat_Concat_636']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_559:out0
+I Match r_conv [['Conv_Conv_559', 'Initializer_1721', 'Initializer_1722']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_592:out0
+I Match r_softmax [['Softmax_Softmax_592']] [['Softmax']] to [['softmax']]
+I Try match Relu_Relu_515:out0
+I Match r_relu [['Relu_Relu_515']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_548:out0
+I Match r_transpose [['Transpose_Transpose_548']] [['Transpose']] to [['permute']]
+I Try match Mul_Mul_507:out0
+I Match r_mul [['Mul_Mul_507']] [['Mul']] to [['multiply']]
+I Try match ReduceSum_ReduceSum_463:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_463']] [['ReduceSum']] to [['reducesum']]
+I Try match Add_Add_420:out0
+I Match r_add [['Add_Add_420']] [['Add']] to [['add']]
+I Try match ReduceSum_ReduceSum_677:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_677']] [['ReduceSum']] to [['reducesum']]
+I Try match Relu_Relu_376:out0
+I Match r_relu [['Relu_Relu_376']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_634:out0
+I Match r_conv [['Conv_Conv_634', 'Initializer_features.stage4.unit1.body.conv2.att.conv2.weight', 'Initializer_features.stage4.unit1.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_558:out0
+I Match r_relu [['Relu_Relu_558']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_591:out0
+I Match r_transpose [['Transpose_Transpose_591']] [['Transpose']] to [['permute']]
+I Try match Conv_Conv_514:out0
+I Match r_conv [['Conv_Conv_514', 'Initializer_1709', 'Initializer_1710']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_547:out0
+I Match r_softmax [['Softmax_Softmax_547']] [['Softmax']] to [['softmax']]
+I Try match Reshape_Reshape_492:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_492', 'Concat_Concat_491']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_506:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_506', 'Concat_Concat_505']] [['Reshape']] to [['reshape']]
+I Try match Mul_Mul_462:out0
+I Match r_mul [['Mul_Mul_462']] [['Mul']] to [['multiply']]
+I Try match Conv_Conv_419:out0
+I Match r_conv [['Conv_Conv_419', 'Initializer_1679', 'Initializer_1680']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Add_Add_375:out0
+I Match r_add [['Add_Add_375']] [['Add']] to [['add']]
+I Try match Relu_Relu_633:out0
+I Match r_relu [['Relu_Relu_633']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_557:out0
+I Match r_conv [['Conv_Conv_557', 'Initializer_1718', 'Initializer_1719']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_590:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_590', 'Concat_Concat_589']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_513:out0
+I Match r_relu [['Relu_Relu_513']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_546:out0
+I Match r_transpose [['Transpose_Transpose_546']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_470:out0
+I Match r_relu [['Relu_Relu_470']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_503:out0
+I Match r_transpose [['Transpose_Transpose_503']] [['Transpose']] to [['permute']]
+I Try match Reshape_Reshape_447:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_447', 'Concat_Concat_446']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_461:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_461', 'Concat_Concat_460']] [['Reshape']] to [['reshape']]
+I Try match ReduceSum_ReduceSum_418:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_418']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_374:out0
+I Match r_conv [['Conv_Conv_374', 'Initializer_1667', 'Initializer_1668']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_329:out0
+I Match r_conv [['Conv_Conv_329', 'Initializer_1655', 'Initializer_1656']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_632:out0
+I Match r_conv [['Conv_Conv_632', 'Initializer_1739', 'Initializer_1740']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_631:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_631']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_587:out0
+I Match r_conv [['Conv_Conv_587', 'Initializer_features.stage3.unit6.body.conv2.att.conv2.weight', 'Initializer_features.stage3.unit6.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_512:out0
+I Match r_conv [['Conv_Conv_512', 'Initializer_1706', 'Initializer_1707']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_545:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_545', 'Concat_Concat_544']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_469:out0
+I Match r_conv [['Conv_Conv_469', 'Initializer_1697', 'Initializer_1698']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_502:out0
+I Match r_softmax [['Softmax_Softmax_502']] [['Softmax']] to [['softmax']]
+I Try match Relu_Relu_425:out0
+I Match r_relu [['Relu_Relu_425']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_458:out0
+I Match r_transpose [['Transpose_Transpose_458']] [['Transpose']] to [['permute']]
+I Try match Mul_Mul_417:out0
+I Match r_mul [['Mul_Mul_417']] [['Mul']] to [['multiply']]
+I Try match AveragePool_AveragePool_373:out0
+I Match r_avgpool [['AveragePool_AveragePool_373']] [['AveragePool']] to [['pooling']]
+I Try match AveragePool_AveragePool_328:out0
+I Match r_avgpool [['AveragePool_AveragePool_328']] [['AveragePool']] to [['pooling']]
+I Try match ReduceSum_ReduceSum_630:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_630']] [['ReduceSum']] to [['reducesum']]
+I Try match Relu_Relu_586:out0
+I Match r_relu [['Relu_Relu_586']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_585:out0
+I Match r_conv [['Conv_Conv_585', 'Initializer_1724', 'Initializer_1725']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_542:out0
+I Match r_conv [['Conv_Conv_542', 'Initializer_features.stage3.unit5.body.conv2.att.conv2.weight', 'Initializer_features.stage3.unit5.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_468:out0
+I Match r_relu [['Relu_Relu_468']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_501:out0
+I Match r_transpose [['Transpose_Transpose_501']] [['Transpose']] to [['permute']]
+I Try match Conv_Conv_424:out0
+I Match r_conv [['Conv_Conv_424', 'Initializer_1685', 'Initializer_1686']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_457:out0
+I Match r_softmax [['Softmax_Softmax_457']] [['Softmax']] to [['softmax']]
+I Try match Reshape_Reshape_402:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_402', 'Concat_Concat_401']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_416:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_416', 'Concat_Concat_415']] [['Reshape']] to [['reshape']]
+I Try match Pad_Pad_372:out0
+I Match pad_g1 [['Pad_Pad_372']] [['Pad']] to [['pad']]
+I Try match Relu_Relu_327:out0
+I Match r_relu [['Relu_Relu_327']] [['Relu']] to [['relu']]
+I Try match Add_Add_326:out0
+I Match r_add [['Add_Add_326']] [['Add']] to [['add']]
+I Try match GlobalAveragePool_GlobalAveragePool_584:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_584']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Relu_Relu_541:out0
+I Match r_relu [['Relu_Relu_541']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_467:out0
+I Match r_conv [['Conv_Conv_467', 'Initializer_1694', 'Initializer_1695']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_500:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_500', 'Concat_Concat_499']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_423:out0
+I Match r_relu [['Relu_Relu_423']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_456:out0
+I Match r_transpose [['Transpose_Transpose_456']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_380:out0
+I Match r_relu [['Relu_Relu_380']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_413:out0
+I Match r_transpose [['Transpose_Transpose_413']] [['Transpose']] to [['permute']]
+I Try match ReduceSum_ReduceSum_371:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_371']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_325:out0
+I Match r_conv [['Conv_Conv_325', 'Initializer_1652', 'Initializer_1653']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_282:out0
+I Match r_relu [['Relu_Relu_282']] [['Relu']] to [['relu']]
+I Try match ReduceSum_ReduceSum_583:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_583']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_540:out0
+I Match r_conv [['Conv_Conv_540', 'Initializer_1712', 'Initializer_1713']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_539:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_539']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_497:out0
+I Match r_conv [['Conv_Conv_497', 'Initializer_features.stage3.unit4.body.conv2.att.conv2.weight', 'Initializer_features.stage3.unit4.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_422:out0
+I Match r_conv [['Conv_Conv_422', 'Initializer_1682', 'Initializer_1683']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_455:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_455', 'Concat_Concat_454']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_379:out0
+I Match r_conv [['Conv_Conv_379', 'Initializer_1673', 'Initializer_1674']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_412:out0
+I Match r_softmax [['Softmax_Softmax_412']] [['Softmax']] to [['softmax']]
+I Try match Mul_Mul_370:out0
+I Match r_mul [['Mul_Mul_370']] [['Mul']] to [['multiply']]
+I Try match ReduceSum_ReduceSum_324:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_324']] [['ReduceSum']] to [['reducesum']]
+I Try match Add_Add_281:out0
+I Match r_add [['Add_Add_281']] [['Add']] to [['add']]
+I Try match Relu_Relu_237:out0
+I Match r_relu [['Relu_Relu_237']] [['Relu']] to [['relu']]
+I Try match ReduceSum_ReduceSum_538:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_538']] [['ReduceSum']] to [['reducesum']]
+I Try match Relu_Relu_496:out0
+I Match r_relu [['Relu_Relu_496']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_495:out0
+I Match r_conv [['Conv_Conv_495', 'Initializer_1700', 'Initializer_1701']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_452:out0
+I Match r_conv [['Conv_Conv_452', 'Initializer_features.stage3.unit3.body.conv2.att.conv2.weight', 'Initializer_features.stage3.unit3.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_378:out0
+I Match r_relu [['Relu_Relu_378']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_411:out0
+I Match r_transpose [['Transpose_Transpose_411']] [['Transpose']] to [['permute']]
+I Try match Reshape_Reshape_355:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_355', 'Concat_Concat_354']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_369:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_369', 'Concat_Concat_368']] [['Reshape']] to [['reshape']]
+I Try match Mul_Mul_323:out0
+I Match r_mul [['Mul_Mul_323']] [['Mul']] to [['multiply']]
+I Try match Conv_Conv_280:out0
+I Match r_conv [['Conv_Conv_280', 'Initializer_1640', 'Initializer_1641']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Add_Add_236:out0
+I Match r_add [['Add_Add_236']] [['Add']] to [['add']]
+I Try match Relu_Relu_192:out0
+I Match r_relu [['Relu_Relu_192']] [['Relu']] to [['relu']]
+I Try match GlobalAveragePool_GlobalAveragePool_494:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_494']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Relu_Relu_451:out0
+I Match r_relu [['Relu_Relu_451']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_377:out0
+I Match r_conv [['Conv_Conv_377', 'Initializer_1670', 'Initializer_1671']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_410:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_410', 'Concat_Concat_409']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_333:out0
+I Match r_relu [['Relu_Relu_333']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_366:out0
+I Match r_transpose [['Transpose_Transpose_366']] [['Transpose']] to [['permute']]
+I Try match Reshape_Reshape_308:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_308', 'Concat_Concat_307']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_322:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_322', 'Concat_Concat_321']] [['Reshape']] to [['reshape']]
+I Try match ReduceSum_ReduceSum_279:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_279']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_235:out0
+I Match r_conv [['Conv_Conv_235', 'Initializer_1628', 'Initializer_1629']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Add_Add_191:out0
+I Match r_add [['Add_Add_191']] [['Add']] to [['add']]
+I Try match ReduceSum_ReduceSum_493:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_493']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_450:out0
+I Match r_conv [['Conv_Conv_450', 'Initializer_1688', 'Initializer_1689']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_449:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_449']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_407:out0
+I Match r_conv [['Conv_Conv_407', 'Initializer_features.stage3.unit2.body.conv2.att.conv2.weight', 'Initializer_features.stage3.unit2.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_332:out0
+I Match r_conv [['Conv_Conv_332', 'Initializer_1661', 'Initializer_1662']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_365:out0
+I Match r_softmax [['Softmax_Softmax_365']] [['Softmax']] to [['softmax']]
+I Try match Relu_Relu_286:out0
+I Match r_relu [['Relu_Relu_286']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_319:out0
+I Match r_transpose [['Transpose_Transpose_319']] [['Transpose']] to [['permute']]
+I Try match Mul_Mul_278:out0
+I Match r_mul [['Mul_Mul_278']] [['Mul']] to [['multiply']]
+I Try match ReduceSum_ReduceSum_234:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_234']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_190:out0
+I Match r_conv [['Conv_Conv_190', 'Initializer_1616', 'Initializer_1617']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_145:out0
+I Match r_conv [['Conv_Conv_145', 'Initializer_1604', 'Initializer_1605']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match AveragePool_AveragePool_144:out0
+I Match r_avgpool [['AveragePool_AveragePool_144']] [['AveragePool']] to [['pooling']]
+I Try match ReduceSum_ReduceSum_448:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_448']] [['ReduceSum']] to [['reducesum']]
+I Try match Relu_Relu_406:out0
+I Match r_relu [['Relu_Relu_406']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_331:out0
+I Match r_relu [['Relu_Relu_331']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_364:out0
+I Match r_transpose [['Transpose_Transpose_364']] [['Transpose']] to [['permute']]
+I Try match Conv_Conv_285:out0
+I Match r_conv [['Conv_Conv_285', 'Initializer_1646', 'Initializer_1647']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_318:out0
+I Match r_softmax [['Softmax_Softmax_318']] [['Softmax']] to [['softmax']]
+I Try match Reshape_Reshape_263:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_263', 'Concat_Concat_262']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_277:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_277', 'Concat_Concat_276']] [['Reshape']] to [['reshape']]
+I Try match Mul_Mul_233:out0
+I Match r_mul [['Mul_Mul_233']] [['Mul']] to [['multiply']]
+I Try match AveragePool_AveragePool_189:out0
+I Match r_avgpool [['AveragePool_AveragePool_189']] [['AveragePool']] to [['pooling']]
+I Try match Relu_Relu_143:out0
+I Match r_relu [['Relu_Relu_143']] [['Relu']] to [['relu']]
+I Try match Add_Add_142:out0
+I Match r_add [['Add_Add_142']] [['Add']] to [['add']]
+I Try match Conv_Conv_405:out0
+I Match r_conv [['Conv_Conv_405', 'Initializer_1676', 'Initializer_1677']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_330:out0
+I Match r_conv [['Conv_Conv_330', 'Initializer_1658', 'Initializer_1659']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_363:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_363', 'Concat_Concat_362']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_284:out0
+I Match r_relu [['Relu_Relu_284']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_317:out0
+I Match r_transpose [['Transpose_Transpose_317']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_241:out0
+I Match r_relu [['Relu_Relu_241']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_274:out0
+I Match r_transpose [['Transpose_Transpose_274']] [['Transpose']] to [['permute']]
+I Try match Reshape_Reshape_218:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_218', 'Concat_Concat_217']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_232:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_232', 'Concat_Concat_231']] [['Reshape']] to [['reshape']]
+I Try match Pad_Pad_188:out0
+I Match pad_g1 [['Pad_Pad_188']] [['Pad']] to [['pad']]
+I Try match Conv_Conv_141:out0
+I Match r_conv [['Conv_Conv_141', 'Initializer_1601', 'Initializer_1602']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_98:out0
+I Match r_relu [['Relu_Relu_98']] [['Relu']] to [['relu']]
+I Try match GlobalAveragePool_GlobalAveragePool_404:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_404']] [['GlobalAveragePool']] to [['pooling']]
+I Try match ReduceSum_ReduceSum_403:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_403']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_360:out0
+I Match r_conv [['Conv_Conv_360', 'Initializer_features.stage3.unit1.body.conv2.att.conv2.weight', 'Initializer_features.stage3.unit1.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_283:out0
+I Match r_conv [['Conv_Conv_283', 'Initializer_1643', 'Initializer_1644']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_316:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_316', 'Concat_Concat_315']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_240:out0
+I Match r_conv [['Conv_Conv_240', 'Initializer_1634', 'Initializer_1635']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_273:out0
+I Match r_softmax [['Softmax_Softmax_273']] [['Softmax']] to [['softmax']]
+I Try match Relu_Relu_196:out0
+I Match r_relu [['Relu_Relu_196']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_229:out0
+I Match r_transpose [['Transpose_Transpose_229']] [['Transpose']] to [['permute']]
+I Try match ReduceSum_ReduceSum_187:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_187']] [['ReduceSum']] to [['reducesum']]
+I Try match ReduceSum_ReduceSum_140:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_140']] [['ReduceSum']] to [['reducesum']]
+I Try match Add_Add_97:out0
+I Match r_add [['Add_Add_97']] [['Add']] to [['add']]
+I Try match Relu_Relu_53:out0
+I Match r_relu [['Relu_Relu_53']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_359:out0
+I Match r_relu [['Relu_Relu_359']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_358:out0
+I Match r_conv [['Conv_Conv_358', 'Initializer_1664', 'Initializer_1665']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_313:out0
+I Match r_conv [['Conv_Conv_313', 'Initializer_features.stage2.unit4.body.conv2.att.conv2.weight', 'Initializer_features.stage2.unit4.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_239:out0
+I Match r_relu [['Relu_Relu_239']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_272:out0
+I Match r_transpose [['Transpose_Transpose_272']] [['Transpose']] to [['permute']]
+I Try match Conv_Conv_195:out0
+I Match r_conv [['Conv_Conv_195', 'Initializer_1622', 'Initializer_1623']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_228:out0
+I Match r_softmax [['Softmax_Softmax_228']] [['Softmax']] to [['softmax']]
+I Try match Mul_Mul_186:out0
+I Match r_mul [['Mul_Mul_186']] [['Mul']] to [['multiply']]
+I Try match Mul_Mul_139:out0
+I Match r_mul [['Mul_Mul_139']] [['Mul']] to [['multiply']]
+I Try match Conv_Conv_96:out0
+I Match r_conv [['Conv_Conv_96', 'Initializer_1589', 'Initializer_1590']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Add_Add_52:out0
+I Match r_add [['Add_Add_52']] [['Add']] to [['add']]
+I Try match GlobalAveragePool_GlobalAveragePool_357:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_357']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Relu_Relu_312:out0
+I Match r_relu [['Relu_Relu_312']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_238:out0
+I Match r_conv [['Conv_Conv_238', 'Initializer_1631', 'Initializer_1632']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_271:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_271', 'Concat_Concat_270']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_194:out0
+I Match r_relu [['Relu_Relu_194']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_227:out0
+I Match r_transpose [['Transpose_Transpose_227']] [['Transpose']] to [['permute']]
+I Try match Reshape_Reshape_171:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_171', 'Concat_Concat_170']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_185:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_185', 'Concat_Concat_184']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_124:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_124', 'Concat_Concat_123']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_138:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_138', 'Concat_Concat_137']] [['Reshape']] to [['reshape']]
+I Try match ReduceSum_ReduceSum_95:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_95']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_51:out0
+I Match r_conv [['Conv_Conv_51', 'Initializer_1577', 'Initializer_1578']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_8:out0
+I Match r_conv [['Conv_Conv_8', 'Initializer_1565', 'Initializer_1566']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match ReduceSum_ReduceSum_356:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_356']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_311:out0
+I Match r_conv [['Conv_Conv_311', 'Initializer_1649', 'Initializer_1650']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_310:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_310']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_268:out0
+I Match r_conv [['Conv_Conv_268', 'Initializer_features.stage2.unit3.body.conv2.att.conv2.weight', 'Initializer_features.stage2.unit3.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_193:out0
+I Match r_conv [['Conv_Conv_193', 'Initializer_1619', 'Initializer_1620']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_226:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_226', 'Concat_Concat_225']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_149:out0
+I Match r_relu [['Relu_Relu_149']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_182:out0
+I Match r_transpose [['Transpose_Transpose_182']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_102:out0
+I Match r_relu [['Relu_Relu_102']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_135:out0
+I Match r_transpose [['Transpose_Transpose_135']] [['Transpose']] to [['permute']]
+I Try match Mul_Mul_94:out0
+I Match r_mul [['Mul_Mul_94']] [['Mul']] to [['multiply']]
+I Try match ReduceSum_ReduceSum_50:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_50']] [['ReduceSum']] to [['reducesum']]
+I Try match AveragePool_AveragePool_7:out0
+I Match r_avgpool [['AveragePool_AveragePool_7']] [['AveragePool']] to [['pooling']]
+I Try match MaxPool_MaxPool_6:out0
+I Match r_maxpool [['MaxPool_MaxPool_6']] [['MaxPool']] to [['pooling']]
+I Try match ReduceSum_ReduceSum_309:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_309']] [['ReduceSum']] to [['reducesum']]
+I Try match Relu_Relu_267:out0
+I Match r_relu [['Relu_Relu_267']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_266:out0
+I Match r_conv [['Conv_Conv_266', 'Initializer_1637', 'Initializer_1638']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_223:out0
+I Match r_conv [['Conv_Conv_223', 'Initializer_features.stage2.unit2.body.conv2.att.conv2.weight', 'Initializer_features.stage2.unit2.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_148:out0
+I Match r_conv [['Conv_Conv_148', 'Initializer_1610', 'Initializer_1611']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_181:out0
+I Match r_softmax [['Softmax_Softmax_181']] [['Softmax']] to [['softmax']]
+I Try match Conv_Conv_101:out0
+I Match r_conv [['Conv_Conv_101', 'Initializer_1595', 'Initializer_1596']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_134:out0
+I Match r_softmax [['Softmax_Softmax_134']] [['Softmax']] to [['softmax']]
+I Try match Reshape_Reshape_79:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_79', 'Concat_Concat_78']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_93:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_93', 'Concat_Concat_92']] [['Reshape']] to [['reshape']]
+I Try match Mul_Mul_49:out0
+I Match r_mul [['Mul_Mul_49']] [['Mul']] to [['multiply']]
+I Try match Relu_Relu_5:out0
+I Match r_relu [['Relu_Relu_5']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_4:out0
+I Match r_conv [['Conv_Conv_4', 'Initializer_1562', 'Initializer_1563']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_265:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_265']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Relu_Relu_222:out0
+I Match r_relu [['Relu_Relu_222']] [['Relu']] to [['relu']]
+I Try match Relu_Relu_147:out0
+I Match r_relu [['Relu_Relu_147']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_180:out0
+I Match r_transpose [['Transpose_Transpose_180']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_100:out0
+I Match r_relu [['Relu_Relu_100']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_133:out0
+I Match r_transpose [['Transpose_Transpose_133']] [['Transpose']] to [['permute']]
+I Try match Relu_Relu_57:out0
+I Match r_relu [['Relu_Relu_57']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_90:out0
+I Match r_transpose [['Transpose_Transpose_90']] [['Transpose']] to [['permute']]
+I Try match Reshape_Reshape_34:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_34', 'Concat_Concat_33']] [['Reshape']] to [['reshape']]
+I Try match Reshape_Reshape_48:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_48', 'Concat_Concat_47']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_3:out0
+I Match r_relu [['Relu_Relu_3']] [['Relu']] to [['relu']]
+I Try match ReduceSum_ReduceSum_264:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_264']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_221:out0
+I Match r_conv [['Conv_Conv_221', 'Initializer_1625', 'Initializer_1626']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_146:out0
+I Match r_conv [['Conv_Conv_146', 'Initializer_1607', 'Initializer_1608']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_179:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_179', 'Concat_Concat_178']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_99:out0
+I Match r_conv [['Conv_Conv_99', 'Initializer_1592', 'Initializer_1593']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_132:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_132', 'Concat_Concat_131']] [['Reshape']] to [['reshape']]
+I Try match Conv_Conv_56:out0
+I Match r_conv [['Conv_Conv_56', 'Initializer_1583', 'Initializer_1584']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_89:out0
+I Match r_softmax [['Softmax_Softmax_89']] [['Softmax']] to [['softmax']]
+I Try match Relu_Relu_12:out0
+I Match r_relu [['Relu_Relu_12']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_45:out0
+I Match r_transpose [['Transpose_Transpose_45']] [['Transpose']] to [['permute']]
+I Try match Conv_Conv_2:out0
+I Match r_conv [['Conv_Conv_2', 'Initializer_1559', 'Initializer_1560']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_1:out0
+I Match r_relu [['Relu_Relu_1']] [['Relu']] to [['relu']]
+I Try match GlobalAveragePool_GlobalAveragePool_220:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_220']] [['GlobalAveragePool']] to [['pooling']]
+I Try match ReduceSum_ReduceSum_219:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_219']] [['ReduceSum']] to [['reducesum']]
+I Try match Conv_Conv_176:out0
+I Match r_conv [['Conv_Conv_176', 'Initializer_features.stage2.unit1.body.conv2.att.conv2.weight', 'Initializer_features.stage2.unit1.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_175:out0
+I Match r_relu [['Relu_Relu_175']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_129:out0
+I Match r_conv [['Conv_Conv_129', 'Initializer_features.stage1.unit3.body.conv2.att.conv2.weight', 'Initializer_features.stage1.unit3.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_55:out0
+I Match r_relu [['Relu_Relu_55']] [['Relu']] to [['relu']]
+I Try match Transpose_Transpose_88:out0
+I Match r_transpose [['Transpose_Transpose_88']] [['Transpose']] to [['permute']]
+I Try match Conv_Conv_11:out0
+I Match r_conv [['Conv_Conv_11', 'Initializer_1571', 'Initializer_1572']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Softmax_Softmax_44:out0
+I Match r_softmax [['Softmax_Softmax_44']] [['Softmax']] to [['softmax']]
+I Try match Conv_Conv_0:out0
+I Match r_conv [['Conv_Conv_0', 'Initializer_1556', 'Initializer_1557']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Transpose_Transpose_43:out0
+I Match r_transpose [['Transpose_Transpose_43']] [['Transpose']] to [['permute']]
+I Try match Conv_Conv_174:out0
+I Match r_conv [['Conv_Conv_174', 'Initializer_1613', 'Initializer_1614']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_128:out0
+I Match r_relu [['Relu_Relu_128']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_54:out0
+I Match r_conv [['Conv_Conv_54', 'Initializer_1580', 'Initializer_1581']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Reshape_Reshape_87:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_87', 'Concat_Concat_86']] [['Reshape']] to [['reshape']]
+I Try match Relu_Relu_10:out0
+I Match r_relu [['Relu_Relu_10']] [['Relu']] to [['relu']]
+I Try match Reshape_Reshape_42:out0
+I Match r_dynamic_rsp_5x [['Reshape_Reshape_42', 'Concat_Concat_41']] [['Reshape']] to [['reshape']]
+I Try match GlobalAveragePool_GlobalAveragePool_173:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_173']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_127:out0
+I Match r_conv [['Conv_Conv_127', 'Initializer_1598', 'Initializer_1599']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_126:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_126']] [['GlobalAveragePool']] to [['pooling']]
+I Try match Conv_Conv_84:out0
+I Match r_conv [['Conv_Conv_84', 'Initializer_features.stage1.unit2.body.conv2.att.conv2.weight', 'Initializer_features.stage1.unit2.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_9:out0
+I Match r_conv [['Conv_Conv_9', 'Initializer_1568', 'Initializer_1569']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Conv_Conv_39:out0
+I Match r_conv [['Conv_Conv_39', 'Initializer_features.stage1.unit1.body.conv2.att.conv2.weight', 'Initializer_features.stage1.unit1.body.conv2.att.conv2.bias']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match ReduceSum_ReduceSum_172:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_172']] [['ReduceSum']] to [['reducesum']]
+I Try match ReduceSum_ReduceSum_125:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_125']] [['ReduceSum']] to [['reducesum']]
+I Try match Relu_Relu_83:out0
+I Match r_relu [['Relu_Relu_83']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_82:out0
+I Match r_conv [['Conv_Conv_82', 'Initializer_1586', 'Initializer_1587']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match Relu_Relu_38:out0
+I Match r_relu [['Relu_Relu_38']] [['Relu']] to [['relu']]
+I Try match Conv_Conv_37:out0
+I Match r_conv [['Conv_Conv_37', 'Initializer_1574', 'Initializer_1575']] [['Conv', 'Constant_0', 'Constant_1']] to [['convolution']]
+I Try match GlobalAveragePool_GlobalAveragePool_36:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_36']] [['GlobalAveragePool']] to [['pooling']]
+I Try match GlobalAveragePool_GlobalAveragePool_81:out0
+I Match r_global_avgpool [['GlobalAveragePool_GlobalAveragePool_81']] [['GlobalAveragePool']] to [['pooling']]
+I Try match ReduceSum_ReduceSum_35:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_35']] [['ReduceSum']] to [['reducesum']]
+I Try match ReduceSum_ReduceSum_80:out0
+I Match r_reducesum [['ReduceSum_ReduceSum_80']] [['ReduceSum']] to [['reducesum']]
+I build input layer data:out0
+D connect Reshape_Reshape_747_2 0  ~ Gemm_Gemm_748_1 0
+D connect GlobalAveragePool_GlobalAveragePool_741_3 0  ~ Reshape_Reshape_747_2 0
+D connect Relu_Relu_740_4 0  ~ GlobalAveragePool_GlobalAveragePool_741_3 0
+D connect Add_Add_739_5 0  ~ Relu_Relu_740_4 0
+D connect Conv_Conv_738_6 0  ~ Add_Add_739_5 0
+D connect Relu_Relu_695_7 0  ~ Add_Add_739_5 1
+D connect ReduceSum_ReduceSum_737_8 0  ~ Conv_Conv_738_6 0
+D connect Add_Add_694_9 0  ~ Relu_Relu_695_7 0
+D connect Mul_Mul_736_10 0  ~ ReduceSum_ReduceSum_737_8 0
+D connect Conv_Conv_693_11 0  ~ Add_Add_694_9 0
+D connect Relu_Relu_650_12 0  ~ Add_Add_694_9 1
+D connect Reshape_Reshape_721_13 0  ~ Mul_Mul_736_10 0
+D connect Reshape_Reshape_735_14 0  ~ Mul_Mul_736_10 1
+D connect ReduceSum_ReduceSum_692_15 0  ~ Conv_Conv_693_11 0
+D connect Add_Add_649_16 0  ~ Relu_Relu_650_12 0
+D connect Relu_Relu_699_17 0  ~ Reshape_Reshape_721_13 0
+D connect Transpose_Transpose_732_18 0  ~ Reshape_Reshape_735_14 0
+D connect Mul_Mul_691_19 0  ~ ReduceSum_ReduceSum_692_15 0
+D connect Conv_Conv_648_20 0  ~ Add_Add_649_16 0
+D connect Conv_Conv_603_21 0  ~ Add_Add_649_16 1
+D connect Conv_Conv_698_22 0  ~ Relu_Relu_699_17 0
+D connect Softmax_Softmax_731_23 0  ~ Transpose_Transpose_732_18 0
+D connect Reshape_Reshape_676_24 0  ~ Mul_Mul_691_19 0
+D connect Reshape_Reshape_690_25 0  ~ Mul_Mul_691_19 1
+D connect AveragePool_AveragePool_647_26 0  ~ Conv_Conv_648_20 0
+D connect AveragePool_AveragePool_602_27 0  ~ Conv_Conv_603_21 0
+D connect Relu_Relu_697_28 0  ~ Conv_Conv_698_22 0
+D connect Transpose_Transpose_730_29 0  ~ Softmax_Softmax_731_23 0
+D connect Relu_Relu_654_30 0  ~ Reshape_Reshape_676_24 0
+D connect Transpose_Transpose_687_31 0  ~ Reshape_Reshape_690_25 0
+D connect Pad_Pad_646_32 0  ~ AveragePool_AveragePool_647_26 0
+D connect Relu_Relu_601_33 0  ~ AveragePool_AveragePool_602_27 0
+D connect Conv_Conv_696_34 0  ~ Relu_Relu_697_28 0
+D connect Reshape_Reshape_729_35 0  ~ Transpose_Transpose_730_29 0
+D connect Conv_Conv_653_36 0  ~ Relu_Relu_654_30 0
+D connect Softmax_Softmax_686_37 0  ~ Transpose_Transpose_687_31 0
+D connect ReduceSum_ReduceSum_645_38 0  ~ Pad_Pad_646_32 0
+D connect Add_Add_600_39 0  ~ Relu_Relu_601_33 0
+D connect Relu_Relu_695_7 0  ~ Conv_Conv_696_34 0
+D connect Conv_Conv_726_41 0  ~ Reshape_Reshape_729_35 0
+D connect Relu_Relu_652_42 0  ~ Conv_Conv_653_36 0
+D connect Transpose_Transpose_685_43 0  ~ Softmax_Softmax_686_37 0
+D connect Mul_Mul_644_44 0  ~ ReduceSum_ReduceSum_645_38 0
+D connect Conv_Conv_599_45 0  ~ Add_Add_600_39 0
+D connect Relu_Relu_556_40 0  ~ Add_Add_600_39 1
+D connect Add_Add_555_46 0  ~ Relu_Relu_556_40 0
+D connect Relu_Relu_725_47 0  ~ Conv_Conv_726_41 0
+D connect Conv_Conv_651_48 0  ~ Relu_Relu_652_42 0
+D connect Reshape_Reshape_684_49 0  ~ Transpose_Transpose_685_43 0
+D connect Reshape_Reshape_629_50 0  ~ Mul_Mul_644_44 0
+D connect Reshape_Reshape_643_51 0  ~ Mul_Mul_644_44 1
+D connect ReduceSum_ReduceSum_598_52 0  ~ Conv_Conv_599_45 0
+D connect Conv_Conv_554_53 0  ~ Add_Add_555_46 0
+D connect Relu_Relu_511_54 0  ~ Add_Add_555_46 1
+D connect Conv_Conv_724_55 0  ~ Relu_Relu_725_47 0
+D connect Relu_Relu_650_12 0  ~ Conv_Conv_651_48 0
+D connect Conv_Conv_681_57 0  ~ Reshape_Reshape_684_49 0
+D connect Relu_Relu_607_58 0  ~ Reshape_Reshape_629_50 0
+D connect Transpose_Transpose_640_59 0  ~ Reshape_Reshape_643_51 0
+D connect Mul_Mul_597_60 0  ~ ReduceSum_ReduceSum_598_52 0
+D connect ReduceSum_ReduceSum_553_61 0  ~ Conv_Conv_554_53 0
+D connect Add_Add_510_62 0  ~ Relu_Relu_511_54 0
+D connect GlobalAveragePool_GlobalAveragePool_723_56 0  ~ Conv_Conv_724_55 0
+D connect ReduceSum_ReduceSum_722_63 0  ~ GlobalAveragePool_GlobalAveragePool_723_56 0
+D connect Relu_Relu_680_64 0  ~ Conv_Conv_681_57 0
+D connect Conv_Conv_606_65 0  ~ Relu_Relu_607_58 0
+D connect Softmax_Softmax_639_66 0  ~ Transpose_Transpose_640_59 0
+D connect Reshape_Reshape_582_67 0  ~ Mul_Mul_597_60 0
+D connect Reshape_Reshape_596_68 0  ~ Mul_Mul_597_60 1
+D connect Mul_Mul_552_69 0  ~ ReduceSum_ReduceSum_553_61 0
+D connect Conv_Conv_509_70 0  ~ Add_Add_510_62 0
+D connect Relu_Relu_466_71 0  ~ Add_Add_510_62 1
+D connect Reshape_Reshape_721_13 0  ~ ReduceSum_ReduceSum_722_63 0
+D connect Conv_Conv_679_73 0  ~ Relu_Relu_680_64 0
+D connect Relu_Relu_605_74 0  ~ Conv_Conv_606_65 0
+D connect Transpose_Transpose_638_75 0  ~ Softmax_Softmax_639_66 0
+D connect Relu_Relu_560_76 0  ~ Reshape_Reshape_582_67 0
+D connect Transpose_Transpose_593_77 0  ~ Reshape_Reshape_596_68 0
+D connect Reshape_Reshape_537_78 0  ~ Mul_Mul_552_69 0
+D connect Reshape_Reshape_551_79 0  ~ Mul_Mul_552_69 1
+D connect ReduceSum_ReduceSum_508_80 0  ~ Conv_Conv_509_70 0
+D connect Add_Add_465_72 0  ~ Relu_Relu_466_71 0
+D connect Conv_Conv_464_81 0  ~ Add_Add_465_72 0
+D connect Relu_Relu_421_82 0  ~ Add_Add_465_72 1
+D connect GlobalAveragePool_GlobalAveragePool_678_83 0  ~ Conv_Conv_679_73 0
+D connect Conv_Conv_604_84 0  ~ Relu_Relu_605_74 0
+D connect Reshape_Reshape_637_85 0  ~ Transpose_Transpose_638_75 0
+D connect Conv_Conv_559_86 0  ~ Relu_Relu_560_76 0
+D connect Softmax_Softmax_592_87 0  ~ Transpose_Transpose_593_77 0
+D connect Relu_Relu_515_88 0  ~ Reshape_Reshape_537_78 0
+D connect Transpose_Transpose_548_89 0  ~ Reshape_Reshape_551_79 0
+D connect Mul_Mul_507_90 0  ~ ReduceSum_ReduceSum_508_80 0
+D connect ReduceSum_ReduceSum_463_91 0  ~ Conv_Conv_464_81 0
+D connect Add_Add_420_92 0  ~ Relu_Relu_421_82 0
+D connect ReduceSum_ReduceSum_677_93 0  ~ GlobalAveragePool_GlobalAveragePool_678_83 0
+D connect Relu_Relu_601_33 0  ~ Conv_Conv_604_84 0
+D connect Conv_Conv_634_95 0  ~ Reshape_Reshape_637_85 0
+D connect Relu_Relu_558_96 0  ~ Conv_Conv_559_86 0
+D connect Transpose_Transpose_591_97 0  ~ Softmax_Softmax_592_87 0
+D connect Conv_Conv_514_98 0  ~ Relu_Relu_515_88 0
+D connect Softmax_Softmax_547_99 0  ~ Transpose_Transpose_548_89 0
+D connect Reshape_Reshape_492_100 0  ~ Mul_Mul_507_90 0
+D connect Reshape_Reshape_506_101 0  ~ Mul_Mul_507_90 1
+D connect Mul_Mul_462_102 0  ~ ReduceSum_ReduceSum_463_91 0
+D connect Conv_Conv_419_103 0  ~ Add_Add_420_92 0
+D connect Relu_Relu_376_94 0  ~ Add_Add_420_92 1
+D connect Reshape_Reshape_676_24 0  ~ ReduceSum_ReduceSum_677_93 0
+D connect Add_Add_375_104 0  ~ Relu_Relu_376_94 0
+D connect Relu_Relu_633_105 0  ~ Conv_Conv_634_95 0
+D connect Conv_Conv_557_106 0  ~ Relu_Relu_558_96 0
+D connect Reshape_Reshape_590_107 0  ~ Transpose_Transpose_591_97 0
+D connect Relu_Relu_513_108 0  ~ Conv_Conv_514_98 0
+D connect Transpose_Transpose_546_109 0  ~ Softmax_Softmax_547_99 0
+D connect Relu_Relu_470_110 0  ~ Reshape_Reshape_492_100 0
+D connect Transpose_Transpose_503_111 0  ~ Reshape_Reshape_506_101 0
+D connect Reshape_Reshape_447_112 0  ~ Mul_Mul_462_102 0
+D connect Reshape_Reshape_461_113 0  ~ Mul_Mul_462_102 1
+D connect ReduceSum_ReduceSum_418_114 0  ~ Conv_Conv_419_103 0
+D connect Conv_Conv_374_115 0  ~ Add_Add_375_104 0
+D connect Conv_Conv_329_116 0  ~ Add_Add_375_104 1
+D connect Conv_Conv_632_117 0  ~ Relu_Relu_633_105 0
+D connect Relu_Relu_556_40 0  ~ Conv_Conv_557_106 0
+D connect Conv_Conv_587_119 0  ~ Reshape_Reshape_590_107 0
+D connect Conv_Conv_512_120 0  ~ Relu_Relu_513_108 0
+D connect Reshape_Reshape_545_121 0  ~ Transpose_Transpose_546_109 0
+D connect Conv_Conv_469_122 0  ~ Relu_Relu_470_110 0
+D connect Softmax_Softmax_502_123 0  ~ Transpose_Transpose_503_111 0
+D connect Relu_Relu_425_124 0  ~ Reshape_Reshape_447_112 0
+D connect Transpose_Transpose_458_125 0  ~ Reshape_Reshape_461_113 0
+D connect Mul_Mul_417_126 0  ~ ReduceSum_ReduceSum_418_114 0
+D connect AveragePool_AveragePool_373_127 0  ~ Conv_Conv_374_115 0
+D connect AveragePool_AveragePool_328_128 0  ~ Conv_Conv_329_116 0
+D connect GlobalAveragePool_GlobalAveragePool_631_118 0  ~ Conv_Conv_632_117 0
+D connect ReduceSum_ReduceSum_630_129 0  ~ GlobalAveragePool_GlobalAveragePool_631_118 0
+D connect Relu_Relu_586_130 0  ~ Conv_Conv_587_119 0
+D connect Relu_Relu_511_54 0  ~ Conv_Conv_512_120 0
+D connect Conv_Conv_542_132 0  ~ Reshape_Reshape_545_121 0
+D connect Relu_Relu_468_133 0  ~ Conv_Conv_469_122 0
+D connect Transpose_Transpose_501_134 0  ~ Softmax_Softmax_502_123 0
+D connect Conv_Conv_424_135 0  ~ Relu_Relu_425_124 0
+D connect Softmax_Softmax_457_136 0  ~ Transpose_Transpose_458_125 0
+D connect Reshape_Reshape_402_137 0  ~ Mul_Mul_417_126 0
+D connect Reshape_Reshape_416_138 0  ~ Mul_Mul_417_126 1
+D connect Pad_Pad_372_139 0  ~ AveragePool_AveragePool_373_127 0
+D connect Relu_Relu_327_140 0  ~ AveragePool_AveragePool_328_128 0
+D connect Reshape_Reshape_629_50 0  ~ ReduceSum_ReduceSum_630_129 0
+D connect Conv_Conv_585_131 0  ~ Relu_Relu_586_130 0
+D connect GlobalAveragePool_GlobalAveragePool_584_142 0  ~ Conv_Conv_585_131 0
+D connect Relu_Relu_541_143 0  ~ Conv_Conv_542_132 0
+D connect Conv_Conv_467_144 0  ~ Relu_Relu_468_133 0
+D connect Reshape_Reshape_500_145 0  ~ Transpose_Transpose_501_134 0
+D connect Relu_Relu_423_146 0  ~ Conv_Conv_424_135 0
+D connect Transpose_Transpose_456_147 0  ~ Softmax_Softmax_457_136 0
+D connect Relu_Relu_380_148 0  ~ Reshape_Reshape_402_137 0
+D connect Transpose_Transpose_413_149 0  ~ Reshape_Reshape_416_138 0
+D connect ReduceSum_ReduceSum_371_150 0  ~ Pad_Pad_372_139 0
+D connect Add_Add_326_141 0  ~ Relu_Relu_327_140 0
+D connect Conv_Conv_325_151 0  ~ Add_Add_326_141 0
+D connect Relu_Relu_282_152 0  ~ Add_Add_326_141 1
+D connect ReduceSum_ReduceSum_583_153 0  ~ GlobalAveragePool_GlobalAveragePool_584_142 0
+D connect Conv_Conv_540_154 0  ~ Relu_Relu_541_143 0
+D connect Relu_Relu_466_71 0  ~ Conv_Conv_467_144 0
+D connect Conv_Conv_497_156 0  ~ Reshape_Reshape_500_145 0
+D connect Conv_Conv_422_157 0  ~ Relu_Relu_423_146 0
+D connect Reshape_Reshape_455_158 0  ~ Transpose_Transpose_456_147 0
+D connect Conv_Conv_379_159 0  ~ Relu_Relu_380_148 0
+D connect Softmax_Softmax_412_160 0  ~ Transpose_Transpose_413_149 0
+D connect Mul_Mul_370_161 0  ~ ReduceSum_ReduceSum_371_150 0
+D connect ReduceSum_ReduceSum_324_162 0  ~ Conv_Conv_325_151 0
+D connect Add_Add_281_163 0  ~ Relu_Relu_282_152 0
+D connect Reshape_Reshape_582_67 0  ~ ReduceSum_ReduceSum_583_153 0
+D connect GlobalAveragePool_GlobalAveragePool_539_155 0  ~ Conv_Conv_540_154 0
+D connect ReduceSum_ReduceSum_538_165 0  ~ GlobalAveragePool_GlobalAveragePool_539_155 0
+D connect Relu_Relu_496_166 0  ~ Conv_Conv_497_156 0
+D connect Relu_Relu_421_82 0  ~ Conv_Conv_422_157 0
+D connect Conv_Conv_452_168 0  ~ Reshape_Reshape_455_158 0
+D connect Relu_Relu_378_169 0  ~ Conv_Conv_379_159 0
+D connect Transpose_Transpose_411_170 0  ~ Softmax_Softmax_412_160 0
+D connect Reshape_Reshape_355_171 0  ~ Mul_Mul_370_161 0
+D connect Reshape_Reshape_369_172 0  ~ Mul_Mul_370_161 1
+D connect Mul_Mul_323_173 0  ~ ReduceSum_ReduceSum_324_162 0
+D connect Conv_Conv_280_174 0  ~ Add_Add_281_163 0
+D connect Relu_Relu_237_164 0  ~ Add_Add_281_163 1
+D connect Add_Add_236_175 0  ~ Relu_Relu_237_164 0
+D connect Reshape_Reshape_537_78 0  ~ ReduceSum_ReduceSum_538_165 0
+D connect Conv_Conv_495_167 0  ~ Relu_Relu_496_166 0
+D connect GlobalAveragePool_GlobalAveragePool_494_177 0  ~ Conv_Conv_495_167 0
+D connect Relu_Relu_451_178 0  ~ Conv_Conv_452_168 0
+D connect Conv_Conv_377_179 0  ~ Relu_Relu_378_169 0
+D connect Reshape_Reshape_410_180 0  ~ Transpose_Transpose_411_170 0
+D connect Relu_Relu_333_181 0  ~ Reshape_Reshape_355_171 0
+D connect Transpose_Transpose_366_182 0  ~ Reshape_Reshape_369_172 0
+D connect Reshape_Reshape_308_183 0  ~ Mul_Mul_323_173 0
+D connect Reshape_Reshape_322_184 0  ~ Mul_Mul_323_173 1
+D connect ReduceSum_ReduceSum_279_185 0  ~ Conv_Conv_280_174 0
+D connect Conv_Conv_235_186 0  ~ Add_Add_236_175 0
+D connect Relu_Relu_192_176 0  ~ Add_Add_236_175 1
+D connect Add_Add_191_187 0  ~ Relu_Relu_192_176 0
+D connect ReduceSum_ReduceSum_493_188 0  ~ GlobalAveragePool_GlobalAveragePool_494_177 0
+D connect Conv_Conv_450_189 0  ~ Relu_Relu_451_178 0
+D connect Relu_Relu_376_94 0  ~ Conv_Conv_377_179 0
+D connect Conv_Conv_407_191 0  ~ Reshape_Reshape_410_180 0
+D connect Conv_Conv_332_192 0  ~ Relu_Relu_333_181 0
+D connect Softmax_Softmax_365_193 0  ~ Transpose_Transpose_366_182 0
+D connect Relu_Relu_286_194 0  ~ Reshape_Reshape_308_183 0
+D connect Transpose_Transpose_319_195 0  ~ Reshape_Reshape_322_184 0
+D connect Mul_Mul_278_196 0  ~ ReduceSum_ReduceSum_279_185 0
+D connect ReduceSum_ReduceSum_234_197 0  ~ Conv_Conv_235_186 0
+D connect Conv_Conv_190_198 0  ~ Add_Add_191_187 0
+D connect Conv_Conv_145_199 0  ~ Add_Add_191_187 1
+D connect Reshape_Reshape_492_100 0  ~ ReduceSum_ReduceSum_493_188 0
+D connect GlobalAveragePool_GlobalAveragePool_449_190 0  ~ Conv_Conv_450_189 0
+D connect ReduceSum_ReduceSum_448_201 0  ~ GlobalAveragePool_GlobalAveragePool_449_190 0
+D connect Relu_Relu_406_202 0  ~ Conv_Conv_407_191 0
+D connect Relu_Relu_331_203 0  ~ Conv_Conv_332_192 0
+D connect Transpose_Transpose_364_204 0  ~ Softmax_Softmax_365_193 0
+D connect Conv_Conv_285_205 0  ~ Relu_Relu_286_194 0
+D connect Softmax_Softmax_318_206 0  ~ Transpose_Transpose_319_195 0
+D connect Reshape_Reshape_263_207 0  ~ Mul_Mul_278_196 0
+D connect Reshape_Reshape_277_208 0  ~ Mul_Mul_278_196 1
+D connect Mul_Mul_233_209 0  ~ ReduceSum_ReduceSum_234_197 0
+D connect AveragePool_AveragePool_189_210 0  ~ Conv_Conv_190_198 0
+D connect AveragePool_AveragePool_144_200 0  ~ Conv_Conv_145_199 0
+D connect Relu_Relu_143_211 0  ~ AveragePool_AveragePool_144_200 0
+D connect Reshape_Reshape_447_112 0  ~ ReduceSum_ReduceSum_448_201 0
+D connect Conv_Conv_405_213 0  ~ Relu_Relu_406_202 0
+D connect Conv_Conv_330_214 0  ~ Relu_Relu_331_203 0
+D connect Reshape_Reshape_363_215 0  ~ Transpose_Transpose_364_204 0
+D connect Relu_Relu_284_216 0  ~ Conv_Conv_285_205 0
+D connect Transpose_Transpose_317_217 0  ~ Softmax_Softmax_318_206 0
+D connect Relu_Relu_241_218 0  ~ Reshape_Reshape_263_207 0
+D connect Transpose_Transpose_274_219 0  ~ Reshape_Reshape_277_208 0
+D connect Reshape_Reshape_218_220 0  ~ Mul_Mul_233_209 0
+D connect Reshape_Reshape_232_221 0  ~ Mul_Mul_233_209 1
+D connect Pad_Pad_188_222 0  ~ AveragePool_AveragePool_189_210 0
+D connect Add_Add_142_212 0  ~ Relu_Relu_143_211 0
+D connect Conv_Conv_141_223 0  ~ Add_Add_142_212 0
+D connect Relu_Relu_98_224 0  ~ Add_Add_142_212 1
+D connect GlobalAveragePool_GlobalAveragePool_404_225 0  ~ Conv_Conv_405_213 0
+D connect Relu_Relu_327_140 0  ~ Conv_Conv_330_214 0
+D connect Conv_Conv_360_227 0  ~ Reshape_Reshape_363_215 0
+D connect Conv_Conv_283_228 0  ~ Relu_Relu_284_216 0
+D connect Reshape_Reshape_316_229 0  ~ Transpose_Transpose_317_217 0
+D connect Conv_Conv_240_230 0  ~ Relu_Relu_241_218 0
+D connect Softmax_Softmax_273_231 0  ~ Transpose_Transpose_274_219 0
+D connect Relu_Relu_196_232 0  ~ Reshape_Reshape_218_220 0
+D connect Transpose_Transpose_229_233 0  ~ Reshape_Reshape_232_221 0
+D connect ReduceSum_ReduceSum_187_234 0  ~ Pad_Pad_188_222 0
+D connect ReduceSum_ReduceSum_140_235 0  ~ Conv_Conv_141_223 0
+D connect Add_Add_97_236 0  ~ Relu_Relu_98_224 0
+D connect ReduceSum_ReduceSum_403_226 0  ~ GlobalAveragePool_GlobalAveragePool_404_225 0
+D connect Reshape_Reshape_402_137 0  ~ ReduceSum_ReduceSum_403_226 0
+D connect Relu_Relu_359_238 0  ~ Conv_Conv_360_227 0
+D connect Relu_Relu_282_152 0  ~ Conv_Conv_283_228 0
+D connect Conv_Conv_313_240 0  ~ Reshape_Reshape_316_229 0
+D connect Relu_Relu_239_241 0  ~ Conv_Conv_240_230 0
+D connect Transpose_Transpose_272_242 0  ~ Softmax_Softmax_273_231 0
+D connect Conv_Conv_195_243 0  ~ Relu_Relu_196_232 0
+D connect Softmax_Softmax_228_244 0  ~ Transpose_Transpose_229_233 0
+D connect Mul_Mul_186_245 0  ~ ReduceSum_ReduceSum_187_234 0
+D connect Mul_Mul_139_246 0  ~ ReduceSum_ReduceSum_140_235 0
+D connect Conv_Conv_96_247 0  ~ Add_Add_97_236 0
+D connect Relu_Relu_53_237 0  ~ Add_Add_97_236 1
+D connect Add_Add_52_248 0  ~ Relu_Relu_53_237 0
+D connect Conv_Conv_358_239 0  ~ Relu_Relu_359_238 0
+D connect GlobalAveragePool_GlobalAveragePool_357_249 0  ~ Conv_Conv_358_239 0
+D connect Relu_Relu_312_250 0  ~ Conv_Conv_313_240 0
+D connect Conv_Conv_238_251 0  ~ Relu_Relu_239_241 0
+D connect Reshape_Reshape_271_252 0  ~ Transpose_Transpose_272_242 0
+D connect Relu_Relu_194_253 0  ~ Conv_Conv_195_243 0
+D connect Transpose_Transpose_227_254 0  ~ Softmax_Softmax_228_244 0
+D connect Reshape_Reshape_171_255 0  ~ Mul_Mul_186_245 0
+D connect Reshape_Reshape_185_256 0  ~ Mul_Mul_186_245 1
+D connect Reshape_Reshape_124_257 0  ~ Mul_Mul_139_246 0
+D connect Reshape_Reshape_138_258 0  ~ Mul_Mul_139_246 1
+D connect ReduceSum_ReduceSum_95_259 0  ~ Conv_Conv_96_247 0
+D connect Conv_Conv_51_260 0  ~ Add_Add_52_248 0
+D connect Conv_Conv_8_261 0  ~ Add_Add_52_248 1
+D connect ReduceSum_ReduceSum_356_262 0  ~ GlobalAveragePool_GlobalAveragePool_357_249 0
+D connect Conv_Conv_311_263 0  ~ Relu_Relu_312_250 0
+D connect Relu_Relu_237_164 0  ~ Conv_Conv_238_251 0
+D connect Conv_Conv_268_265 0  ~ Reshape_Reshape_271_252 0
+D connect Conv_Conv_193_266 0  ~ Relu_Relu_194_253 0
+D connect Reshape_Reshape_226_267 0  ~ Transpose_Transpose_227_254 0
+D connect Relu_Relu_149_268 0  ~ Reshape_Reshape_171_255 0
+D connect Transpose_Transpose_182_269 0  ~ Reshape_Reshape_185_256 0
+D connect Relu_Relu_102_270 0  ~ Reshape_Reshape_124_257 0
+D connect Transpose_Transpose_135_271 0  ~ Reshape_Reshape_138_258 0
+D connect Mul_Mul_94_272 0  ~ ReduceSum_ReduceSum_95_259 0
+D connect ReduceSum_ReduceSum_50_273 0  ~ Conv_Conv_51_260 0
+D connect AveragePool_AveragePool_7_274 0  ~ Conv_Conv_8_261 0
+D connect Reshape_Reshape_355_171 0  ~ ReduceSum_ReduceSum_356_262 0
+D connect GlobalAveragePool_GlobalAveragePool_310_264 0  ~ Conv_Conv_311_263 0
+D connect ReduceSum_ReduceSum_309_276 0  ~ GlobalAveragePool_GlobalAveragePool_310_264 0
+D connect Relu_Relu_267_277 0  ~ Conv_Conv_268_265 0
+D connect Relu_Relu_192_176 0  ~ Conv_Conv_193_266 0
+D connect Conv_Conv_223_279 0  ~ Reshape_Reshape_226_267 0
+D connect Conv_Conv_148_280 0  ~ Relu_Relu_149_268 0
+D connect Softmax_Softmax_181_281 0  ~ Transpose_Transpose_182_269 0
+D connect Conv_Conv_101_282 0  ~ Relu_Relu_102_270 0
+D connect Softmax_Softmax_134_283 0  ~ Transpose_Transpose_135_271 0
+D connect Reshape_Reshape_79_284 0  ~ Mul_Mul_94_272 0
+D connect Reshape_Reshape_93_285 0  ~ Mul_Mul_94_272 1
+D connect Mul_Mul_49_286 0  ~ ReduceSum_ReduceSum_50_273 0
+D connect MaxPool_MaxPool_6_275 0  ~ AveragePool_AveragePool_7_274 0
+D connect Relu_Relu_5_287 0  ~ MaxPool_MaxPool_6_275 0
+D connect Reshape_Reshape_308_183 0  ~ ReduceSum_ReduceSum_309_276 0
+D connect Conv_Conv_266_278 0  ~ Relu_Relu_267_277 0
+D connect GlobalAveragePool_GlobalAveragePool_265_289 0  ~ Conv_Conv_266_278 0
+D connect Relu_Relu_222_290 0  ~ Conv_Conv_223_279 0
+D connect Relu_Relu_147_291 0  ~ Conv_Conv_148_280 0
+D connect Transpose_Transpose_180_292 0  ~ Softmax_Softmax_181_281 0
+D connect Relu_Relu_100_293 0  ~ Conv_Conv_101_282 0
+D connect Transpose_Transpose_133_294 0  ~ Softmax_Softmax_134_283 0
+D connect Relu_Relu_57_295 0  ~ Reshape_Reshape_79_284 0
+D connect Transpose_Transpose_90_296 0  ~ Reshape_Reshape_93_285 0
+D connect Reshape_Reshape_34_297 0  ~ Mul_Mul_49_286 0
+D connect Reshape_Reshape_48_298 0  ~ Mul_Mul_49_286 1
+D connect Conv_Conv_4_288 0  ~ Relu_Relu_5_287 0
+D connect Relu_Relu_3_299 0  ~ Conv_Conv_4_288 0
+D connect ReduceSum_ReduceSum_264_300 0  ~ GlobalAveragePool_GlobalAveragePool_265_289 0
+D connect Conv_Conv_221_301 0  ~ Relu_Relu_222_290 0
+D connect Conv_Conv_146_302 0  ~ Relu_Relu_147_291 0
+D connect Reshape_Reshape_179_303 0  ~ Transpose_Transpose_180_292 0
+D connect Conv_Conv_99_304 0  ~ Relu_Relu_100_293 0
+D connect Reshape_Reshape_132_305 0  ~ Transpose_Transpose_133_294 0
+D connect Conv_Conv_56_306 0  ~ Relu_Relu_57_295 0
+D connect Softmax_Softmax_89_307 0  ~ Transpose_Transpose_90_296 0
+D connect Relu_Relu_12_308 0  ~ Reshape_Reshape_34_297 0
+D connect Transpose_Transpose_45_309 0  ~ Reshape_Reshape_48_298 0
+D connect Conv_Conv_2_310 0  ~ Relu_Relu_3_299 0
+D connect Reshape_Reshape_263_207 0  ~ ReduceSum_ReduceSum_264_300 0
+D connect GlobalAveragePool_GlobalAveragePool_220_312 0  ~ Conv_Conv_221_301 0
+D connect Relu_Relu_143_211 0  ~ Conv_Conv_146_302 0
+D connect Conv_Conv_176_314 0  ~ Reshape_Reshape_179_303 0
+D connect Relu_Relu_98_224 0  ~ Conv_Conv_99_304 0
+D connect Conv_Conv_129_316 0  ~ Reshape_Reshape_132_305 0
+D connect Relu_Relu_55_317 0  ~ Conv_Conv_56_306 0
+D connect Transpose_Transpose_88_318 0  ~ Softmax_Softmax_89_307 0
+D connect Conv_Conv_11_319 0  ~ Relu_Relu_12_308 0
+D connect Softmax_Softmax_44_320 0  ~ Transpose_Transpose_45_309 0
+D connect Relu_Relu_1_311 0  ~ Conv_Conv_2_310 0
+D connect Conv_Conv_0_321 0  ~ Relu_Relu_1_311 0
+D connect ReduceSum_ReduceSum_219_313 0  ~ GlobalAveragePool_GlobalAveragePool_220_312 0
+D connect Reshape_Reshape_218_220 0  ~ ReduceSum_ReduceSum_219_313 0
+D connect Relu_Relu_175_315 0  ~ Conv_Conv_176_314 0
+D connect Conv_Conv_174_323 0  ~ Relu_Relu_175_315 0
+D connect Relu_Relu_128_324 0  ~ Conv_Conv_129_316 0
+D connect Conv_Conv_54_325 0  ~ Relu_Relu_55_317 0
+D connect Reshape_Reshape_87_326 0  ~ Transpose_Transpose_88_318 0
+D connect Relu_Relu_10_327 0  ~ Conv_Conv_11_319 0
+D connect Transpose_Transpose_43_322 0  ~ Softmax_Softmax_44_320 0
+D connect data_345 0  ~ Conv_Conv_0_321 0
+D connect Reshape_Reshape_42_328 0  ~ Transpose_Transpose_43_322 0
+D connect GlobalAveragePool_GlobalAveragePool_173_329 0  ~ Conv_Conv_174_323 0
+D connect Conv_Conv_127_330 0  ~ Relu_Relu_128_324 0
+D connect Relu_Relu_53_237 0  ~ Conv_Conv_54_325 0
+D connect Conv_Conv_84_332 0  ~ Reshape_Reshape_87_326 0
+D connect Conv_Conv_9_333 0  ~ Relu_Relu_10_327 0
+D connect Conv_Conv_39_334 0  ~ Reshape_Reshape_42_328 0
+D connect ReduceSum_ReduceSum_172_335 0  ~ GlobalAveragePool_GlobalAveragePool_173_329 0
+D connect GlobalAveragePool_GlobalAveragePool_126_331 0  ~ Conv_Conv_127_330 0
+D connect ReduceSum_ReduceSum_125_336 0  ~ GlobalAveragePool_GlobalAveragePool_126_331 0
+D connect Relu_Relu_83_337 0  ~ Conv_Conv_84_332 0
+D connect MaxPool_MaxPool_6_275 0  ~ Conv_Conv_9_333 0
+D connect Relu_Relu_38_339 0  ~ Conv_Conv_39_334 0
+D connect Reshape_Reshape_171_255 0  ~ ReduceSum_ReduceSum_172_335 0
+D connect Reshape_Reshape_124_257 0  ~ ReduceSum_ReduceSum_125_336 0
+D connect Conv_Conv_82_338 0  ~ Relu_Relu_83_337 0
+D connect GlobalAveragePool_GlobalAveragePool_81_342 0  ~ Conv_Conv_82_338 0
+D connect Conv_Conv_37_340 0  ~ Relu_Relu_38_339 0
+D connect GlobalAveragePool_GlobalAveragePool_36_341 0  ~ Conv_Conv_37_340 0
+D connect ReduceSum_ReduceSum_35_343 0  ~ GlobalAveragePool_GlobalAveragePool_36_341 0
+D connect ReduceSum_ReduceSum_80_344 0  ~ GlobalAveragePool_GlobalAveragePool_81_342 0
+D connect Reshape_Reshape_34_297 0  ~ ReduceSum_ReduceSum_35_343 0
+D connect Reshape_Reshape_79_284 0  ~ ReduceSum_ReduceSum_80_344 0
+D connect Gemm_Gemm_748_1 0  ~ attach_Gemm_Gemm_748/out0_0 0
+D Process data_345 ...
+D RKNN output shape(input): (1 224 224 3)
+D Process Conv_Conv_0_321 ...
+D RKNN output shape(convolution): (1 112 112 32)
+D Process Relu_Relu_1_311 ...
+D RKNN output shape(relu): (1 112 112 32)
+D Process Conv_Conv_2_310 ...
+D RKNN output shape(convolution): (1 112 112 32)
+D Process Relu_Relu_3_299 ...
+D RKNN output shape(relu): (1 112 112 32)
+D Process Conv_Conv_4_288 ...
+D RKNN output shape(convolution): (1 112 112 64)
+D Process Relu_Relu_5_287 ...
+D RKNN output shape(relu): (1 112 112 64)
+D Process MaxPool_MaxPool_6_275 ...
+D RKNN output shape(pooling): (1 56 56 64)
+D Process Conv_Conv_9_333 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Process Relu_Relu_10_327 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Process Conv_Conv_11_319 ...
+D RKNN output shape(convolution): (1 56 56 128)
+D Process Relu_Relu_12_308 ...
+D RKNN output shape(relu): (1 56 56 128)
+D Process Reshape_Reshape_34_297 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 64 56 56)
+D Process ReduceSum_ReduceSum_35_343 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 64 56 56)
+D Process GlobalAveragePool_GlobalAveragePool_36_341 ...
+D RKNN output shape(pooling): (1 1 1 56)
+D Process Conv_Conv_37_340 ...
+D RKNN output shape(convolution): (1 1 1 32)
+D Process Relu_Relu_38_339 ...
+D RKNN output shape(relu): (1 1 1 32)
+D Process Conv_Conv_39_334 ...
+D RKNN output shape(convolution): (1 1 1 128)
+D Process Reshape_Reshape_42_328 ...
+D RKNN output shape(reshape): (1 2 64 1)
+D Process Transpose_Transpose_43_322 ...
+D RKNN output shape(permute): (1 1 2 64)
+D Process Softmax_Softmax_44_320 ...
+D RKNN output shape(softmax): (1 1 2 64)
+D Process Transpose_Transpose_45_309 ...
+D RKNN output shape(permute): (1 1 64 2)
+D Process Reshape_Reshape_48_298 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 64 1 1)
+D Process Mul_Mul_49_286 ...
+D RKNN output shape(multiply): (1 2 64 56 56)
+D Process ReduceSum_ReduceSum_50_273 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 64 56 56)
+D Process Conv_Conv_51_260 ...
+D RKNN output shape(convolution): (1 64 56 256)
+D Process AveragePool_AveragePool_7_274 ...
+D RKNN output shape(pooling): (1 56 56 64)
+D Process Conv_Conv_8_261 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Process Add_Add_52_248 ...
+D RKNN output shape(add): (1 64 56 256)
+D Process Relu_Relu_53_237 ...
+D RKNN output shape(relu): (1 64 56 256)
+D Process Conv_Conv_54_325 ...
+D RKNN output shape(convolution): (1 64 56 64)
+D Process Relu_Relu_55_317 ...
+D RKNN output shape(relu): (1 64 56 64)
+D Process Conv_Conv_56_306 ...
+D RKNN output shape(convolution): (1 64 56 128)
+D Process Relu_Relu_57_295 ...
+D RKNN output shape(relu): (1 64 56 128)
+D Process Reshape_Reshape_79_284 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 64 56 56)
+D Process ReduceSum_ReduceSum_80_344 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 64 56 56)
+D Process GlobalAveragePool_GlobalAveragePool_81_342 ...
+D RKNN output shape(pooling): (1 1 1 56)
+D Process Conv_Conv_82_338 ...
+D RKNN output shape(convolution): (1 1 1 32)
+D Process Relu_Relu_83_337 ...
+D RKNN output shape(relu): (1 1 1 32)
+D Process Conv_Conv_84_332 ...
+D RKNN output shape(convolution): (1 1 1 128)
+D Process Reshape_Reshape_87_326 ...
+D RKNN output shape(reshape): (1 2 64 1)
+D Process Transpose_Transpose_88_318 ...
+D RKNN output shape(permute): (1 1 2 64)
+D Process Softmax_Softmax_89_307 ...
+D RKNN output shape(softmax): (1 1 2 64)
+D Process Transpose_Transpose_90_296 ...
+D RKNN output shape(permute): (1 1 64 2)
+D Process Reshape_Reshape_93_285 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 64 1 1)
+D Process Mul_Mul_94_272 ...
+D RKNN output shape(multiply): (1 2 64 56 56)
+D Process ReduceSum_ReduceSum_95_259 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 64 56 56)
+D Process Conv_Conv_96_247 ...
+D RKNN output shape(convolution): (1 64 56 256)
+D Process Add_Add_97_236 ...
+D RKNN output shape(add): (1 64 56 256)
+D Process Relu_Relu_98_224 ...
+D RKNN output shape(relu): (1 64 56 256)
+D Process Conv_Conv_99_304 ...
+D RKNN output shape(convolution): (1 64 56 64)
+D Process Relu_Relu_100_293 ...
+D RKNN output shape(relu): (1 64 56 64)
+D Process Conv_Conv_101_282 ...
+D RKNN output shape(convolution): (1 64 56 128)
+D Process Relu_Relu_102_270 ...
+D RKNN output shape(relu): (1 64 56 128)
+D Process Reshape_Reshape_124_257 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 64 56 56)
+D Process ReduceSum_ReduceSum_125_336 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 64 56 56)
+D Process GlobalAveragePool_GlobalAveragePool_126_331 ...
+D RKNN output shape(pooling): (1 1 1 56)
+D Process Conv_Conv_127_330 ...
+D RKNN output shape(convolution): (1 1 1 32)
+D Process Relu_Relu_128_324 ...
+D RKNN output shape(relu): (1 1 1 32)
+D Process Conv_Conv_129_316 ...
+D RKNN output shape(convolution): (1 1 1 128)
+D Process Reshape_Reshape_132_305 ...
+D RKNN output shape(reshape): (1 2 64 1)
+D Process Transpose_Transpose_133_294 ...
+D RKNN output shape(permute): (1 1 2 64)
+D Process Softmax_Softmax_134_283 ...
+D RKNN output shape(softmax): (1 1 2 64)
+D Process Transpose_Transpose_135_271 ...
+D RKNN output shape(permute): (1 1 64 2)
+D Process Reshape_Reshape_138_258 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 64 1 1)
+D Process Mul_Mul_139_246 ...
+D RKNN output shape(multiply): (1 2 64 56 56)
+D Process ReduceSum_ReduceSum_140_235 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 64 56 56)
+D Process Conv_Conv_141_223 ...
+D RKNN output shape(convolution): (1 64 56 256)
+D Process Add_Add_142_212 ...
+D RKNN output shape(add): (1 64 56 256)
+D Process Relu_Relu_143_211 ...
+D RKNN output shape(relu): (1 64 56 256)
+D Process Conv_Conv_146_302 ...
+D RKNN output shape(convolution): (1 64 56 128)
+D Process Relu_Relu_147_291 ...
+D RKNN output shape(relu): (1 64 56 128)
+D Process Conv_Conv_148_280 ...
+D RKNN output shape(convolution): (1 64 56 256)
+D Process Relu_Relu_149_268 ...
+D RKNN output shape(relu): (1 64 56 256)
+D Process Reshape_Reshape_171_255 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 128 56 56)
+D Process ReduceSum_ReduceSum_172_335 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 128 56 56)
+D Process GlobalAveragePool_GlobalAveragePool_173_329 ...
+D RKNN output shape(pooling): (1 1 1 56)
+D Process Conv_Conv_174_323 ...
+D RKNN output shape(convolution): (1 1 1 64)
+D Process Relu_Relu_175_315 ...
+D RKNN output shape(relu): (1 1 1 64)
+D Process Conv_Conv_176_314 ...
+D RKNN output shape(convolution): (1 1 1 256)
+D Process Reshape_Reshape_179_303 ...
+D RKNN output shape(reshape): (1 2 128 1)
+D Process Transpose_Transpose_180_292 ...
+D RKNN output shape(permute): (1 1 2 128)
+D Process Softmax_Softmax_181_281 ...
+D RKNN output shape(softmax): (1 1 2 128)
+D Process Transpose_Transpose_182_269 ...
+D RKNN output shape(permute): (1 1 128 2)
+D Process Reshape_Reshape_185_256 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 128 1 1)
+D Process Mul_Mul_186_245 ...
+D RKNN output shape(multiply): (1 2 128 56 56)
+D Process ReduceSum_ReduceSum_187_234 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1 128 56 56)
+D Process Pad_Pad_188_222 ...
+D RKNN output shape(pad): (1 130 58 56)
+D Process AveragePool_AveragePool_189_210 ...
+D RKNN output shape(pooling): (1 64 28 56)
+D Process Conv_Conv_190_198 ...
+D RKNN output shape(convolution): (1 64 28 512)
+D Process AveragePool_AveragePool_144_200 ...
+D RKNN output shape(pooling): (1 32 28 256)
+D Process Conv_Conv_145_199 ...
+D RKNN output shape(convolution): (1 32 28 512)
+D Process Add_Add_191_187 ...
+D RKNN output shape(add): (1 64 28 512)
+D Process Relu_Relu_192_176 ...
+D RKNN output shape(relu): (1 64 28 512)
+D Process Conv_Conv_193_266 ...
+D RKNN output shape(convolution): (1 64 28 128)
+D Process Relu_Relu_194_253 ...
+D RKNN output shape(relu): (1 64 28 128)
+D Process Conv_Conv_195_243 ...
+D RKNN output shape(convolution): (1 64 28 256)
+D Process Relu_Relu_196_232 ...
+D RKNN output shape(relu): (1 64 28 256)
+D Process Reshape_Reshape_218_220 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (2 2 128 28 28)
+D Process ReduceSum_ReduceSum_219_313 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (2 128 28 28)
+D Process GlobalAveragePool_GlobalAveragePool_220_312 ...
+D RKNN output shape(pooling): (2 1 1 28)
+D Process Conv_Conv_221_301 ...
+D RKNN output shape(convolution): (2 1 1 64)
+D Process Relu_Relu_222_290 ...
+D RKNN output shape(relu): (2 1 1 64)
+D Process Conv_Conv_223_279 ...
+D RKNN output shape(convolution): (2 1 1 256)
+D Process Reshape_Reshape_226_267 ...
+D RKNN output shape(reshape): (1 2 256 1)
+D Process Transpose_Transpose_227_254 ...
+D RKNN output shape(permute): (1 1 2 256)
+D Process Softmax_Softmax_228_244 ...
+D RKNN output shape(softmax): (1 1 2 256)
+D Process Transpose_Transpose_229_233 ...
+D RKNN output shape(permute): (1 1 256 2)
+D Process Reshape_Reshape_232_221 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 256 1 1)
+D Process Mul_Mul_233_209 ...
+D RKNN output shape(multiply): (2 2 256 28 28)
+D Process ReduceSum_ReduceSum_234_197 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (2 256 28 28)
+D Process Conv_Conv_235_186 ...
+D RKNN output shape(convolution): (2 256 28 512)
+D Process Add_Add_236_175 ...
+D RKNN output shape(add): (2 256 28 512)
+D Process Relu_Relu_237_164 ...
+D RKNN output shape(relu): (2 256 28 512)
+D Process Conv_Conv_238_251 ...
+D RKNN output shape(convolution): (2 256 28 128)
+D Process Relu_Relu_239_241 ...
+D RKNN output shape(relu): (2 256 28 128)
+D Process Conv_Conv_240_230 ...
+D RKNN output shape(convolution): (2 256 28 256)
+D Process Relu_Relu_241_218 ...
+D RKNN output shape(relu): (2 256 28 256)
+D Process Reshape_Reshape_263_207 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (18 2 128 28 28)
+D Process ReduceSum_ReduceSum_264_300 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (18 128 28 28)
+D Process GlobalAveragePool_GlobalAveragePool_265_289 ...
+D RKNN output shape(pooling): (18 1 1 28)
+D Process Conv_Conv_266_278 ...
+D RKNN output shape(convolution): (18 1 1 64)
+D Process Relu_Relu_267_277 ...
+D RKNN output shape(relu): (18 1 1 64)
+D Process Conv_Conv_268_265 ...
+D RKNN output shape(convolution): (18 1 1 256)
+D Process Reshape_Reshape_271_252 ...
+D RKNN output shape(reshape): (1 2 2304 1)
+D Process Transpose_Transpose_272_242 ...
+D RKNN output shape(permute): (1 1 2 2304)
+D Process Softmax_Softmax_273_231 ...
+D RKNN output shape(softmax): (1 1 2 2304)
+D Process Transpose_Transpose_274_219 ...
+D RKNN output shape(permute): (1 1 2304 2)
+D Process Reshape_Reshape_277_208 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 2304 1 1)
+D Process Mul_Mul_278_196 ...
+D RKNN output shape(multiply): (18 2 2304 28 28)
+D Process ReduceSum_ReduceSum_279_185 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (18 2304 28 28)
+D Process Conv_Conv_280_174 ...
+D RKNN output shape(convolution): (18 2304 28 512)
+D Process Add_Add_281_163 ...
+D RKNN output shape(add): (18 2304 28 512)
+D Process Relu_Relu_282_152 ...
+D RKNN output shape(relu): (18 2304 28 512)
+D Process Conv_Conv_283_228 ...
+D RKNN output shape(convolution): (18 2304 28 128)
+D Process Relu_Relu_284_216 ...
+D RKNN output shape(relu): (18 2304 28 128)
+D Process Conv_Conv_285_205 ...
+D RKNN output shape(convolution): (18 2304 28 256)
+D Process Relu_Relu_286_194 ...
+D RKNN output shape(relu): (18 2304 28 256)
+D Process Reshape_Reshape_308_183 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1481 2 128 28 28)
+D Process ReduceSum_ReduceSum_309_276 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1481 128 28 28)
+D Process GlobalAveragePool_GlobalAveragePool_310_264 ...
+D RKNN output shape(pooling): (1481 1 1 28)
+D Process Conv_Conv_311_263 ...
+D RKNN output shape(convolution): (1481 1 1 64)
+D Process Relu_Relu_312_250 ...
+D RKNN output shape(relu): (1481 1 1 64)
+D Process Conv_Conv_313_240 ...
+D RKNN output shape(convolution): (1481 1 1 256)
+D Process Reshape_Reshape_316_229 ...
+D RKNN output shape(reshape): (1 2 189568 1)
+D Process Transpose_Transpose_317_217 ...
+D RKNN output shape(permute): (1 1 2 189568)
+D Process Softmax_Softmax_318_206 ...
+D RKNN output shape(softmax): (1 1 2 189568)
+D Process Transpose_Transpose_319_195 ...
+D RKNN output shape(permute): (1 1 189568 2)
+D Process Reshape_Reshape_322_184 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 189568 1 1)
+D Process Mul_Mul_323_173 ...
+D RKNN output shape(multiply): (1481 2 189568 28 28)
+D Process ReduceSum_ReduceSum_324_162 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (1481 189568 28 28)
+D Process Conv_Conv_325_151 ...
+D RKNN output shape(convolution): (1481 189568 28 512)
+D Process Add_Add_326_141 ...
+D RKNN output shape(add): (1481 189568 28 512)
+D Process Relu_Relu_327_140 ...
+D RKNN output shape(relu): (1481 189568 28 512)
+D Process Conv_Conv_330_214 ...
+D RKNN output shape(convolution): (1481 189568 28 256)
+D Process Relu_Relu_331_203 ...
+D RKNN output shape(relu): (1481 189568 28 256)
+D Process Conv_Conv_332_192 ...
+D RKNN output shape(convolution): (1481 189568 28 512)
+D Process Relu_Relu_333_181 ...
+D RKNN output shape(relu): (1481 189568 28 512)
+D Process Reshape_Reshape_355_171 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (10026793 2 256 28 28)
+D Process ReduceSum_ReduceSum_356_262 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (10026793 256 28 28)
+D Process GlobalAveragePool_GlobalAveragePool_357_249 ...
+D RKNN output shape(pooling): (10026793 1 1 28)
+D Process Conv_Conv_358_239 ...
+D RKNN output shape(convolution): (10026793 1 1 128)
+D Process Relu_Relu_359_238 ...
+D RKNN output shape(relu): (10026793 1 1 128)
+D Process Conv_Conv_360_227 ...
+D RKNN output shape(convolution): (10026793 1 1 512)
+D Process Reshape_Reshape_363_215 ...
+D RKNN output shape(reshape): (1 2 2566859008 1)
+D Process Transpose_Transpose_364_204 ...
+D RKNN output shape(permute): (1 1 2 2566859008)
+D Process Softmax_Softmax_365_193 ...
+D RKNN output shape(softmax): (1 1 2 2566859008)
+D Process Transpose_Transpose_366_182 ...
+D RKNN output shape(permute): (1 1 2566859008 2)
+D Process Reshape_Reshape_369_172 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 2566859008 1 1)
+D Process Mul_Mul_370_161 ...
+D RKNN output shape(multiply): (10026793 2 2566859008 28 28)
+D Process ReduceSum_ReduceSum_371_150 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (10026793 2566859008 28 28)
+D Process Pad_Pad_372_139 ...
+D RKNN output shape(pad): (10026793 2566859010 30 28)
+D Process AveragePool_AveragePool_373_127 ...
+D RKNN output shape(pooling): (10026793 1283429504 14 28)
+D Process Conv_Conv_374_115 ...
+D RKNN output shape(convolution): (10026793 1283429504 14 1024)
+D Process AveragePool_AveragePool_328_128 ...
+D RKNN output shape(pooling): (1481 94784 14 512)
+D Process Conv_Conv_329_116 ...
+D RKNN output shape(convolution): (1481 94784 14 1024)
+D Process Add_Add_375_104 ...
+D RKNN output shape(add): (10026793 1283429504 14 1024)
+D Process Relu_Relu_376_94 ...
+D RKNN output shape(relu): (10026793 1283429504 14 1024)
+D Process Conv_Conv_377_179 ...
+D RKNN output shape(convolution): (10026793 1283429504 14 256)
+D Process Relu_Relu_378_169 ...
+D RKNN output shape(relu): (10026793 1283429504 14 256)
+D Process Conv_Conv_379_159 ...
+D RKNN output shape(convolution): (10026793 1283429504 14 512)
+D Process Relu_Relu_380_148 ...
+D RKNN output shape(relu): (10026793 1283429504 14 512)
+D Process Reshape_Reshape_402_137 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (919191569050048 2 256 14 14)
+D Process ReduceSum_ReduceSum_403_226 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (919191569050048 256 14 14)
+D Process GlobalAveragePool_GlobalAveragePool_404_225 ...
+D RKNN output shape(pooling): (919191569050048 1 1 14)
+D Process Conv_Conv_405_213 ...
+D RKNN output shape(convolution): (919191569050048 1 1 128)
+D Process Relu_Relu_406_202 ...
+D RKNN output shape(relu): (919191569050048 1 1 128)
+D Process Conv_Conv_407_191 ...
+D RKNN output shape(convolution): (919191569050048 1 1 512)
+D Process Reshape_Reshape_410_180 ...
+D RKNN output shape(reshape): (1 2 235313041676812288 1)
+D Process Transpose_Transpose_411_170 ...
+D RKNN output shape(permute): (1 1 2 235313041676812288)
+D Process Softmax_Softmax_412_160 ...
+D RKNN output shape(softmax): (1 1 2 235313041676812288)
+D Process Transpose_Transpose_413_149 ...
+D RKNN output shape(permute): (1 1 235313041676812288 2)
+D Process Reshape_Reshape_416_138 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 235313041676812288 1 1)
+D Process Mul_Mul_417_126 ...
+D RKNN output shape(multiply): (919191569050048 2 235313041676812288 14 14)
+D Process ReduceSum_ReduceSum_418_114 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (919191569050048 235313041676812288 14 14)
+D Process Conv_Conv_419_103 ...
+D RKNN output shape(convolution): (919191569050048 235313041676812289 14 1024)
+D Process Add_Add_420_92 ...
+D RKNN output shape(add): (919191569050048 235313041676812289 14 1024)
+D Process Relu_Relu_421_82 ...
+D RKNN output shape(relu): (919191569050048 235313041676812289 14 1024)
+D Process Conv_Conv_422_157 ...
+D RKNN output shape(convolution): (919191569050048 235313041676812289 14 256)
+D Process Relu_Relu_423_146 ...
+D RKNN output shape(relu): (919191569050048 235313041676812289 14 256)
+D Process Conv_Conv_424_135 ...
+D RKNN output shape(convolution): (919191569050048 235313041676812289 14 512)
+D Process Relu_Relu_425_124 ...
+D RKNN output shape(relu): (919191569050048 235313041676812289 14 512)
+D Process Reshape_Reshape_447_112 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (15449840285489173747333431558144 2 256 14 14)
+D Process ReduceSum_ReduceSum_448_201 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (15449840285489173747333431558144 256 14 14)
+D Process GlobalAveragePool_GlobalAveragePool_449_190 ...
+D RKNN output shape(pooling): (15449840285489173747333431558144 1 1 14)
+D Process Conv_Conv_450_189 ...
+D RKNN output shape(convolution): (15449840285489173747333431558144 1 1 128)
+D Process Relu_Relu_451_178 ...
+D RKNN output shape(relu): (15449840285489173747333431558144 1 1 128)
+D Process Conv_Conv_452_168 ...
+D RKNN output shape(convolution): (15449840285489173747333431558144 1 1 512)
+D Process Reshape_Reshape_455_158 ...
+D RKNN output shape(reshape): (1 2 3955159113085228479317358478884864 1)
+D Process Transpose_Transpose_456_147 ...
+D RKNN output shape(permute): (1 1 2 3955159113085228479317358478884864)
+D Process Softmax_Softmax_457_136 ...
+D RKNN output shape(softmax): (1 1 2 3955159113085228479317358478884864)
+D Process Transpose_Transpose_458_125 ...
+D RKNN output shape(permute): (1 1 3955159113085228479317358478884864 2)
+D Process Reshape_Reshape_461_113 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 3955159113085228479317358478884864 1 1)
+D Process Mul_Mul_462_102 ...
+D RKNN output shape(multiply): (15449840285489173747333431558144 2 3955159113085228479317358478884864 14 14)
+D Process ReduceSum_ReduceSum_463_91 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (15449840285489173747333431558144 3955159113085228479317358478884864 14 14)
+D Process Conv_Conv_464_81 ...
+D RKNN output shape(convolution): (15449840285489173747333431558144 3955159113085228479317358478884865 14 1024)
+D Process Add_Add_465_72 ...
+D RKNN output shape(add): (15449840285489173747333431558144 3955159113085228479317358478884865 14 1024)
+D Process Relu_Relu_466_71 ...
+D RKNN output shape(relu): (15449840285489173747333431558144 3955159113085228479317358478884865 14 1024)
+D Process Conv_Conv_467_144 ...
+D RKNN output shape(convolution): (15449840285489173747333431558144 3955159113085228479317358478884865 14 256)
+D Process Relu_Relu_468_133 ...
+D RKNN output shape(relu): (15449840285489173747333431558144 3955159113085228479317358478884865 14 256)
+D Process Conv_Conv_469_122 ...
+D RKNN output shape(convolution): (15449840285489173747333431558144 3955159113085228479317358478884865 14 512)
+D Process Relu_Relu_470_110 ...
+D RKNN output shape(relu): (15449840285489173747333431558144 3955159113085228479317358478884865 14 512)
+D Process Reshape_Reshape_492_100 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (4364755471490271240640001022129116014818467317325737898085974016 2 256 14 14)
+D Process ReduceSum_ReduceSum_493_188 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (4364755471490271240640001022129116014818467317325737898085974016 256 14 14)
+D Process GlobalAveragePool_GlobalAveragePool_494_177 ...
+D RKNN output shape(pooling): (4364755471490271240640001022129116014818467317325737898085974016 1 1 14)
+D Process Conv_Conv_495_167 ...
+D RKNN output shape(convolution): (4364755471490271240640001022129116014818467317325737898085974016 1 1 128)
+D Process Relu_Relu_496_166 ...
+D RKNN output shape(relu): (4364755471490271240640001022129116014818467317325737898085974016 1 1 128)
+D Process Conv_Conv_497_156 ...
+D RKNN output shape(convolution): (4364755471490271240640001022129116014818467317325737898085974016 1 1 512)
+D Process Reshape_Reshape_500_145 ...
+D RKNN output shape(reshape): (1 2 1117377400701509437603840261665053699793527633235388901910009348096 1)
+D Process Transpose_Transpose_501_134 ...
+D RKNN output shape(permute): (1 1 2 1117377400701509437603840261665053699793527633235388901910009348096)
+D Process Softmax_Softmax_502_123 ...
+D RKNN output shape(softmax): (1 1 2 1117377400701509437603840261665053699793527633235388901910009348096)
+D Process Transpose_Transpose_503_111 ...
+D RKNN output shape(permute): (1 1 1117377400701509437603840261665053699793527633235388901910009348096 2)
+D Process Reshape_Reshape_506_101 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 1117377400701509437603840261665053699793527633235388901910009348096 1 1)
+D Process Mul_Mul_507_90 ...
+D RKNN output shape(multiply): (4364755471490271240640001022129116014818467317325737898085974016 2 1117377400701509437603840261665053699793527633235388901910009348096 14 14)
+D Process ReduceSum_ReduceSum_508_80 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348096 14 14)
+D Process Conv_Conv_509_70 ...
+D RKNN output shape(convolution): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348097 14 1024)
+D Process Add_Add_510_62 ...
+D RKNN output shape(add): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348097 14 1024)
+D Process Relu_Relu_511_54 ...
+D RKNN output shape(relu): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348097 14 1024)
+D Process Conv_Conv_512_120 ...
+D RKNN output shape(convolution): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348097 14 256)
+D Process Relu_Relu_513_108 ...
+D RKNN output shape(relu): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348097 14 256)
+D Process Conv_Conv_514_98 ...
+D RKNN output shape(convolution): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348097 14 512)
+D Process Relu_Relu_515_88 ...
+D RKNN output shape(relu): (4364755471490271240640001022129116014818467317325737898085974016 1117377400701509437603840261665053699793527633235388901910009348097 14 512)
+D Process Reshape_Reshape_537_78 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 2 256 14 14)
+D Process ReduceSum_ReduceSum_538_165 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 256 14 14)
+D Process GlobalAveragePool_GlobalAveragePool_539_155 ...
+D RKNN output shape(pooling): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 1 1 14)
+D Process Conv_Conv_540_154 ...
+D RKNN output shape(convolution): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 1 1 128)
+D Process Relu_Relu_541_143 ...
+D RKNN output shape(relu): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 1 1 128)
+D Process Conv_Conv_542_132 ...
+D RKNN output shape(convolution): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 1 1 512)
+D Process Reshape_Reshape_545_121 ...
+D RKNN output shape(reshape): (1 2 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257216 1)
+D Process Transpose_Transpose_546_109 ...
+D RKNN output shape(permute): (1 1 2 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257216)
+D Process Softmax_Softmax_547_99 ...
+D RKNN output shape(softmax): (1 1 2 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257216)
+D Process Transpose_Transpose_548_89 ...
+D RKNN output shape(permute): (1 1 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257216 2)
+D Process Reshape_Reshape_551_79 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257216 1 1)
+D Process Mul_Mul_552_69 ...
+D RKNN output shape(multiply): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 2 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257216 14 14)
+D Process ReduceSum_ReduceSum_553_61 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257216 14 14)
+D Process Conv_Conv_554_53 ...
+D RKNN output shape(convolution): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257217 14 1024)
+D Process Add_Add_555_46 ...
+D RKNN output shape(add): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257217 14 1024)
+D Process Relu_Relu_556_40 ...
+D RKNN output shape(relu): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257217 14 1024)
+D Process Conv_Conv_557_106 ...
+D RKNN output shape(convolution): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257217 14 256)
+D Process Relu_Relu_558_96 ...
+D RKNN output shape(relu): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257217 14 256)
+D Process Conv_Conv_559_86 ...
+D RKNN output shape(convolution): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257217 14 512)
+D Process Relu_Relu_560_76 ...
+D RKNN output shape(relu): (348362794530820758467908820716658073370573439373884386553745619571010931879469816222962336834740687671467006684955024319406145536 89180875399890114167784658103464466782866800479714402957758878610178798561144272953078358229693616043895553711348486225767973257217 14 512)
+D Process Reshape_Reshape_582_67 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 2 256 14 14)
+D Process ReduceSum_ReduceSum_583_153 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 256 14 14)
+D Process GlobalAveragePool_GlobalAveragePool_584_142 ...
+D RKNN output shape(pooling): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 1 1 14)
+D Process Conv_Conv_585_131 ...
+D RKNN output shape(convolution): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 1 1 128)
+D Process Relu_Relu_586_130 ...
+D RKNN output shape(relu): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 1 1 128)
+D Process Conv_Conv_587_119 ...
+D RKNN output shape(convolution): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 1 1 512)
+D Process Reshape_Reshape_590_107 ...
+D RKNN output shape(reshape): (1 2 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729536 1)
+D Process Transpose_Transpose_591_97 ...
+D RKNN output shape(permute): (1 1 2 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729536)
+D Process Softmax_Softmax_592_87 ...
+D RKNN output shape(softmax): (1 1 2 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729536)
+D Process Transpose_Transpose_593_77 ...
+D RKNN output shape(permute): (1 1 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729536 2)
+D Process Reshape_Reshape_596_68 ...
+W Do not support shape > 4.
+D RKNN output shape(reshape): (1 2 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729536 1 1)
+D Process Mul_Mul_597_60 ...
+D RKNN output shape(multiply): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 2 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729536 14 14)
+D Process ReduceSum_ReduceSum_598_52 ...
+W Warning: Axis may need to be adjusted according to original model shape.
+D RKNN output shape(reducesum): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729536 14 14)
+D Process Conv_Conv_599_45 ...
+D RKNN output shape(convolution): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729537 14 1024)
+D Process Add_Add_600_39 ...
+D RKNN output shape(add): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729537 14 1024)
+D Process Relu_Relu_601_33 ...
+D RKNN output shape(relu): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729537 14 1024)
+D Process Conv_Conv_604_84 ...
+D RKNN output shape(convolution): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729537 14 512)
+D Process Relu_Relu_605_74 ...
+D RKNN output shape(relu): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729537 14 512)
+D Process Conv_Conv_606_65 ...
+D RKNN output shape(convolution): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729537 14 1024)
+D Process Relu_Relu_607_58 ...
+D RKNN output shape(relu): (2219092783786474827447922933441775051310257949342059803550618230734796255672369927076880825776648855888941723514934183574243075412134046334031645924389182799078525154975433358004232442013560087572496987541928541244332049508244058700939263550283325163758944256 568087752649337555826668270961094413135426035031567309708958267068107841452126701331681491398822107107569081219823150995006227305506315861512101356643630796564102439673710939649083505155471382418559228810733706558549004674110479027440451468872531241922289729537 14 1024)
+D Process Reshape_Reshape_629_50 ...
+W Do not support shape > 4.
+E Catch exception when loading onnx model: /home/peter/quant/rknn/acctest/RKNNToolKit_accuracyTest/org_onnx_models/resnesta50.onnx!
+E Traceback (most recent call last):
+E   File "rknn/api/rknn_base.py", line 264, in rknn.api.rknn_base.RKNNBase.load_onnx
+E   File "rknn/base/RKNNlib/RK_nn.py", line 135, in rknn.base.RKNNlib.RK_nn.RKnn.load_onnx
+E   File "rknn/base/RKNNlib/app/importer/import_onnx.py", line 126, in rknn.base.RKNNlib.app.importer.import_onnx.Importonnx.run
+E   File "rknn/base/RKNNlib/RKNNnetbuilder.py", line 323, in rknn.base.RKNNlib.RKNNnetbuilder.RKNNNetBuilder.build
+E   File "rknn/base/RKNNlib/RKNNnetbuilder.py", line 346, in rknn.base.RKNNlib.RKNNnetbuilder.RKNNNetBuilder.build_layer
+E   File "rknn/base/RKNNlib/RKNNnetbuilder.py", line 346, in rknn.base.RKNNlib.RKNNnetbuilder.RKNNNetBuilder.build_layer
+E   File "rknn/base/RKNNlib/RKNNnetbuilder.py", line 346, in rknn.base.RKNNlib.RKNNnetbuilder.RKNNNetBuilder.build_layer
+E   [Previous line repeated 28 more times]
+E   File "rknn/base/RKNNlib/RKNNnetbuilder.py", line 353, in rknn.base.RKNNlib.RKNNnetbuilder.RKNNNetBuilder.build_layer
+E   File "rknn/base/RKNNlib/layer/RKNNlayer.py", line 265, in rknn.base.RKNNlib.layer.RKNNlayer.RKNNLayer.compute_shape
+--> Load onnx model failed!

@@ -1,0 +1,9 @@
+|模型|Top1|Top5|
+|----|----|----|
+|resnet50-ibn|78.39|94.24|
+|dla34|75.41|92.76|
+|efficientnet_b0|75.23|92.48|
+|hrnet_w18_small_v1|73.52|90.99|
+|resnesta50|81|95.51|
+|shufflenetv2_w1|68.56|88.37|
+|ghostnet|73.94|91.47|
